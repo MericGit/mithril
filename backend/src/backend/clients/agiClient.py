@@ -1,9 +1,9 @@
 import os
+import json
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
-import json 
 
 # List of STEM topics for classification
 STEM_TOPICS = [
@@ -83,7 +83,7 @@ Autonomous Systems,
 Geopolitical Tech Strategy,
 Innovation Policy,
 Digital Infrastructure
-]"""
+] Format your response as JSON with proper escaping of quotes and special characters."""
         #file = self.client.files.upload(file=LOCAL_DATA / file)
         full_prompt = f"""{SYS_PROMPT}"""
         files = [
@@ -106,7 +106,7 @@ Digital Infrastructure
             response_mime_type="application/json",
             response_schema=genai.types.Schema(
                 type = genai.types.Type.OBJECT,
-                required = ["authors", "topics", "paper_summary", "topics_relevence", "author_info"],
+                required = ["authors", "topics", "paper_summary", "topics_relevence", "author_info", "presumed_publish_country"],
                 properties = {
                     "authors": genai.types.Schema(
                         type = genai.types.Type.ARRAY,
@@ -135,6 +135,9 @@ Digital Infrastructure
                             type = genai.types.Type.STRING,
                         ),
                     ),
+                    "presumed_publish_country": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
                 },
             ),
         )
@@ -150,7 +153,7 @@ Digital Infrastructure
     def generate_risk_score(self, json_bg):
         LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
         print("LOCAL DATA" , LOCAL_DATA)
-        SYS_PROMPT = """Given the following summary of a research paper, information about authors, and topics, give me a reasoning about this papers particular military applications, and then a risk score 0-100 of if it has strong military applications or not. In particular view this from a US perspective, so foreign military development is high risk. """
+        SYS_PROMPT = """Given the following summary of a research paper, information about authors, and topics, give me a reasoning about this papers particular military applications, and then a risk score 0-100 of if it has strong military applications or not. In particular view this from a US perspective, so foreign military development is high risk. Format your response as JSON with proper escaping of quotes and special characters."""
         #file = self.client.files.upload(file=LOCAL_DATA / file)
         json_bg = json.dumps(json_bg)
         full_prompt = f"""{SYS_PROMPT} {json_bg}"""
@@ -186,9 +189,13 @@ Digital Infrastructure
             output += chunk.text
         return json.loads(output)
 
+    def nlp_pipeline(self, file):
+        summary = self.generate_summary(file)
+        risk_score = self.generate_risk_score(summary)
+        #Combine the two jsons into one super json with each field
+        combined = {**summary, **risk_score}
+        return combined
+
 
 client = AGIClient()
-summary = client.generate_summary("2503.01293v1.pdf")
-print(summary)
-risk_score = client.generate_risk_score(summary)
-print(risk_score)
+print(client.nlp_pipeline("2503.01293v1.pdf"))
