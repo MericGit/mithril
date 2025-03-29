@@ -1,0 +1,32 @@
+{
+  "type": "Topology",
+  "arcs": [],
+  "objects": {
+    "countries": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "properties": {
+            "name": "United States of America"
+          },
+          "coordinates": [[[-125, 48], [-125, 25], [-65, 25], [-65, 48], [-125, 48]]]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "name": "China"
+          },
+          "coordinates": [[[73, 53], [73, 18], [134, 18], [134, 53], [73, 53]]]
+        },
+        {
+          "type": "Polygon",
+          "properties": {
+            "name": "Russia"
+          },
+          "coordinates": [[[27, 81], [27, 41], [180, 41], [180, 81], [27, 81]]]
+        }
+      ]
+    }
+  }
+}
