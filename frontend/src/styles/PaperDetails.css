@@ -162,9 +162,15 @@
 
 .paper-meta {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   color: #64748b;
   font-size: 0.9rem;
+}
+
+.paper-meta .country {
+  font-weight: 500;
+  color: #4a5568;
 }
 
 /* Authors Section */
@@ -184,6 +190,16 @@
   background: #f8fafc;
   border-radius: 6px;
   border: 1px solid #e2e8f0;
+  margin-bottom: 1rem;
+}
+
+.author-bio {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #e2e8f0;
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.4;
 }
 
 .author-name {
@@ -196,6 +212,20 @@
 .author-country {
   color: #64748b;
   font-size: 0.9rem;
+}
+
+/* Summary Section */
+.summary-section {
+  margin-bottom: 2rem;
+}
+
+.summary-text {
+  line-height: 1.6;
+  color: #1a202c;
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #4299e1;
 }
 
 /* Abstract Section */
@@ -229,6 +259,12 @@
   color: #0369a1;
   border-radius: 9999px;
   font-size: 0.9rem;
+}
+
+.topic-relevance {
+  opacity: 0.8;
+  font-size: 0.8rem;
+  font-weight: normal;
 }
 
 /* Keywords Visualization */
@@ -294,6 +330,54 @@
 .citations-label {
   color: #64748b;
   font-size: 0.9rem;
+}
+
+/* Risk Analysis */
+.risk-analysis-section {
+  margin-top: 2rem;
+}
+
+.risk-score-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.risk-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.risk-score.high-risk {
+  background-color: #e53e3e;
+}
+
+.risk-score.medium-risk {
+  background-color: #dd6b20;
+}
+
+.risk-score.low-risk {
+  background-color: #38a169;
+}
+
+.score-value {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.score-label {
+  font-size: 0.8rem;
+  opacity: 0.9;
+  margin-top: 0.25rem;
 }
 
 /* Responsive Design */
