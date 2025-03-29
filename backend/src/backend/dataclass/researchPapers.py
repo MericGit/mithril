@@ -120,7 +120,7 @@ class WorldMapPoint:
     id: str
     country: str
     topic: str
-    coordinates: List[float]
+    # coordinates: List[float]
     intensity: float
     description: str
     adversarial: bool

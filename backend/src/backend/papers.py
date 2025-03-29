@@ -348,7 +348,7 @@ async def get_world_map_data():
                 id=point_data.get('id', ''),
                 country=point_data.get('country', ''),
                 topic=point_data.get('topic', ''),
-                coordinates=point_data.get('coordinates', [0, 0]),
+                # coordinates=point_data.get('coordinates', [0, 0]),
                 intensity=point_data.get('intensity', 0.0),
                 description=point_data.get('description', ''),
                 adversarial=point_data.get('adversarial', False)
