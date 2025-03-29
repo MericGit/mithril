@@ -4,9 +4,20 @@ export interface Author {
   affiliation: string;
 }
 
-export interface PaperKeyword {
+export interface Keyword {
   keyword: string;
-  relevance: number;  // 0-1 score indicating relevance
+  relevance: number;
+}
+
+export type RiskLevel = 'HIGH' | 'MEDIUM' | 'LOW';
+
+export interface RiskFactor {
+  type: RiskLevel;
+  category: string;
+  description: string;
+  relatedKeywords: string[];
+  potentialImpact: string;
+  mitigationSuggestion: string;
 }
 
 export interface ResearchPaper {
@@ -18,6 +29,7 @@ export interface ResearchPaper {
   citations: number;
   doi: string;
   topics: string[];
-  keywords: PaperKeyword[];
+  keywords: Keyword[];
   journal: string;
+  riskFactors: RiskFactor[];
 }
