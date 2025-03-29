@@ -1,0 +1,168 @@
+.paper-details {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Paper Header */
+.paper-header {
+  margin-bottom: 2rem;
+}
+
+.paper-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.paper-meta {
+  display: flex;
+  gap: 1.5rem;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Authors Section */
+.authors-section {
+  margin-bottom: 2rem;
+}
+
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.author-card {
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.5rem;
+}
+
+.author-affiliation,
+.author-country {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Abstract Section */
+.abstract-section {
+  margin-bottom: 2rem;
+}
+
+.abstract-text {
+  line-height: 1.6;
+  color: #334155;
+}
+
+/* Analysis Section */
+.analysis-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.topic-tag {
+  padding: 0.5rem 1rem;
+  background: #e0f2fe;
+  color: #0369a1;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+}
+
+/* Keywords Visualization */
+.keywords-visualization {
+  margin-top: 1rem;
+}
+
+.keyword-bar {
+  margin-bottom: 1rem;
+}
+
+.keyword-label {
+  margin-bottom: 0.25rem;
+  color: #334155;
+  font-weight: 500;
+}
+
+.keyword-bar-container {
+  height: 24px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  position: relative;
+}
+
+.keyword-bar-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.keyword-score {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1e293b;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Citations Section */
+.citations-section {
+  text-align: center;
+}
+
+.citations-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.citations-count {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.citations-label {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .analysis-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .paper-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
