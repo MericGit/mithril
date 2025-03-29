@@ -4,7 +4,7 @@ export interface WorldMapPoint {
   id: string;
   country: string;
   topic: string;
-  coordinates: number[];
+  // coordinates: number[];
   intensity: number;
   description: string;
   adversarial: boolean;
