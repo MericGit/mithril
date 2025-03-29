@@ -1,5 +1,5 @@
 from dataclasses import dataclass, asdict, field
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Tuple
 from datetime import datetime
 import uuid
 
@@ -102,3 +102,29 @@ class PublicationsData:
             "years": self.years,
             "countries": [country.to_dict() for country in self.countries]
         }
+
+@dataclass
+class WorldMapPoint:
+    """
+    Represents a research point on the world map.
+    
+    Attributes:
+        id: Unique identifier for the point
+        country: Country name
+        topic: Research topic
+        coordinates: Geographical coordinates [latitude, longitude]
+        intensity: Research intensity (0.0 to 1.0)
+        description: Brief description of the research
+        adversarial: Whether the research is considered adversarial
+    """
+    id: str
+    country: str
+    topic: str
+    coordinates: List[float]
+    intensity: float
+    description: str
+    adversarial: bool
+    
+    def to_dict(self) -> dict:
+        """Convert the world map point to a dictionary format for JSON serialization."""
+        return asdict(self)

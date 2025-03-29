@@ -39,16 +39,6 @@ const RiskAnalysis: React.FC<RiskAnalysisProps> = ({ riskFactors = [] }) => {
                 ))}
               </div>
             </div>
-
-            <div className="risk-section">
-              <h4>Potential Impact:</h4>
-              <p>{risk.potentialImpact}</p>
-            </div>
-
-            <div className="risk-section">
-              <h4>Suggested Mitigation:</h4>
-              <p>{risk.mitigationSuggestion}</p>
-            </div>
           </div>
         ))}
       </div>

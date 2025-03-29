@@ -3,13 +3,14 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime
 import json
 import os
-from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor, PublicationsData, CountryPublicationData
+from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor, PublicationsData, CountryPublicationData, WorldMapPoint
 
 router = APIRouter()
 
 # Paths to data files
 DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/clients/data.json'
 PUBLICATIONS_DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/data/publications_data.json'
+WORLD_MAP_DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/data/world_map_data.json'
 
 # Country flags mapping
 COUNTRY_FLAGS = {
@@ -326,3 +327,37 @@ async def get_paper(paper_id: str):
         if paper.id == paper_id:
             return paper.to_dict()
     return {"error": "Paper not found"}
+
+@router.get("/api/world-map-data")
+async def get_world_map_data():
+    """
+    Get world map data points representing research activities across countries
+    
+    Returns:
+        List of research points on the world map
+    """
+    try:
+        # Load data from JSON file
+        with open(WORLD_MAP_DATA_PATH, 'r') as f:
+            data = json.load(f)
+        
+        # Create WorldMapPoint instances
+        world_map_points = []
+        for point_data in data:
+            world_map_point = WorldMapPoint(
+                id=point_data.get('id', ''),
+                country=point_data.get('country', ''),
+                topic=point_data.get('topic', ''),
+                coordinates=point_data.get('coordinates', [0, 0]),
+                intensity=point_data.get('intensity', 0.0),
+                description=point_data.get('description', ''),
+                adversarial=point_data.get('adversarial', False)
+            )
+            world_map_points.append(world_map_point.to_dict())
+        
+        return world_map_points
+    
+    except Exception as e:
+        print(f"Error loading world map data from JSON: {e}")
+        # Return empty array as fallback
+        return []

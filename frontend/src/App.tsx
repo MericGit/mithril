@@ -4,7 +4,7 @@ import './styles/Papers.css';
 
 import { usePublicationsData } from './data/publications';
 import { researchTopics } from './data/researchTopics';
-import { worldMapData } from './data/worldMap';
+import { useWorldMapData } from './data/worldMapData';
 import { 
   ComposableMap, 
   Geographies, 
@@ -21,6 +21,7 @@ const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
 
 const App: React.FC = () => {
   const { data: publicationsData, loading: pubsLoading, error: pubsError } = usePublicationsData();
+  const { data: worldMapData, loading: mapLoading, error: mapError } = useWorldMapData();
   const [hoveredPoint, setHoveredPoint] = useState<{country: string, year: number, value: number} | null>(null);
   const [highlightedCountry, setHighlightedCountry] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
@@ -30,12 +31,12 @@ const App: React.FC = () => {
   // Function to get color for a country based on its data
   const getCountryColor = useCallback((countryName: string) => {
     const countryData = publicationsData?.countries.find((c: any) => c.name === countryName);
-    const matchingPoints = worldMapData.filter(point => {
+    const matchingPoints = worldMapData?.filter(point => {
       if (point.country === countryName) return true;
       if (countryName === "United States of America" && point.country === "United States") return true;
       if (countryName === "Russian Federation" && point.country === "Russia") return true;
       return false;
-    });
+    }) || [];
     
     const hasData = matchingPoints.length > 0;
     const isAdversarial = hasData && matchingPoints.some(p => p.adversarial);
@@ -94,6 +95,11 @@ const App: React.FC = () => {
                   </div>
                   
                   <div className="map-wrapper">
+                    {mapLoading ? (
+                      <div className="loading">Loading map data...</div>
+                    ) : mapError ? (
+                      <div className="error">Error loading map data: {mapError}</div>
+                    ) : (
                     <ComposableMap
                       projection="geoMercator"
                       projectionConfig={{
@@ -115,7 +121,7 @@ const App: React.FC = () => {
                               const countryName = geo.properties.name;
                               
                               // Find matching data points for this country
-                              const matchingPoints = worldMapData.filter(point => {
+                              const matchingPoints = (worldMapData || []).filter(point => {
                                 // Try different variations of the country name
                                 if (point.country === countryName) return true;
                                 
@@ -201,6 +207,7 @@ const App: React.FC = () => {
                         </Geographies>
                       </ZoomableGroup>
                     </ComposableMap>
+                    )}
                     
                     {hoveredMapPoint && (
                       <div className="risk-analysis-section">
