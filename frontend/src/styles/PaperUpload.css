@@ -1,0 +1,144 @@
+.paper-upload {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.upload-container {
+  border: 2px dashed #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.upload-container:hover {
+  border-color: #3b82f6;
+  background: #f8fafc;
+}
+
+.upload-area {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upload-icon {
+  font-size: 3rem;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.upload-text {
+  color: #1e293b;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.upload-text strong {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.upload-hint {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.file-name {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+.upload-error {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fef2f2;
+  color: #ef4444;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upload-error::before {
+  content: '⚠️';
+}
+
+.upload-progress {
+  margin-top: 1.5rem;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #3b82f6;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.upload-button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.upload-button:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.upload-button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 640px) {
+  .paper-upload {
+    margin-top: 1.5rem;
+  }
+
+  .upload-container {
+    padding: 1.5rem;
+  }
+
+  .upload-text {
+    font-size: 1rem;
+  }
+
+  .upload-icon {
+    font-size: 2.5rem;
+  }
+}

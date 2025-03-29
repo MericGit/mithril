@@ -44,3 +44,39 @@ export const getPaper = async (id: string): Promise<ResearchPaper> => {
   }
   return response.json();
 };
+
+export async function uploadPaper(
+  formData: FormData,
+  onProgress?: (progress: number) => void
+): Promise<ResearchPaper> {
+  const xhr = new XMLHttpRequest();
+  
+  return new Promise((resolve, reject) => {
+    xhr.upload.onprogress = (event) => {
+      if (event.lengthComputable && onProgress) {
+        const progress = Math.round((event.loaded / event.total) * 100);
+        onProgress(progress);
+      }
+    };
+
+    xhr.onload = () => {
+      if (xhr.status === 200) {
+        try {
+          const response = JSON.parse(xhr.responseText);
+          resolve(response);
+        } catch (err) {
+          reject(new Error('Invalid response format'));
+        }
+      } else {
+        reject(new Error('Upload failed'));
+      }
+    };
+
+    xhr.onerror = () => {
+      reject(new Error('Network error'));
+    };
+
+    xhr.open('POST', `${API_BASE_URL}/papers/upload`);
+    xhr.send(formData);
+  });
+}
