@@ -1,4 +1,65 @@
 [
+    {
+        "author_info": [
+            "Xiao Liu: Research interests include public health, ethnic frontiers of East Asia and publications related to the history of China, Mongolia and Tibet. Potentially affiliated with the Second Military Medical University, suggesting a possible connection to military research for one of the individuals named Xiao Liu.",
+            "Sudan Han: Research appears to involve areas applicable to military reconnaissance and mapping, specifically Synthetic Aperture Radar (SAR) imaging. Affiliated with the Academy of Military Medical Sciences, and their research on SAR imaging has potential military applications in reconnaissance and mapping.",
+            "Jinlin Peng: Research includes deploying unmanned aerial vehicles (UAVs) for locating signal-emitting sources, which has both military and civilian applications such as rescue and target tracking. Research on UAV deployment for signal source localization has direct military applications."
+        ],
+        "authors": [
+            "Xiao Liu",
+            "Sudan Han",
+            "Jinlin Peng"
+        ],
+        "paper_summary": "This research paper is in the field of defense technology, specifically focusing on the modeling and analysis of complex electromagnetic space combat system-of-systems (CSoS). The paper introduces a novel method for identifying key nodes within a CSoS, using networked modeling and analysis to propose a quantitative modeling method. It proposes a method for calculating the combat capability of CSoS based on the combat cycle's capability and a key node identification method. It further validates the method with an example of an aircraft carrier fleet confrontation.",
+        "presumed_publish_country": "China",
+        "topics": [
+            "Defense Technology",
+            "Telecommunications",
+            "Data Science",
+            "Autonomous Systems"
+        ],
+        "topics_relevence": [
+            100,
+            30,
+            15,
+            25
+        ],
+        "paper_title": "Complex Electromagnetic Space Combat System-of-systems Modeling and Key Node Identification Method",
+        "reasoning": "The research paper focuses on modeling and analysis of complex electromagnetic space combat system-of-systems (CSoS), including key node identification and combat capability assessment. Given the affiliations of the authors with Chinese military institutions (Second Military Medical University, Academy of Military Medical Sciences) and the focus on defense technology, the paper's applications are likely highly relevant to military operations. The identified topics, such as defense technology and autonomous systems, reinforce this. Specific applications could include improving command and control, electronic warfare, and targeting capabilities within a military context. The use of UAVs for signal source localization, particularly when combined with SAR imaging, also suggests a focus on reconnaissance and intelligence gathering, further supporting strong military applications. The fact the research originated in China, suggests that it is likely to be used in their own military",
+        "risk_score": 95
+    },
+    {
+        "author_info": [
+          "Yejin Kwon: Graduate student at Texas Tech University studying Physics, with potential connections to military research through co-authorship with Hyun Kwon on a paper about neural networks in military environments. There is also a composer living in Montreal with the same name.",
+          "Daeun Moon: Researcher at the Science and Technology Policy Institute (STEPI), with a background in Science and Technology Policy. No military connections found.",
+          "Youngje Oh: Insufficient information available to determine field of study or affiliations. No military connections found.",
+          "Hyunsoo Yoon: Associate Professor in Industrial Engineering at Yonsei University, with research interests in statistical machine learning and predictive analytics. Potential connection to military research through a co-authored paper on adversarial examples in military environments."
+        ],
+        "authors": [
+          "Yejin Kwon",
+          "Daeun Moon",
+          "Youngje Oh",
+          "Hyunsoo Yoon"
+        ],
+        "paper_summary": "This paper introduces LogicQA, a novel framework for logical anomaly detection (AD) in industrial settings. LogicQA leverages a pre-trained Vision Language Model (VLM) to generate questions and explanations, eliminating the need for class-specific training and manual annotations. The framework is validated on the MVTec LOCO AD dataset and a semiconductor SEM dataset, demonstrating its effectiveness in detecting and explaining logical anomalies, thus providing a practical solution for industrial applications.",
+        "presumed_publish_country": "South Korea",
+        "topics": [
+          "AI",
+          "Semiconductors",
+          "Data Science",
+          "Autonomous Systems"
+        ],
+        "topics_relevence": [
+          90,
+          80,
+          70,
+          60
+        ],
+        "paper_abstract": "Anomaly Detection (AD) focuses on detecting samples that differ from the standard pattern, making it a vital tool in process control. Logical anomalies may appear visually normal yet violate predefined constraints on object presence, arrangement, or quantity, depending on reasoning and explainability. We introduce LogicQA, a framework that enhances AD by providing industrial operators with explanations for logical anomalies. LogicQA compiles automatically generated questions into a check-list and collects responses to identify violations of logical constraints. LogicQA is training-free, annotation-free, and operates in a few-shot setting. We achieve state-of-the-art (SOTA) Logical AD performance on the public benchmark, MVTec LOCO AD, with an AUROC of 87.6% and an F₁-max of 87.0% along with the explanations of anomalies. Also, our approach has shown outstanding performance on semiconductor SEM corporate data, further validating its effectiveness in industrial applications.",
+        "paper_title": "LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions",
+        "reasoning": "The paper's focus on logical anomaly detection (AD) in industrial settings, specifically within semiconductors, suggests potential military applications, especially given the paper's origins in South Korea. The techniques, involving Vision Language Models (VLMs) and few-shot learning, could be relevant for detecting anomalies in military hardware manufacturing, autonomous systems, or data analysis related to military intelligence. However, the primary focus is on industrial applications, and the paper's core technology is not inherently specific to military use. The presence of authors with potential connections to military research, especially Hyunsoo Yoon, increases the risk slightly. The research's origin in South Korea is also a factor, as the US military would likely view foreign military development as a higher risk. While the research has some potential for military applications, it is not the primary focus and is unlikely to have immediate and significant military use. The paper's focus on industrial anomaly detection and lack of explicit military focus reduces the immediate risk.",
+        "risk_score": 35
+      },
   {
     "author_info": [
       "Based on the provided context, it's not possible to generate a JSON description for authors affiliated with the \"Office of the Secretary of Defense\" and the \"DIA - The Strategic Support Force (SSF) in 2019\". The context provides information on these organizations but does not include any author names or biographical details. Therefore, a JSON description cannot be generated.",
@@ -94,35 +155,6 @@
     "paper_title": "Playing Hex and Counter Wargames using Reinforcement Learning and Recurrent Neural Networks",
     "reasoning": "The paper focuses on a system using AI and reinforcement learning to simulate military wargames (specifically Hex and Counter Wargames). The technology's application to model real-world military conflicts is explicit. While the research is conducted in Portugal, the potential for adaptation and implementation by the US military is high, given the nature of the technology and the strategic advantages it could provide. The author Joao Dias's background in military and police training, and experience with tactical police actions could also be valuable here. The primary risk stems from the fact that the research is from Portugal, implying potential intellectual property risks and potential for misuse by foreign entities. The involvement of any foreign military development is high risk for the US.",
     "risk_score": 75
-  },
-  {
-    "author_info": [
-      "Xiao Liu: Research interests include public health, ethnic frontiers of East Asia and publications related to the history of China, Mongolia and Tibet. Potentially affiliated with the Second Military Medical University, suggesting a possible connection to military research for one of the individuals named Xiao Liu.",
-      "Sudan Han: Research appears to involve areas applicable to military reconnaissance and mapping, specifically Synthetic Aperture Radar (SAR) imaging. Affiliated with the Academy of Military Medical Sciences, and their research on SAR imaging has potential military applications in reconnaissance and mapping.",
-      "Jinlin Peng: Research includes deploying unmanned aerial vehicles (UAVs) for locating signal-emitting sources, which has both military and civilian applications such as rescue and target tracking. Research on UAV deployment for signal source localization has direct military applications."
-    ],
-    "authors": [
-      "Xiao Liu",
-      "Sudan Han",
-      "Jinlin Peng"
-    ],
-    "paper_summary": "This research paper is in the field of defense technology, specifically focusing on the modeling and analysis of complex electromagnetic space combat system-of-systems (CSoS). The paper introduces a novel method for identifying key nodes within a CSoS, using networked modeling and analysis to propose a quantitative modeling method. It proposes a method for calculating the combat capability of CSoS based on the combat cycle's capability and a key node identification method. It further validates the method with an example of an aircraft carrier fleet confrontation.",
-    "presumed_publish_country": "China",
-    "topics": [
-      "Defense Technology",
-      "Telecommunications",
-      "Data Science",
-      "Autonomous Systems"
-    ],
-    "topics_relevence": [
-      100,
-      30,
-      15,
-      25
-    ],
-    "paper_title": "Complex Electromagnetic Space Combat System-of-systems Modeling and Key Node Identification Method",
-    "reasoning": "The research paper focuses on modeling and analysis of complex electromagnetic space combat system-of-systems (CSoS), including key node identification and combat capability assessment. Given the affiliations of the authors with Chinese military institutions (Second Military Medical University, Academy of Military Medical Sciences) and the focus on defense technology, the paper's applications are likely highly relevant to military operations. The identified topics, such as defense technology and autonomous systems, reinforce this. Specific applications could include improving command and control, electronic warfare, and targeting capabilities within a military context. The use of UAVs for signal source localization, particularly when combined with SAR imaging, also suggests a focus on reconnaissance and intelligence gathering, further supporting strong military applications. The fact the research originated in China, suggests that it is likely to be used in their own military",
-    "risk_score": 95
   },
   {
     "author_info": [
@@ -693,38 +725,6 @@
     "paper_title": "Acceleration of shell DFT-1/2 in high-throughput calculations via cutoff radii prediction",
     "reasoning": "The paper focuses on accelerating high-throughput calculations for band gap prediction in advanced materials, specifically semiconductors. The research originates from China (Huazhong University of Science and Technology), and the focus on materials science and semiconductors, coupled with the application of machine learning, has potential military applications. This includes potential use in designing advanced materials for electronics, sensors, and other defense technologies. Furthermore, the ability to accurately predict material properties like band gaps is crucial for developing more efficient and effective electronic components and systems. The research involves high-performance computing which is also of strategic importance. Given the location of research (China) and the potential military applications, the risk score is elevated.",
     "risk_score": 75
-  },
-  {
-    "author_info": [
-      "Yejin Kwon: Graduate student at Texas Tech University studying Physics, with potential connections to military research through co-authorship with Hyun Kwon on a paper about neural networks in military environments. There is also a composer living in Montreal with the same name.",
-      "Daeun Moon: Researcher at the Science and Technology Policy Institute (STEPI), with a background in Science and Technology Policy. No military connections found.",
-      "Youngje Oh: Insufficient information available to determine field of study or affiliations. No military connections found.",
-      "Hyunsoo Yoon: Associate Professor in Industrial Engineering at Yonsei University, with research interests in statistical machine learning and predictive analytics. Potential connection to military research through a co-authored paper on adversarial examples in military environments."
-    ],
-    "authors": [
-      "Yejin Kwon",
-      "Daeun Moon",
-      "Youngje Oh",
-      "Hyunsoo Yoon"
-    ],
-    "paper_summary": "This paper introduces LogicQA, a novel framework for logical anomaly detection (AD) in industrial settings. LogicQA leverages a pre-trained Vision Language Model (VLM) to generate questions and explanations, eliminating the need for class-specific training and manual annotations. The framework is validated on the MVTec LOCO AD dataset and a semiconductor SEM dataset, demonstrating its effectiveness in detecting and explaining logical anomalies, thus providing a practical solution for industrial applications.",
-    "presumed_publish_country": "South Korea",
-    "topics": [
-      "AI",
-      "Semiconductors",
-      "Data Science",
-      "Autonomous Systems"
-    ],
-    "topics_relevence": [
-      90,
-      80,
-      70,
-      60
-    ],
-    "paper_abstract": "Anomaly Detection (AD) focuses on detecting samples that differ from the standard pattern, making it a vital tool in process control. Logical anomalies may appear visually normal yet violate predefined constraints on object presence, arrangement, or quantity, depending on reasoning and explainability. We introduce LogicQA, a framework that enhances AD by providing industrial operators with explanations for logical anomalies. LogicQA compiles automatically generated questions into a check-list and collects responses to identify violations of logical constraints. LogicQA is training-free, annotation-free, and operates in a few-shot setting. We achieve state-of-the-art (SOTA) Logical AD performance on the public benchmark, MVTec LOCO AD, with an AUROC of 87.6% and an F₁-max of 87.0% along with the explanations of anomalies. Also, our approach has shown outstanding performance on semiconductor SEM corporate data, further validating its effectiveness in industrial applications.",
-    "paper_title": "LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions",
-    "reasoning": "The paper's focus on logical anomaly detection (AD) in industrial settings, specifically within semiconductors, suggests potential military applications, especially given the paper's origins in South Korea. The techniques, involving Vision Language Models (VLMs) and few-shot learning, could be relevant for detecting anomalies in military hardware manufacturing, autonomous systems, or data analysis related to military intelligence. However, the primary focus is on industrial applications, and the paper's core technology is not inherently specific to military use. The presence of authors with potential connections to military research, especially Hyunsoo Yoon, increases the risk slightly. The research's origin in South Korea is also a factor, as the US military would likely view foreign military development as a higher risk. While the research has some potential for military applications, it is not the primary focus and is unlikely to have immediate and significant military use. The paper's focus on industrial anomaly detection and lack of explicit military focus reduces the immediate risk.",
-    "risk_score": 35
   },
   {
     "author_info": [
