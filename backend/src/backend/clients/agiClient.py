@@ -1,9 +1,9 @@
 import os
 from google import genai
 from google.genai import types
-import pathlib
 from dotenv import load_dotenv
 from pathlib import Path
+import json 
 
 # List of STEM topics for classification
 STEM_TOPICS = [
@@ -57,92 +57,138 @@ class AGIClient:
     def generate_summary(self, file):
         LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
         print("LOCAL DATA" , LOCAL_DATA)
-        SYS_PROMPT = """Given this research paper, summarize it into its core parts. You do not need to summarize its technical details rather summarize what field the paper is in, its novel applications, and any other key components"""
-        file = self.client.files.upload(file=LOCAL_DATA / file)
+        SYS_PROMPT = """Given this research paper, summarize it into its core parts. You do not need to summarize its technical details rather summarize what field the paper is in, its novel applications, and any other key components. Additionally give me the list of authors. For each author also provide relevent information about them, for example their current job, research institution, country theyre in, and also list which of the following topics below that tha paper references (can be multiple!) and give a relevence of each topic 1-100
+        topics = [
+AI,
+Semiconductors,
+Life Sciences,
+Nuclear,
+Energy,
+Quantum Computing,
+Biotechnology,
+Robotics,
+Nanotechnology,
+Cybersecurity,
+Space Exploration,
+Environmental Science,
+Advanced Materials,
+Telecommunications,
+Defense Technology,
+Data Science,
+High-Performance Computing,
+Synthetic Biology,
+Climate Technology,
+Autonomous Systems,
+5G/6G Networks,
+Geopolitical Tech Strategy,
+Innovation Policy,
+Digital Infrastructure
+]"""
+        #file = self.client.files.upload(file=LOCAL_DATA / file)
         full_prompt = f"""{SYS_PROMPT}"""
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=[
-                file,
-                "\n\n",
-                full_prompt
-            ],
+        files = [
+            # Please ensure that the file is available in local system working direrctory or change the file path.
+            self.client.files.upload(file=LOCAL_DATA / file),
+        ]
+        contents = [
+            types.Content(
+                role="user",
+                parts=[
+                    types.Part.from_uri(
+                        file_uri=files[0].uri,
+                        mime_type=files[0].mime_type,
+                    ),
+                    types.Part.from_text(text=full_prompt),
+                ],  
+            ),
+        ]
+        generate_content_config = types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=genai.types.Schema(
+                type = genai.types.Type.OBJECT,
+                required = ["authors", "topics", "paper_summary", "topics_relevence", "author_info"],
+                properties = {
+                    "authors": genai.types.Schema(
+                        type = genai.types.Type.ARRAY,
+                        items = genai.types.Schema(
+                            type = genai.types.Type.STRING,
+                        ),
+                    ),
+                    "topics": genai.types.Schema(
+                        type = genai.types.Type.ARRAY,
+                        items = genai.types.Schema(
+                            type = genai.types.Type.STRING,
+                        ),
+                    ),
+                    "paper_summary": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                    "topics_relevence": genai.types.Schema(
+                        type = genai.types.Type.ARRAY,
+                        items = genai.types.Schema(
+                            type = genai.types.Type.INTEGER,
+                        ),
+                    ),
+                    "author_info": genai.types.Schema(
+                        type = genai.types.Type.ARRAY,
+                        items = genai.types.Schema(
+                            type = genai.types.Type.STRING,
+                        ),
+                    ),
+                },
+            ),
         )
-        print(response.text)
+        output = ""
+        for chunk in self.client.models.generate_content_stream(
+            model=self.model,
+            contents=contents,
+            config=generate_content_config,
+        ):
+            output += chunk.text
+        return json.loads(output)
     
-    def generate_country_of_origin(self, file):
-        """Generate the country of origin for the research paper's authors/institutions."""
+    def generate_risk_score(self, json_bg):
         LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
-        SYS_PROMPT = """Analyze this research paper and determine the country or countries of origin for the authors and their institutions. 
-        Return only the list of countries, separated by commas if multiple."""
-        file = self.client.files.upload(file=LOCAL_DATA / file)
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=[file, "\n\n", SYS_PROMPT],
-        )
-        return response.text
-
-    def generate_author_list(self, file):
-        """Generate a list of authors from the research paper."""
-        LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
-        SYS_PROMPT = {
-            "type": "object",
-            "properties": {
-                "authors": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    },
-                    "description": "List of author names from the paper"
-                }
-            },
-            "required": ["authors"]
-        }
-        file = self.client.files.upload(file=LOCAL_DATA / file)
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=[file, "\n\n", "Extract all authors from this paper."],
-            generation_config=types.GenerationConfig(
-                candidate_count=1
+        print("LOCAL DATA" , LOCAL_DATA)
+        SYS_PROMPT = """Given the following summary of a research paper, information about authors, and topics, give me a reasoning about this papers particular military applications, and then a risk score 0-100 of if it has strong military applications or not. In particular view this from a US perspective, so foreign military development is high risk. """
+        #file = self.client.files.upload(file=LOCAL_DATA / file)
+        json_bg = json.dumps(json_bg)
+        full_prompt = f"""{SYS_PROMPT} {json_bg}"""
+        contents = [
+            types.Content(
+                role="user",
+                parts=[
+                    types.Part.from_text(text=full_prompt),
+                ],  
             ),
-            tools=[types.Tool(function_declarations=[types.FunctionDeclaration(
-                name="get_authors",
-                parameters=SYS_PROMPT
-            )])],
-        )
-        return response.candidates[0].content.parts[0].function_call.args["authors"]
-
-    def generate_topics(self, file):
-        """Generate relevant topics from the predefined STEM_TOPICS list that match the paper's content."""
-        LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
-        SYS_PROMPT = {
-            "type": "object",
-            "properties": {
-                "topics": {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": STEM_TOPICS
-                    },
-                    "maxItems": 5,
-                    "description": "Most relevant topics from the provided list that directly relate to the paper's main focus"
-                }
-            },
-            "required": ["topics"]
-        }
-        file = self.client.files.upload(file=LOCAL_DATA / file)
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=[file, "\n\n", "Identify the most relevant topics for this paper."],
-            generation_config=types.GenerationConfig(
-                candidate_count=1
+        ]
+        generate_content_config = types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=genai.types.Schema(
+                type = genai.types.Type.OBJECT,
+                required = ["risk_score", "reasoning"],
+                properties = {
+                    "risk_score": genai.types.Schema(
+                        type = genai.types.Type.INTEGER,
+                    ),
+                    "reasoning": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                },
             ),
-            tools=[types.Tool(function_declarations=[types.FunctionDeclaration(
-                name="get_topics",
-                parameters=SYS_PROMPT
-            )])],
         )
-        return response.candidates[0].content.parts[0].function_call.args["topics"]
+        output = ""
+        for chunk in self.client.models.generate_content_stream(
+            model=self.model,
+            contents=contents,
+            config=generate_content_config,
+        ):
+            output += chunk.text
+        return json.loads(output)
+
 
 client = AGIClient()
-client.generate_summary("Lecun98.pdf")
+summary = client.generate_summary("2503.01293v1.pdf")
+print(summary)
+risk_score = client.generate_risk_score(summary)
+print(risk_score)
