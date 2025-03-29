@@ -1,104 +1,198 @@
 .papers-page {
-  min-height: 100vh;
-  background: #f1f5f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8fafc;
+}
+
+.app-header {
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1.5rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 1.875rem;
+  color: #1e293b;
+}
+
+.back-to-home {
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.back-to-home:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.upload-toggle-button {
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.upload-toggle-button:hover {
+  background: #2563eb;
+}
+
+.filters-section {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.filter-group button {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: #e2e8f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-group button:hover {
+  background: #cbd5e1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.tag button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.tag button:hover {
+  color: #475569;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
 }
 
 .papers-nav {
+  width: 300px;
+  border-right: 1px solid #e2e8f0;
   background: white;
-  border-bottom: 1px solid #e2e8f0;
-  padding: 1rem;
-  margin-bottom: 2rem;
+  overflow-y: auto;
 }
 
 .papers-list {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .paper-item {
-  flex: 0 0 300px;
   padding: 1rem;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s;
 }
 
 .paper-item:hover {
   background: #f1f5f9;
-  border-color: #cbd5e1;
 }
 
 .paper-item.active {
-  background: #e0f2fe;
-  border-color: #38bdf8;
+  background: #eff6ff;
+  border-left: 3px solid #3b82f6;
 }
 
 .paper-item-title {
+  margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  font-weight: 500;
   color: #1e293b;
-  margin-bottom: 0.5rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .paper-item-meta {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: #64748b;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+}
+
+.paper-item-meta span {
+  display: block;
 }
 
 .paper-content {
-  padding: 0 1rem;
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
 }
 
-/* Navigation Styles */
-.main-nav {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.nav-button {
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  background: #f1f5f9;
+.no-results {
+  text-align: center;
+  padding: 2rem;
   color: #64748b;
 }
 
-.nav-button:hover {
-  background: #e2e8f0;
-  color: #1e293b;
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.125rem;
+  color: #64748b;
 }
 
-.nav-button.active {
-  background: #3b82f6;
-  color: white;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .papers-list {
-    flex-direction: column;
-  }
-  
-  .paper-item {
-    flex: none;
-    width: auto;
-  }
+.error {
+  color: #ef4444;
 }

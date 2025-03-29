@@ -12,6 +12,8 @@ import {
   ZoomableGroup 
 } from 'react-simple-maps';
 import Papers from './pages/Papers';
+import RiskAnalysis from './components/RiskAnalysis'; // Import the RiskAnalysis component
+import PaperUpload from './components/PaperUpload'; // Import the PaperUpload component
 
 // Use reliable TopoJSON from world-atlas
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
@@ -111,8 +113,8 @@ const App: React.FC = () => {
                 >
                   <ZoomableGroup zoom={1}>
                     <Geographies geography={geoUrl}>
-                      {({ geographies }: { geographies: Array<any> }) =>
-                        geographies.map((geo: any) => {
+                      {({ geographies }: { geographies: Array<{ rsmKey: string; properties: { name: string } }> }) =>
+                        geographies.map((geo) => {
                           const countryName = geo.properties.name;
                           
                           // Find matching data points for this country
@@ -203,6 +205,12 @@ const App: React.FC = () => {
                   </ZoomableGroup>
                 </ComposableMap>
                 
+                {hoveredMapPoint && (
+                  <div className="risk-analysis-section">
+                    <RiskAnalysis riskFactors={hoveredMapPoint.riskFactors || []} />
+                  </div>
+                )}
+                
                 {hoveredMapPoint && tooltipPosition && (
                   <div 
                     className="map-tooltip"
@@ -236,7 +244,13 @@ const App: React.FC = () => {
                 </div>
               </div>
             </div>
+            
+            <div className="upload-section">
+              <h3>Upload Research Paper</h3>
+              <PaperUpload onUploadSuccess={() => {}} />
+            </div>
           </section>
+
 
           <section id="high-risk" className="content-section">
             <h2>High Risk Research Topics</h2>
@@ -423,6 +437,7 @@ const App: React.FC = () => {
               </div>
             </div>
           </section>
+
         </main>
       ) : (
         <Papers />
