@@ -3,6 +3,7 @@
     "id": "us-ai",
     "country": "United States",
     "topic": "AI",
+    "coordinates": [40, -100],
     "intensity": 0.8,
     "description": "Advanced AI models and frameworks",
     "adversarial": false
@@ -11,6 +12,7 @@
     "id": "us-quantum",
     "country": "United States",
     "topic": "Quantum Computing",
+    "coordinates": [37, -120],
     "intensity": 0.7,
     "description": "Quantum supremacy research",
     "adversarial": false
@@ -19,6 +21,7 @@
     "id": "china-ai",
     "country": "China",
     "topic": "AI",
+    "coordinates": [35, 105],
     "intensity": 0.9,
     "description": "Facial recognition and surveillance AI",
     "adversarial": true
@@ -27,6 +30,7 @@
     "id": "china-semiconductor",
     "country": "China",
     "topic": "Semiconductors",
+    "coordinates": [30, 114],
     "intensity": 0.8,
     "description": "EUV technology research",
     "adversarial": true
@@ -35,6 +39,7 @@
     "id": "russia-nuclear",
     "country": "Russia",
     "topic": "Nuclear",
+    "coordinates": [55, 37],
     "intensity": 0.6,
     "description": "Advanced nuclear propulsion",
     "adversarial": true
@@ -43,6 +48,7 @@
     "id": "eu-energy",
     "country": "European Union",
     "topic": "Energy",
+    "coordinates": [50, 10],
     "intensity": 0.7,
     "description": "Renewable energy systems",
     "adversarial": false
@@ -51,6 +57,7 @@
     "id": "eu-life",
     "country": "European Union",
     "topic": "Life Sciences",
+    "coordinates": [48, 2],
     "intensity": 0.6,
     "description": "Genetic modification research",
     "adversarial": false
@@ -59,6 +66,7 @@
     "id": "nk-nuclear",
     "country": "North Korea",
     "topic": "Nuclear",
+    "coordinates": [40, 127],
     "intensity": 0.5,
     "description": "Nuclear warhead miniaturization",
     "adversarial": true
@@ -67,6 +75,7 @@
     "id": "iran-nuclear",
     "country": "Iran",
     "topic": "Nuclear",
+    "coordinates": [32, 53],
     "intensity": 0.4,
     "description": "Uranium enrichment",
     "adversarial": true
@@ -75,352 +84,9 @@
     "id": "india-energy",
     "country": "India",
     "topic": "Energy",
+    "coordinates": [20, 77],
     "intensity": 0.6,
     "description": "Solar technology research",
-    "adversarial": false
-  },
-  {
-    "id": "japan-cyber",
-    "country": "Japan",
-    "topic": "Cybersecurity",
-    "intensity": 0.7,
-    "description": "Next-generation network security",
-    "adversarial": false
-  },
-  {
-    "id": "germany-ai",
-    "country": "Germany",
-    "topic": "AI",
-    "intensity": 0.65,
-    "description": "Industrial automation AI solutions",
-    "adversarial": false
-  },
-  {
-    "id": "uk-quantum",
-    "country": "United Kingdom",
-    "topic": "Quantum Computing",
-    "intensity": 0.7,
-    "description": "Quantum algorithm development",
-    "adversarial": false
-  },
-  {
-    "id": "brazil-agri",
-    "country": "Brazil",
-    "topic": "Agriculture",
-    "intensity": 0.6,
-    "description": "Precision farming technologies",
-    "adversarial": false
-  },
-  {
-    "id": "canada-energy",
-    "country": "Canada",
-    "topic": "Energy",
-    "intensity": 0.65,
-    "description": "Hydro and renewable energy systems",
-    "adversarial": false
-  },
-  {
-    "id": "australia-space",
-    "country": "Australia",
-    "topic": "Space",
-    "intensity": 0.7,
-    "description": "Satellite and space exploration tech",
-    "adversarial": false
-  },
-  {
-    "id": "skorea-robotics",
-    "country": "Republic of Korea",
-    "topic": "Robotics",
-    "intensity": 0.75,
-    "description": "Advanced robotics for manufacturing",
-    "adversarial": false
-  },
-  {
-    "id": "israel-cyber",
-    "country": "Israel",
-    "topic": "Cybersecurity",
-    "intensity": 0.8,
-    "description": "Cyber defense and threat intelligence",
-    "adversarial": false
-  },
-  {
-    "id": "turkey-ai",
-    "country": "Turkey",
-    "topic": "AI",
-    "intensity": 0.6,
-    "description": "Machine learning for local industries",
-    "adversarial": false
-  },
-  {
-    "id": "saudi-energy",
-    "country": "Saudi Arabia",
-    "topic": "Energy",
-    "intensity": 0.7,
-    "description": "Innovations in oil and renewable energy",
-    "adversarial": false
-  },
-  {
-    "id": "swiss-life",
-    "country": "Switzerland",
-    "topic": "Life Sciences",
-    "intensity": 0.65,
-    "description": "Pharmaceutical research and biotech",
-    "adversarial": false
-  },
-  {
-    "id": "sweden-robotics",
-    "country": "Sweden",
-    "topic": "Robotics",
-    "intensity": 0.7,
-    "description": "Automation in manufacturing",
-    "adversarial": false
-  },
-  {
-    "id": "norway-space",
-    "country": "Norway",
-    "topic": "Space",
-    "intensity": 0.6,
-    "description": "Satellite data and maritime research",
-    "adversarial": false
-  },
-  {
-    "id": "us-cyber",
-    "country": "United States",
-    "topic": "Cybersecurity",
-    "intensity": 0.8,
-    "description": "Defensive cyber operations",
-    "adversarial": false
-  },
-  {
-    "id": "china-quantum",
-    "country": "China",
-    "topic": "Quantum Computing",
-    "intensity": 0.85,
-    "description": "Quantum hardware advancements",
-    "adversarial": true
-  },
-  {
-    "id": "russia-robotics",
-    "country": "Russia",
-    "topic": "Robotics",
-    "intensity": 0.65,
-    "description": "Military robotics systems",
-    "adversarial": true
-  },
-  {
-    "id": "eu-space",
-    "country": "European Union",
-    "topic": "Space",
-    "intensity": 0.7,
-    "description": "Collaborative space missions",
-    "adversarial": false
-  },
-  {
-    "id": "nk-biotech",
-    "country": "Dem. Rep. Korea",
-    "topic": "Biotechnology",
-    "intensity": 0.55,
-    "description": "Biotech and pharmaceutical research",
-    "adversarial": true
-  },
-  {
-    "id": "iran-life",
-    "country": "Iran",
-    "topic": "Life Sciences",
-    "intensity": 0.5,
-    "description": "Medical research and innovations",
-    "adversarial": true
-  },
-  {
-    "id": "india-robotics",
-    "country": "India",
-    "topic": "Robotics",
-    "intensity": 0.65,
-    "description": "Automation in manufacturing and services",
-    "adversarial": false
-  },
-  {
-    "id": "japan-ai",
-    "country": "Japan",
-    "topic": "AI",
-    "intensity": 0.75,
-    "description": "AI in consumer electronics",
-    "adversarial": false
-  },
-  {
-    "id": "germany-cyber",
-    "country": "Germany",
-    "topic": "Cybersecurity",
-    "intensity": 0.7,
-    "description": "Securing industrial networks",
-    "adversarial": false
-  },
-  {
-    "id": "uk-life",
-    "country": "United Kingdom",
-    "topic": "Life Sciences",
-    "intensity": 0.65,
-    "description": "Biotech innovation and research",
-    "adversarial": false
-  },
-  {
-    "id": "brazil-energy",
-    "country": "Brazil",
-    "topic": "Energy",
-    "intensity": 0.6,
-    "description": "Biofuels and renewable projects",
-    "adversarial": false
-  },
-  {
-    "id": "canada-ai",
-    "country": "Canada",
-    "topic": "AI",
-    "intensity": 0.7,
-    "description": "AI for natural resource management",
-    "adversarial": false
-  },
-  {
-    "id": "australia-cyber",
-    "country": "Australia",
-    "topic": "Cybersecurity",
-    "intensity": 0.65,
-    "description": "Cyber threat monitoring and defense",
-    "adversarial": false
-  },
-  {
-    "id": "skorea-semiconductor",
-    "country": "Republic of Korea",
-    "topic": "Semiconductors",
-    "intensity": 0.75,
-    "description": "Advanced chip manufacturing",
-    "adversarial": false
-  },
-  {
-    "id": "israel-quantum",
-    "country": "Israel",
-    "topic": "Quantum Computing",
-    "intensity": 0.8,
-    "description": "Quantum cryptography research",
-    "adversarial": false
-  },
-  {
-    "id": "turkey-life",
-    "country": "Turkey",
-    "topic": "Life Sciences",
-    "intensity": 0.6,
-    "description": "Biotech startups and research",
-    "adversarial": false
-  },
-  {
-    "id": "saudi-robotics",
-    "country": "Saudi Arabia",
-    "topic": "Robotics",
-    "intensity": 0.7,
-    "description": "Automation in energy sectors",
-    "adversarial": false
-  },
-  {
-    "id": "swiss-quantum",
-    "country": "Switzerland",
-    "topic": "Quantum Computing",
-    "intensity": 0.7,
-    "description": "Research in quantum algorithms",
-    "adversarial": false
-  },
-  {
-    "id": "sweden-energy",
-    "country": "Sweden",
-    "topic": "Energy",
-    "intensity": 0.65,
-    "description": "Innovative wind and solar projects",
-    "adversarial": false
-  },
-  {
-    "id": "norway-robotics",
-    "country": "Norway",
-    "topic": "Robotics",
-    "intensity": 0.6,
-    "description": "Automation in maritime industries",
-    "adversarial": false
-  },
-  {
-    "id": "us-biotech",
-    "country": "United States",
-    "topic": "Biotechnology",
-    "intensity": 0.75,
-    "description": "Advanced gene editing techniques",
-    "adversarial": false
-  },
-  {
-    "id": "china-cyber",
-    "country": "China",
-    "topic": "Cybersecurity",
-    "intensity": 0.85,
-    "description": "Nation-scale cyber operations",
-    "adversarial": true
-  },
-  {
-    "id": "russia-nanotech",
-    "country": "Russia",
-    "topic": "Nanotechnology",
-    "intensity": 0.65,
-    "description": "Nano-scale material research",
-    "adversarial": true
-  },
-  {
-    "id": "eu-transport",
-    "country": "European Union",
-    "topic": "Transportation",
-    "intensity": 0.7,
-    "description": "Smart mobility solutions",
-    "adversarial": false
-  },
-  {
-    "id": "nk-space",
-    "country": "Dem. Rep. Korea",
-    "topic": "Space",
-    "intensity": 0.55,
-    "description": "Basic satellite technology development",
-    "adversarial": true
-  },
-  {
-    "id": "iran-agri",
-    "country": "Iran",
-    "topic": "Agriculture",
-    "intensity": 0.5,
-    "description": "Modernizing traditional farming",
-    "adversarial": true
-  },
-  {
-    "id": "india-transport",
-    "country": "India",
-    "topic": "Transportation",
-    "intensity": 0.65,
-    "description": "High-speed rail and smart traffic systems",
-    "adversarial": false
-  },
-  {
-    "id": "japan-robotics2",
-    "country": "Japan",
-    "topic": "Robotics",
-    "intensity": 0.75,
-    "description": "Humanoid robot research",
-    "adversarial": false
-  },
-  {
-    "id": "germany-space",
-    "country": "Germany",
-    "topic": "Space",
-    "intensity": 0.7,
-    "description": "Satellite communication research",
-    "adversarial": false
-  },
-  {
-    "id": "uk-cyber",
-    "country": "United Kingdom",
-    "topic": "Cybersecurity",
-    "intensity": 0.7,
-    "description": "Financial sector cyber defenses",
     "adversarial": false
   }
 ]
