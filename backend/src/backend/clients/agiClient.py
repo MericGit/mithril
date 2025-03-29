@@ -213,4 +213,4 @@ Digital Infrastructure
 
 
 client = AGIClient()
-print(client.nlp_pipeline("2503.01293v1.pdf"))
+print(json.dumps(client.nlp_pipeline("2503.01293v1.pdf")))
