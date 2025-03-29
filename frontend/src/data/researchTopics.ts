@@ -1,1 +1,1 @@
-export const researchTopics = ['AI', 'Semiconductors', 'Life Sciences', 'Nuclear', 'Energy', 'Quantum Computing'];
+export const researchTopics = ['AI', 'Semiconductors', 'Life Sciences', 'Nuclear', 'Energy', 'Quantum Computing', 'Biotechnology', 'Robotics', 'Nanotechnology', 'Cybersecurity', 'Space Exploration', 'Environmental Science'];

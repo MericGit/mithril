@@ -345,6 +345,7 @@ body {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .chart-legend {
@@ -356,6 +357,7 @@ body {
   border: 1px solid #e5e7eb;
   border-radius: 0.5rem;
   min-width: 200px;
+  order: 1;
 }
 
 .legend-item {
@@ -368,15 +370,16 @@ body {
   border-radius: 0.375rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  background-color: #fff;
+  border: 1px solid #ddd;
 }
 
 .legend-item:hover {
-  background-color: #f3f4f6;
+  background-color: #f0f0f0;
 }
 
 .legend-item.active {
-  background-color: #f3f4f6;
-  font-weight: 600;
+  background-color: #e0e0e0;
 }
 
 .legend-color {
@@ -395,27 +398,25 @@ body {
 }
 
 .line-chart {
-  flex: 1;
-  position: relative;
+  flex-grow: 1;
+}
+
+.line-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+.line-path {
+  transition: stroke-width 0.3s ease;
 }
 
 .data-point {
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: r 0.3s ease;
 }
 
-.data-point:hover {
-  stroke: white;
-  stroke-width: 2;
-}
-
-.line-path {
-  transition: all 0.2s ease;
-}
-
-.tooltip text {
-  fill: #4b5563;
-  font-family: inherit;
+.tooltip {
+  pointer-events: none;
 }
 
 .alert-grid {

@@ -49,6 +49,7 @@ const App: React.FC = () => {
   return (
     <div className="app-container">
       <header className="app-header">
+
         <h1>Mithril R&D Dashboard</h1>
         <nav className="main-nav">
           <button 
