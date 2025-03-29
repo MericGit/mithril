@@ -164,6 +164,7 @@ const Papers: React.FC = () => {
         
         <div className="filters-section">
           <div className="filter-group">
+          <label htmlFor="topic-select">Keyword Search: </label>
             <input
               type="text"
               value={keywordInput}
@@ -171,15 +172,6 @@ const Papers: React.FC = () => {
               placeholder="Search"
               onKeyPress={(e) => e.key === 'Enter' && handleAddKeyword()}
             />
-            <button onClick={handleAddKeyword}>Search</button>
-            <div className="tags">
-              {keywords.map(keyword => (
-                <span key={keyword} className="tag">
-                  {keyword}
-                  <button onClick={() => setKeywords(keywords.filter(k => k !== keyword))}>×</button>
-                </span>
-              ))}
-            </div>
           </div>
 
           <div className="filter-group">
@@ -197,6 +189,9 @@ const Papers: React.FC = () => {
                 </option>
               ))}
             </select>
+          </div>
+          <div className="filter-group">
+            <button onClick={handleAddKeyword}>Search</button>
           </div>
         </div>
       </header>
