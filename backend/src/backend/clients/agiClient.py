@@ -1,7 +1,6 @@
-class testClient:
-
+class agiClient:
     def __init__(self):
-        self.name = "test"
+        self.name = "AGI Client"
 
     def get(self):
         return self.name

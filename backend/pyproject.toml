@@ -6,7 +6,7 @@ authors = [
     {name = "Andre Amor",email = "ramorSTEM2022@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)"
 ]
