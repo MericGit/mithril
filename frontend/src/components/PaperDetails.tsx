@@ -39,7 +39,7 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
             <div key={index} className="author-card">
               <div className="author-name">{author.name}</div>
               <div className="author-details">
-                <span>{author.affiliation}</span>
+                {/* <span>{author.affiliation}</span> */}
                 <span>{author.country}</span>
               </div>
               {/* Display additional author info if available */}
