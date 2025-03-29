@@ -1,5 +1,7 @@
 import React from 'react';
 import { ResearchPaper } from '../types/Paper';
+import RiskAnalysis from './RiskAnalysis';
+import '../styles/PaperDetails.css';
 
 interface PaperDetailsProps {
   paper: ResearchPaper;
@@ -21,50 +23,45 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
       {/* Authors Section */}
       <div className="authors-section">
         <h2>Authors</h2>
-        <div className="authors-grid">
+        <div className="authors-list">
           {paper.authors.map((author, index) => (
             <div key={index} className="author-card">
               <div className="author-name">{author.name}</div>
-              <div className="author-affiliation">{author.affiliation}</div>
-              <div className="author-country">{author.country}</div>
+              <div className="author-details">
+                <span>{author.affiliation}</span>
+                <span>{author.country}</span>
+              </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Abstract */}
+      {/* Abstract Section */}
       <div className="abstract-section">
         <h2>Abstract</h2>
         <p className="abstract-text">{paper.abstract}</p>
       </div>
 
-      {/* Topics and Keywords */}
-      <div className="analysis-section">
-        <div className="topics-section">
-          <h2>Research Topics</h2>
-          <div className="topics-list">
-            {paper.topics.map((topic, index) => (
-              <span key={index} className="topic-tag">{topic}</span>
-            ))}
-          </div>
+      {/* Keywords Section */}
+      <div className="keywords-section">
+        <h2>Keywords</h2>
+        <div className="keywords-list">
+          {paper.keywords.map((keyword, index) => (
+            <div key={index} className="keyword-card">
+              <span className="keyword-text">{keyword.keyword}</span>
+              <span className="keyword-relevance">{(keyword.relevance * 100).toFixed(0)}% relevance</span>
+            </div>
+          ))}
         </div>
+      </div>
 
-        <div className="keywords-section">
-          <h2>Keyword Analysis</h2>
-          <div className="keywords-visualization">
-            {paper.keywords.sort((a, b) => b.relevance - a.relevance).map((keyword, index) => (
-              <div key={index} className="keyword-bar">
-                <div className="keyword-label">{keyword.keyword}</div>
-                <div className="keyword-bar-container">
-                  <div 
-                    className="keyword-bar-fill"
-                    style={{ width: `${keyword.relevance * 100}%` }}
-                  />
-                  <span className="keyword-score">{(keyword.relevance * 100).toFixed(0)}%</span>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* Topics Section */}
+      <div className="topics-section">
+        <h2>Topics</h2>
+        <div className="topics-list">
+          {paper.topics.map((topic, index) => (
+            <span key={index} className="topic-tag">{topic}</span>
+          ))}
         </div>
       </div>
 
@@ -75,6 +72,12 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
           <div className="citations-count">{paper.citations}</div>
           <div className="citations-label">Citations</div>
         </div>
+      </div>
+
+      {/* Risk Analysis */}
+      <div className="risk-analysis-section">
+        <h2>Risk Analysis</h2>
+        <RiskAnalysis riskFactors={paper.riskFactors || []} />
       </div>
     </div>
   );
