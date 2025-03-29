@@ -1,20 +1,18 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "server for mithril"
+description = ""
 authors = [
-    {name = "MericGit",email = "41242144+MericGit@users.noreply.github.com"}
+    {name = "Andre Amor",email = "ramorSTEM2022@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "flask (>=3.1.0,<4.0.0)",
-    "requests (>=2.32.3,<3.0.0)",
-    "pathlib (>=1.0.1,<2.0.0)",
-    "google-genai (>=1.8.0,<2.0.0)",
-    "python-dotenv (>=1.1.0,<2.0.0)",
-    "sentence-transformers (>=4.0.1,<5.0.0)"
+    "flask (>=3.1.0,<4.0.0)"
 ]
+
+[tool.poetry]
+packages = [{include = "backend", from = "src"}]
 
 
 [build-system]
