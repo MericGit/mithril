@@ -3,6 +3,7 @@ import PaperDetails from '../components/PaperDetails';
 import { getPapers, uploadPaper } from '../services/api';
 import { ResearchPaper } from '../types/Paper';
 import { useNavigate } from 'react-router-dom';
+import { researchTopics } from '../data/researchTopics';
 import '../styles/Papers.css';
 
 const Papers: React.FC = () => {
@@ -19,8 +20,7 @@ const Papers: React.FC = () => {
   // Filter states
   const [keywordInput, setKeywordInput] = useState('');
   const [keywords, setKeywords] = useState<string[]>([]);
-  const [topicInput, setTopicInput] = useState('');
-  const [topics, setTopics] = useState<string[]>([]);
+  const [selectedTopic, setSelectedTopic] = useState<string>('All');
   const [journal, setJournal] = useState('');
   const [minCitations, setMinCitations] = useState<number | ''>('');
 
@@ -71,11 +71,8 @@ const Papers: React.FC = () => {
     }
   };
 
-  const handleAddTopic = () => {
-    if (topicInput && !topics.includes(topicInput)) {
-      setTopics([...topics, topicInput]);
-      setTopicInput('');
-    }
+  const handleTopicChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedTopic(e.target.value);
   };
 
   // Filter papers based on criteria
@@ -93,16 +90,12 @@ const Papers: React.FC = () => {
       );
     }
 
-    if (topics.length > 0) {
+    if (selectedTopic !== 'All') {
       filtered = filtered.filter(paper =>
-        // Check if any of the paper's topics match the selected topics
-        paper.topics.some(t => 
-          topics.some(topic => t.toLowerCase().includes(topic.toLowerCase()))
-        ) ||
-        // Check if any of the selected topics are in the paper title
-        topics.some(topic => 
-          paper.title.toLowerCase().includes(topic.toLowerCase())
-        )
+        // Check if the paper's topics match the selected topic
+        paper.topics.some(t => t.toLowerCase().includes(selectedTopic.toLowerCase())) ||
+        // Check if the selected topic is in the paper title
+        paper.title.toLowerCase().includes(selectedTopic.toLowerCase())
       );
     }
 
@@ -120,7 +113,7 @@ const Papers: React.FC = () => {
     if (filtered.length > 0 && !selectedPaper) {
       setSelectedPaper(filtered[0]);
     }
-  }, [papers, keywords, topics, journal, minCitations, selectedPaper]);
+  }, [papers, keywords, selectedTopic, journal, minCitations, selectedPaper]);
 
   // Fetch papers on mount
   useEffect(() => {
@@ -175,10 +168,10 @@ const Papers: React.FC = () => {
               type="text"
               value={keywordInput}
               onChange={(e) => setKeywordInput(e.target.value)}
-              placeholder="Add keyword"
+              placeholder="Search"
               onKeyPress={(e) => e.key === 'Enter' && handleAddKeyword()}
             />
-            <button onClick={handleAddKeyword}>Add</button>
+            <button onClick={handleAddKeyword}>Search</button>
             <div className="tags">
               {keywords.map(keyword => (
                 <span key={keyword} className="tag">
@@ -190,22 +183,20 @@ const Papers: React.FC = () => {
           </div>
 
           <div className="filter-group">
-            <input
-              type="text"
-              value={topicInput}
-              onChange={(e) => setTopicInput(e.target.value)}
-              placeholder="Add topic"
-              onKeyPress={(e) => e.key === 'Enter' && handleAddTopic()}
-            />
-            <button onClick={handleAddTopic}>Add</button>
-            <div className="tags">
-              {topics.map(topic => (
-                <span key={topic} className="tag">
+            <label htmlFor="topic-select">Research Topic: </label>
+            <select
+              id="topic-select"
+              value={selectedTopic}
+              onChange={handleTopicChange}
+              className="topic-dropdown"
+            >
+              <option value="All">All Topics</option>
+              {researchTopics.map(topic => (
+                <option key={topic} value={topic}>
                   {topic}
-                  <button onClick={() => setTopics(topics.filter(t => t !== topic))}>×</button>
-                </span>
+                </option>
               ))}
-            </div>
+            </select>
           </div>
         </div>
       </header>
