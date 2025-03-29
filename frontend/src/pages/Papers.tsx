@@ -101,14 +101,6 @@ const Papers: React.FC = () => {
       <header className="app-header">
         <div className="header-content">
           <h1>Research Papers</h1>
-          <button 
-            className="back-to-home"
-            onClick={() => {
-              const navigate = window.location.href = '/';
-            }}
-          >
-            + Upload New Paper
-          </button>
         </div>
         
         <div className="filters-section">
