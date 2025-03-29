@@ -5,7 +5,7 @@ import json
 import os
 import base64
 from pathlib import Path
-from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor
+from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor, PublicationsData, CountryPublicationData, WorldMapPoint
 from .clients.agiClient import AGIClient
 
 router = APIRouter()
