@@ -24,6 +24,24 @@ export const publicationsData = {
       color: '#8b5cf6',
       flag: '🇷🇺',
       data: [600, 800, 1000, 1200, 1400]
+    },
+    {
+      name: 'India',
+      color: '#f59e0b',
+      flag: '🇮🇳',
+      data: [500, 700, 900, 1100, 1300]
+    },
+    {
+      name: 'Brazil',
+      color: '#22d3ee',
+      flag: '🇧🇷',
+      data: [400, 600, 800, 1000, 1200]
+    },
+    {
+      name: 'Japan',
+      color: '#ec4899',
+      flag: '🇯🇵',
+      data: [700, 900, 1100, 1300, 1500]
     }
   ]
 };

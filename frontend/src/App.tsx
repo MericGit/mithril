@@ -48,7 +48,7 @@ const App: React.FC = () => {
     <div className="app-container">
       <header className="app-header">
         <div className="logo">
-          <h1>Mithril R&D Dashboard</h1>
+          <h1>Mithril R&D</h1>
         </div>
         <nav className="app-nav">
           <a href="#high-risk">High Risk Topics</a>
