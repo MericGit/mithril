@@ -84,13 +84,25 @@ const Papers: React.FC = () => {
 
     if (keywords.length > 0) {
       filtered = filtered.filter(paper =>
-        paper.keywords.some(k => keywords.includes(k.keyword.toLowerCase()))
+        // Check if any of the selected keywords are in the paper's keywords list
+        paper.keywords.some(k => keywords.includes(k.keyword.toLowerCase())) ||
+        // Check if any of the selected keywords are in the paper title
+        keywords.some(keyword => 
+          paper.title.toLowerCase().includes(keyword.toLowerCase())
+        )
       );
     }
 
     if (topics.length > 0) {
       filtered = filtered.filter(paper =>
-        paper.topics.some(t => topics.includes(t.toLowerCase()))
+        // Check if any of the paper's topics match the selected topics
+        paper.topics.some(t => 
+          topics.some(topic => t.toLowerCase().includes(topic.toLowerCase()))
+        ) ||
+        // Check if any of the selected topics are in the paper title
+        topics.some(topic => 
+          paper.title.toLowerCase().includes(topic.toLowerCase())
+        )
       );
     }
 
