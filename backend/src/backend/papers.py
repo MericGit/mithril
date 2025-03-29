@@ -114,7 +114,7 @@ def load_data_from_json() -> List[ResearchPaper]:
                     
                 paper.riskFactors.append(RiskFactor(
                     type=risk_type,
-                    category="Security",
+                    category="Summary",
                     description=reasoning,
                     relatedKeywords=topics[:2] if len(topics) >= 2 else topics,  # Use first two topics as related keywords
                     potentialImpact="This research may have security implications based on the risk assessment.",

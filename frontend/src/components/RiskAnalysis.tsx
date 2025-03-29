@@ -31,14 +31,6 @@ const RiskAnalysis: React.FC<RiskAnalysisProps> = ({ riskFactors = [] }) => {
               {risk.description}
             </p>
 
-            <div className="risk-section">
-              <h4>Related Keywords:</h4>
-              <div className="risk-keywords">
-                {risk.relatedKeywords.map((keyword, idx) => (
-                  <span key={idx} className="risk-keyword">{keyword}</span>
-                ))}
-              </div>
-            </div>
           </div>
         ))}
       </div>

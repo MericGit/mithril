@@ -55,7 +55,7 @@ const App: React.FC = () => {
       <div className="app-container">
         <header className="app-header">
 
-          <h1>Mithril R&D Dashboard</h1>
+          <h1>National R&D Analytics</h1>
           <nav className="main-nav">
             <Link to="/" className="nav-button">
               World Map
@@ -70,9 +70,9 @@ const App: React.FC = () => {
           <Route path="/" element={
             <main className="app-main">
               <section className="hero">
-                <h2>Global Research & Development Intelligence</h2>
+                <h2>Evaluating Country R&D in Defense through Public Research</h2>
                 <p>
-                  Advanced analytics and insights into global research trends, high-risk developments, and potential threats.
+                  Analyzing global research trends in defense-related R&D using public datasets on from Arxiv papers and publications.
                 </p>
                 
                 <div className="world-map-container">
