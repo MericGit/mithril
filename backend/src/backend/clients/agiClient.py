@@ -1,9 +1,9 @@
 import os
+import json
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
-import json 
 
 # List of STEM topics for classification
 STEM_TOPICS = [
@@ -83,7 +83,7 @@ Autonomous Systems,
 Geopolitical Tech Strategy,
 Innovation Policy,
 Digital Infrastructure
-]"""
+] Format your response as JSON with proper escaping of quotes and special characters."""
         #file = self.client.files.upload(file=LOCAL_DATA / file)
         full_prompt = f"""{SYS_PROMPT}"""
         files = [
@@ -153,7 +153,7 @@ Digital Infrastructure
     def generate_risk_score(self, json_bg):
         LOCAL_DATA = Path(__file__).resolve().parent.parent / "local_data"
         print("LOCAL DATA" , LOCAL_DATA)
-        SYS_PROMPT = """Given the following summary of a research paper, information about authors, and topics, give me a reasoning about this papers particular military applications, and then a risk score 0-100 of if it has strong military applications or not. In particular view this from a US perspective, so foreign military development is high risk. """
+        SYS_PROMPT = """Given the following summary of a research paper, information about authors, and topics, give me a reasoning about this papers particular military applications, and then a risk score 0-100 of if it has strong military applications or not. In particular view this from a US perspective, so foreign military development is high risk. Format your response as JSON with proper escaping of quotes and special characters."""
         #file = self.client.files.upload(file=LOCAL_DATA / file)
         json_bg = json.dumps(json_bg)
         full_prompt = f"""{SYS_PROMPT} {json_bg}"""
