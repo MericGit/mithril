@@ -1,47 +1,39 @@
-export const publicationsData = {
-  years: [2020, 2021, 2022, 2023, 2024],
-  countries: [
-    {
-      name: 'United States',
-      color: '#3b82f6',
-      flag: '🇺🇸',
-      data: [1200, 1500, 1800, 2100, 2400]
-    },
-    {
-      name: 'China',
-      color: '#ef4444',
-      flag: '🇨🇳',
-      data: [1000, 1300, 1900, 2300, 2600]
-    },
-    {
-      name: 'European Union',
-      color: '#10b981',
-      flag: '🇪🇺',
-      data: [800, 1100, 1400, 1700, 2000]
-    },
-    {
-      name: 'Russia',
-      color: '#8b5cf6',
-      flag: '🇷🇺',
-      data: [600, 800, 1000, 1200, 1400]
-    },
-    {
-      name: 'India',
-      color: '#f59e0b',
-      flag: '🇮🇳',
-      data: [500, 700, 900, 1100, 1300]
-    },
-    {
-      name: 'Brazil',
-      color: '#22d3ee',
-      flag: '🇧🇷',
-      data: [400, 600, 800, 1000, 1200]
-    },
-    {
-      name: 'Japan',
-      color: '#ec4899',
-      flag: '🇯🇵',
-      data: [700, 900, 1100, 1300, 1500]
-    }
-  ]
+import { getPublicationsData } from '../services/api';
+import { useState, useEffect } from 'react';
+
+export interface PublicationData {
+  years: number[];
+  countries: {
+    name: string;
+    color: string;
+    flag: string;
+    data: number[];
+  }[];
+}
+
+// This hook fetches publications data from the API
+export const usePublicationsData = () => {
+  const [data, setData] = useState<PublicationData | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const response = await getPublicationsData();
+        setData(response);
+        setError(null);
+      } catch (err) {
+        console.error('Error fetching publications data:', err);
+        setError('Failed to fetch publications data');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  return { data, loading, error };
 };

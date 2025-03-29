@@ -2,7 +2,7 @@ import React, { useState, memo, useCallback } from 'react';
 import './App.css';
 import './styles/Papers.css';
 
-import { publicationsData } from './data/publications';
+import { usePublicationsData } from './data/publications';
 import { researchTopics } from './data/researchTopics';
 import { worldMapData } from './data/worldMap';
 import { 
@@ -20,6 +20,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
 
 const App: React.FC = () => {
+  const { data: publicationsData, loading: pubsLoading, error: pubsError } = usePublicationsData();
   const [hoveredPoint, setHoveredPoint] = useState<{country: string, year: number, value: number} | null>(null);
   const [highlightedCountry, setHighlightedCountry] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
@@ -28,7 +29,7 @@ const App: React.FC = () => {
   
   // Function to get color for a country based on its data
   const getCountryColor = useCallback((countryName: string) => {
-    const countryData = publicationsData.countries.find(c => c.name === countryName);
+    const countryData = publicationsData?.countries.find((c: any) => c.name === countryName);
     const matchingPoints = worldMapData.filter(point => {
       if (point.country === countryName) return true;
       if (countryName === "United States of America" && point.country === "United States") return true;
@@ -299,6 +300,11 @@ const App: React.FC = () => {
                 </div>
                 <div className="chart-container">
                   <h3>Publications Trend</h3>
+                  {pubsLoading ? (
+                    <div className="loading">Loading publications data...</div>
+                  ) : pubsError ? (
+                    <div className="error">Error loading publications data: {pubsError}</div>
+                  ) : publicationsData ? (
                   <div className="chart-flex">
                     <div className="chart-legend">
                       {publicationsData.countries.map((country) => (
@@ -376,7 +382,7 @@ const App: React.FC = () => {
                         })}
 
                         {/* Tooltip */}
-                        {hoveredPoint && (
+                        {hoveredPoint && publicationsData && (
                           <g className="tooltip" transform={`translate(${(publicationsData.years.indexOf(hoveredPoint.year) / (publicationsData.years.length - 1)) * 800},${200 - (hoveredPoint.value / 3000) * 200})`}>
                             <rect
                               x="10"
@@ -410,6 +416,7 @@ const App: React.FC = () => {
                       </div>
                     </div>
                   </div>
+                  ) : null}
                 </div>
               </section>
 
