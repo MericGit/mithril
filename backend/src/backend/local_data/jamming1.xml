@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2003.10814v2</ns0:id>
+    <ns0:updated>2021-03-24T15:41:23Z</ns0:updated>
+    <ns0:published>2020-03-24T12:58:28Z</ns0:published>
+    <ns0:title>A jamming plane of sphere packings</ns0:title>
+    <ns0:summary>  The concept of jamming has attracted great research interest due to its broad
+relevance in soft matter such as liquids, glasses, colloids, foams, and
+granular materials, and its deep connection to the sphere packing problem and
+optimization problems. Here we show that the domain of amorphous jammed states
+of frictionless spheres can be significantly extended, from the well-known
+jamming-point at a fixed density, to a jamming-plane that spans the density and
+shear strain axes. We explore the jamming-plane, via athermal and thermal
+simulations of compression and shear jamming, with a help of an efficient swap
+algorithm to prepare initial equilibrium configurations. The jamming-plane can
+be divided into reversible-jamming and irreversible-jamming regimes, based on
+the reversibility of the route from the initial configuration to jamming. Our
+results suggest that the irreversible-jamming behavior reflects an escape from
+the meta-stable glass basin to which the initial configuration belongs to, or
+the absence of such basins. All jammed states, either compression or shear
+jammed, are isostatic, and exhibit jamming criticality of the same universality
+class. However, the anisotropy of contact networks non-trivially depends on the
+jamming density and strain. Among all state points on the jamming-plane, the
+jamming-point is a unique one with the minimum jamming density and the maximum
+randomness. For lattice packings, the jamming-plane shrinks into a single shear
+jamming-line that is independent of initial configurations. Our study paves the
+way for solving the long-standing random close packing problem, and provides a
+more complete framework to understand jamming.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yuliang Jin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hajime Yoshino</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1073/pnas.2021794118</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1073/pnas.2021794118" rel="related" />
+    <ns1:comment>28 pages, 23 figures</ns1:comment>
+    <ns1:journal_ref>PNAS April 6, 2021 118 (14) e2021794118</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/2003.10814v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2003.10814v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

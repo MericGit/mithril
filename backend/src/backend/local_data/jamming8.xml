@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2107.07782v1</ns0:id>
+    <ns0:updated>2021-07-16T09:18:14Z</ns0:updated>
+    <ns0:published>2021-07-16T09:18:14Z</ns0:published>
+    <ns0:title>Band &amp; Tone Jamming Analysis and Detection on LoRa signals</ns0:title>
+    <ns0:summary>  This paper examines the effect of Band Jamming (BJ) and Tone Jamming (TJ) on
+LoRa signals in a flat Additive White Gaussian Noise (AWGN) channel. In this
+scenario, LoRa proves to have good resiliency against these jamming attacks.
+Furthermore, a simple and lightweight BJ and TJ jammer detection scheme is
+derived. Theoretical and simulation results show good detection capability,
+especially with Single Tone Jamming (STJ).
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Clément Demeslay</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Roland Gautier</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Anthony Fiche</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Gilles Burel</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2107.07782v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2107.07782v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

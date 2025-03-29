@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2306.13416v1</ns0:id>
+    <ns0:updated>2023-06-23T10:04:11Z</ns0:updated>
+    <ns0:published>2023-06-23T10:04:11Z</ns0:published>
+    <ns0:title>A review on shear jamming</ns0:title>
+    <ns0:summary>  Jamming is a ubiquitous phenomenon that appears in many soft matter systems,
+including granular materials, foams, colloidal suspensions, emulsions,
+polymers, and cells -- when jamming occurs, the system undergoes a transition
+from flow-like to solid-like states. Conventionally, the jamming transition
+occurs when the system reaches a threshold jamming density under isotropic
+compression, but recent studies reveal that jamming can also be induced by
+shear. Shear jamming has attracted much interest in the context of
+non-equilibrium phase transitions, mechanics and rheology of amorphous
+materials. Here we review the phenomenology of shear jamming and its related
+physics. We first describe basic observations obtained in experiments and
+simulations, and results from theories. Shear jamming is then demonstrated as a
+"bridge" that connects the rheology of athermal soft spheres and thermal hard
+spheres. Based on a generalized jamming phase diagram, a universal description
+is provided for shear jamming in frictionless and frictional systems. We
+further review the isostaticity and criticality of the shear jamming
+transition, and the elasticity of shear jammed solids. The broader relevance of
+shear jamming is discussed, including its relation to other phenomena such as
+shear hardening, dilatancy, fragility, and discrete shear thickening.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Deng Pan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yinqiao Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hajime Yoshino</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jie Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuliang Jin</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1016/j.physrep.2023.10.002</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1016/j.physrep.2023.10.002" rel="related" />
+    <ns1:comment>19 pages, 9 figures</ns1:comment>
+    <ns1:journal_ref>Physics Reports, Volume 1038, 2 November 2023, Pages 1-18</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/2306.13416v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2306.13416v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

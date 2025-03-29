@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1301.0911v1</ns0:id>
+    <ns0:updated>2013-01-05T15:31:08Z</ns0:updated>
+    <ns0:published>2013-01-05T15:31:08Z</ns0:published>
+    <ns0:title>An Outlook on Nuclear Physics</ns0:title>
+    <ns0:summary>  A brief outlook on low-energy nuclear physics is presented. Selected recent
+developments in nuclear structure theory are highlighted and a few open
+questions are discussed.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>A. B. Balantekin</ns0:name>
+      <ns1:affiliation>Wisconsin U., Madison</ns1:affiliation>
+    </ns0:author>
+    <ns1:doi>10.5506/APhysPolB.44.249</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.44.249" rel="related" />
+    <ns1:comment>Presented at the Zakopane School on Nuclear Physics "Extremes of the
+  Nuclear Landscape", August 27 - September 2, 2012, Zakopane, Poland</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1301.0911v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1301.0911v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-ex" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

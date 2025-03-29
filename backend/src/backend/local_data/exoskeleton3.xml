@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1706.05440v1</ns0:id>
+    <ns0:updated>2017-06-16T22:03:37Z</ns0:updated>
+    <ns0:published>2017-06-16T22:03:37Z</ns0:published>
+    <ns0:title>Characterizing Lifting and Lowering Activities with Insole FSR sensors
+  in Industrial Exoskeletons</ns0:title>
+    <ns0:summary>  This paper presents an insole FSR (Force Sensing Resistor) to dynamically
+detect weight variations in an exoskeleton system. The proposed methodology is
+intended for tasks of lifting and lowering heavy weights with an industrial
+exoskeleton to substantially reduce spinal loads during these manual handling
+activities. Instead of extensively placing high-dense force sensors by covering
+the whole plantar area, as most of commercial applications do, we integrate
+only a few force sensors in specific plantar area, so that the sensory system
+is not restricted to an individual foot size and shape, and on the other hand
+has relatively lower material cost. Industrial exoskeletons are intended to
+assist workers when handling heavy goods. With this in mind, wearers are not
+able to use their hands to control the exoskeleton since they use them to
+handle the goods. Therefore, the exoskeleton controller is required to
+indirectly infer how much and when the wearer requires assistance for lifting
+or lowering a heavy weight. Our approach of dynamically detect and characterize
+the increment/decrement of weight, as well as the rising/falling edge, enables
+the exoskeleton's controller to trigger the request of assistive force to the
+actuators.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Luis A. Mateos</ns0:name>
+    </ns0:author>
+    <ns1:comment>6 pages, 6 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1706.05440v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1706.05440v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="68T40" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="I.2.9" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

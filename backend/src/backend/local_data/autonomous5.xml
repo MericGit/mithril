@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1906.00209v3</ns0:id>
+    <ns0:updated>2019-06-14T01:58:23Z</ns0:updated>
+    <ns0:published>2019-06-01T12:00:04Z</ns0:published>
+    <ns0:title>Continuum-wise expansive Non-Autonomous Discrete Systems</ns0:title>
+    <ns0:summary>  In this paper, we study continuum-wise expansive non-autonomous discrete
+dynamical systems. We discuss various properties of such non-autonomous
+systems. We further obtain results for cw-expansive non-autonomous systems with
+shadowing property and obtain an important equivalence.
+  \keywords{Non-autonomous dynamical systems, continuum-wise expansive,
+shadowing property
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Radhika Vasisht</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruchi Das</ns0:name>
+    </ns0:author>
+    <ns1:comment>Some results may not be correct</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1906.00209v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1906.00209v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.DS" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.DS" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="Primary 54H20, Secondary 37B55, 54B20" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2106.16032v2</ns0:id>
+    <ns0:updated>2022-03-05T01:07:25Z</ns0:updated>
+    <ns0:published>2021-06-30T12:58:32Z</ns0:published>
+    <ns0:title>Robust Inertial-aided Underwater Localization based on Imaging Sonar
+  Keyframes</ns0:title>
+    <ns0:summary>  This article focuses on feature-based underwater localization and navigation
+for autonomous underwater vehicles (AUVs) using 2D imaging sonar measurements.
+The sparsity of underwater acoustic features and the loss of elevation angle in
+sonar images may introduce wrong feature matches or insufficient features for
+optimization-based underwater localization (i.e. under-constrained/degeneracy
+cases). This motivates us to propose a novel inertial-aided sliding window
+optimization framework to improve the estimation accuracy and the robustness to
+front-end outliers. Concretely, we first discriminate under-constrained/
+well-constrained sonar frames and define sonar keyframes (SKFs) based on the
+Jacobian matrix derived from odometry and sonar measurements. To utilize the
+past well-constrained SKFs mostly, we design a size-adjustable windowed
+back-end optimization scheme based on singular values. We also prove that the
+landmark triangulation failure (navigation problem) caused by sonar motion can
+be solved in 2D scenes. Comparative simulation and evaluation on a public
+dataset show the proposed method outperforms the existing ones in pose
+estimation and robustness even without loop closure and also ensures the
+real-time performance for online applications.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yang Xu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ronghao Zheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Senlin Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Meiqin Liu</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TIM.2022.3156980</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TIM.2022.3156980" rel="related" />
+    <ns1:comment>11 pages, 13 figures, accepted by IEEE Transactions on
+  Instrumentation and Measurement, 2021</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2106.16032v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2106.16032v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

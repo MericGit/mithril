@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1904.07613v1</ns0:id>
+    <ns0:updated>2019-04-16T12:07:43Z</ns0:updated>
+    <ns0:published>2019-04-16T12:07:43Z</ns0:published>
+    <ns0:title>Jam Sessions: Analysis and Experimental Evaluation of Advanced Jamming
+  Attacks in MIMO Networks</ns0:title>
+    <ns0:summary>  In advanced jamming, the adversary intentionally concentrates the available
+energy budget on specific critical components (e.g., pilot symbols,
+acknowledgement packets, etc.) to (i) increase the jamming effectiveness, as
+more targets can be jammed with the same energy budget; and (ii) decrease the
+likelihood of being detected, as the channel is jammed for a shorter period of
+time. One of the fundamental challenges in designing defense mechanisms against
+an advanced jammer is understanding which jamming strategies yields the lowest
+throughput, for a given channel condition and a given amount of energy. To the
+best of our knowledge, this problem still remains unsolved. To fill this gap,
+in this paper we conduct a comparative analysis of several most viable advanced
+jamming schemes in the widely-used MIMO networks. We first mathematically model
+a number of advanced jamming schemes at the signal processing level, so that a
+quantitative relationship between the jamming energy and the jamming effect is
+established. Based on the model, theorems are derived on the optimal advanced
+jamming scheme for an arbitrary channel condition. The theoretical findings are
+validated through extensive simulations and experiments on a 5-radio 2x2 MIMO
+testbed. Our results show that the theorems are able to predict jamming
+efficiency with high accuracy. Moreover, we show that the theorems can be
+incorporated to state-of-art reinforcement learning based jamming algorithms
+and boost the action exploration phase so that a faster convergence is
+achieved.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Liyang Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Francesco Restuccia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tommaso Melodia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Scott M. Pudleswki</ns0:name>
+    </ns0:author>
+    <ns1:comment>To appear at ACM MobiHoc 2019, Catania, Italy</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1904.07613v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1904.07613v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

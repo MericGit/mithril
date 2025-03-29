@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2002.02708v1</ns0:id>
+    <ns0:updated>2020-02-07T10:53:17Z</ns0:updated>
+    <ns0:published>2020-02-07T10:53:17Z</ns0:published>
+    <ns0:title>Embedding Jamming Attacks into Physical Layer Models in Optical Networks</ns0:title>
+    <ns0:summary>  Optical networks are prone to physical layer attacks, in particular the
+insertion of high jamming power. In this paper, we present a study of jamming
+attacks in elastic optical networks (EON) by embedding the jamming into the
+physical layer model, and we analyze its impact on the blocking probability and
+slots utilization. We evaluate our proposed model using a single link and a
+network topology and we show that for in-band-jamming, the slots utilization
+decreases with the increase of jamming power, and becomes null when the jamming
+power is higher than 3 dB, while for out-of-band jamming, the impact is maximal
+for a specific jamming power, 1.75 dB in our simulation. Considering multiple
+positions of attackers, we attained the highest blocking probability 32% for a
+specific jamming power 2 dB. We conclude that the impact of jamming depends on
+attacker positions as well as the jamming power.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mounir Bensalem</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ítalo Brasileiro</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>André Drummond</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Admela Jukan</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.23919/ONDM48393.2020.9132999</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.23919/ONDM48393.2020.9132999" rel="related" />
+    <ns0:link href="http://arxiv.org/abs/2002.02708v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2002.02708v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1812.06548v1</ns0:id>
+    <ns0:updated>2018-12-16T22:27:07Z</ns0:updated>
+    <ns0:published>2018-12-16T22:27:07Z</ns0:published>
+    <ns0:title>Construction of a Natural Transformation from a Classical to a Quantum
+  0-Species</ns0:title>
+    <ns0:summary>  A natural transformation $\mathfrak{J}$ between functors valued in the
+category $\mathfrak{Chdv}_{0}$ is assembled. $\mathfrak{Chdv}_{0}$ is obtained
+by replacing both the categories $\mathrm{ptls}$ and $\mathrm{ptsa}$ with the
+category of topological linear spaces in the defining properties of the
+category $\mathfrak{Chdv}$ introduced in one of our previous papers. By letting
+a $\mathfrak{dp}$-valued functor be (classical) quantum whenever every its
+value is a dynamical pattern whose set map takes values in the set of
+(commutative) noncommutative topological unital $\ast-$algebras, and letting a
+(classical) quantum $0$-species be a $\mathfrak{Chdv}_{0}$-valued functor
+factorizing through the canonical functor from $\mathfrak{dp}$ to
+$\mathfrak{Chdv}_{0}$ into a (classical) quantum $\mathfrak{dp}$-valued
+functor, we have that the domain and codomain of $\mathfrak{J}$ are a classical
+and a quantum $0$-species respectively.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Benedetto Silvestri</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1812.06548v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1812.06548v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="Primary 46M99, 46H35, 47D06, 46Kxx, Secondary 46F05" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2407.20094v1</ns0:id>
+    <ns0:updated>2024-07-29T15:23:35Z</ns0:updated>
+    <ns0:published>2024-07-29T15:23:35Z</ns0:published>
+    <ns0:title>Orbital Angular Momentum Active Anti-Jamming in Radio Wireless
+  Communications</ns0:title>
+    <ns0:summary>  Orbital angular momentum (OAM), providing the orthogonality among different
+OAM modes, has attracted much attention to significantly increase spectrum
+efficiencies (SEs) and enhance the anti-jamming results of wireless
+communications. However, the SE of wireless communications is severely degraded
+under co-frequency and co-mode hostile jamming. Focused on this issue, we
+propose a novel OAM active anti-jamming scheme to significantly enhance the
+anti-jamming results of wireless communications under broadband hostile
+jamming. Specifically, the OAM transmitter with energy detection senses jamming
+signals to identify which OAM modes are jammed and unjammed. Based on the
+recognition of OAM modes, useful signals are modulated by reflecting the
+received co-frequency and co-mode jamming signals with the assistance of a
+programmable gain amplifier (PGA) to the OAM receiver, thus utilizing both the
+OAM modes jammed by hostile attacks and the energy of jamming signals.
+Meanwhile, the unjammed OAM modes allocated with total transmit power are
+multiplexed for useful signal transmission. Numerical results demonstrate that
+our proposed OAM active anti-jamming scheme can achieve high OAM mode
+utilization and significantly increase the SEs.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Kexin Zheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenchi Cheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Liping Liang</ns0:name>
+    </ns0:author>
+    <ns1:comment>5 pages, 3 figures and accepted by Ucom 2024</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2407.20094v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2407.20094v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

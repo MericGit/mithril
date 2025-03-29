@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2305.06772v2</ns0:id>
+    <ns0:updated>2023-07-03T17:20:09Z</ns0:updated>
+    <ns0:published>2023-05-11T12:52:36Z</ns0:published>
+    <ns0:title>Control of a Back-Support Exoskeleton to Assist Carrying Activities</ns0:title>
+    <ns0:summary>  Back-support exoskeletons are commonly used in the workplace to reduce low
+back pain risk for workers performing demanding activities. However, for the
+assistance of tasks differing from lifting, back-support exoskeletons potential
+has not been exploited extensively. This work focuses on the use of an active
+back-support exoskeleton to assist carrying. Two control strategies are
+designed that modulate the exoskeleton torques to comply with the task
+assistance requirements. In particular, two gait phase detection frameworks are
+exploited to adapt the assistance according to the legs' motion. The two
+strategies are assessed through an experimental analysis on ten subjects.
+Carrying task is performed without and with the exoskeleton assistance. Results
+prove the potential of the presented controls in assisting the task without
+hindering the gait movement and improving the usability experienced by users.
+Moreover, the exoskeleton assistance significantly reduces the lumbar load
+associated with the task, demonstrating its promising use for risk mitigation
+in the workplace.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Maria Lazzaroni</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Giorgia Chini</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Francesco Draicchio</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christian Di Natali</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Darwin G. Caldwell</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jesús Ortiz</ns0:name>
+    </ns0:author>
+    <ns1:comment>in-press article, accepted for 2023 IEEE International Conference on
+  Rehabilitation Robotics (ICORR)</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2305.06772v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2305.06772v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

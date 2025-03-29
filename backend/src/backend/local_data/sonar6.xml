@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2305.14773v1</ns0:id>
+    <ns0:updated>2023-05-24T06:23:33Z</ns0:updated>
+    <ns0:published>2023-05-24T06:23:33Z</ns0:published>
+    <ns0:title>Robust Imaging Sonar-based Place Recognition and Localization in
+  Underwater Environments</ns0:title>
+    <ns0:summary>  Place recognition using SOund Navigation and Ranging (SONAR) images is an
+important task for simultaneous localization and mapping(SLAM) in underwater
+environments. This paper proposes a robust and efficient imaging SONAR based
+place recognition, SONAR context, and loop closure method. Unlike previous
+methods, our approach encodes geometric information based on the
+characteristics of raw SONAR measurements without prior knowledge or training.
+We also design a hierarchical searching procedure for fast retrieval of
+candidate SONAR frames and apply adaptive shifting and padding to achieve
+robust matching on rotation and translation changes. In addition, we can derive
+the initial pose through adaptive shifting and apply it to the iterative
+closest point (ICP) based loop closure factor. We evaluate the performance of
+SONAR context in the various underwater sequences such as simulated open water,
+real water tank, and real underwater environments. The proposed approach shows
+the robustness and improvements of place recognition on various datasets and
+evaluation metrics. Supplementary materials are available at
+https://github.com/sparolab/sonar_context.git.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hogyun Kim</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Gilhwan Kang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Seokhwan Jeong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Seungjun Ma</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Younggun Cho</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/ICRA48891.2023.10161518</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/ICRA48891.2023.10161518" rel="related" />
+    <ns1:comment>7 pages, 8 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2305.14773v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2305.14773v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

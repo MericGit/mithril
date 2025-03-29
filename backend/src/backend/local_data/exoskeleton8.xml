@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2410.16887v1</ns0:id>
+    <ns0:updated>2024-10-22T10:45:05Z</ns0:updated>
+    <ns0:published>2024-10-22T10:45:05Z</ns0:published>
+    <ns0:title>Distribution of Responsibility During the Usage of AI-Based Exoskeletons
+  for Upper Limb Rehabilitation</ns0:title>
+    <ns0:summary>  The ethical issues concerning the AI-based exoskeletons used in healthcare
+have already been studied literally rather than technically. How the ethical
+guidelines can be integrated into the development process has not been widely
+studied. However, this is one of the most important topics which should be
+studied more in real-life applications. Therefore, in this paper we highlight
+one ethical concern in the context of an exoskeleton used to train a user to
+perform a gesture: during the interaction between the exoskeleton, patient and
+therapist, how is the responsibility for decision making distributed? Based on
+the outcome of this, we will discuss how to integrate ethical guidelines into
+the development process of an AI-based exoskeleton. The discussion is based on
+a case study: AiBle. The different technical factors affecting the
+rehabilitation results and the human-machine interaction for AI-based
+exoskeletons are identified and discussed in this paper in order to better
+apply the ethical guidelines during the development of AI-based exoskeletons.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name> Huaxi</ns0:name>
+      <ns1:affiliation>Yulin</ns1:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name> Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Melanie Fontaine</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marianne Huchard</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Baptiste Mereaux</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Olivier Remy-Neris</ns0:name>
+    </ns0:author>
+    <ns1:comment>Robot Trust for Symbiotic Societies (RTSS) at IROS 2022</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2410.16887v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2410.16887v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="Computer science" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

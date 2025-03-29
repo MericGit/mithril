@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2006.02896v1</ns0:id>
+    <ns0:updated>2020-06-02T18:41:34Z</ns0:updated>
+    <ns0:published>2020-06-02T18:41:34Z</ns0:published>
+    <ns0:title>Jamming-Aware Control Plane in Elastic Optical Networks</ns0:title>
+    <ns0:summary>  Physical layer security is essential in optical networks. In this paper, we
+study a jamming-aware control plane, in which a high power jamming attack
+exists in the network. The studied control plane considers that the jammed
+connections can be detected and avoided. We used a physical layer model, in
+which we embedded the additional jamming power, to evaluate different security
+in scenarios, such as a jamming-free scenario, jamming with an unaware
+controller, and jamming with an aware controller. The performance is analyzed
+in terms of the blocking rate and slots utilization. We analyze the impact of
+jamming attacks in the least used link and in the most used link on the
+network. The results demonstrates that the jamming avoidance by the control
+plane can reach performance near the not jammed scenario.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ítalo Brasileiro</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mounir Bensalem</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>André Drummond</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Admela Jukan</ns0:name>
+    </ns0:author>
+    <ns1:comment>This paper is uploaded here for research community, thus it is for
+  non-commercial purposes. arXiv admin note: text overlap with arXiv:2002.02708</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2006.02896v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2006.02896v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

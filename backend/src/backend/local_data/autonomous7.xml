@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2205.07944v1</ns0:id>
+    <ns0:updated>2022-05-16T19:05:27Z</ns0:updated>
+    <ns0:published>2022-05-16T19:05:27Z</ns0:published>
+    <ns0:title>Design and Implement an Enhanced Simulator for Autonomous Delivery Robot</ns0:title>
+    <ns0:summary>  As autonomous driving technology is getting more and more mature today,
+autonomous delivery companies like Starship, Marble, and Nuro has been making
+progress in the tests of their autonomous delivery robots. While simulations
+and simulators are very important for the final product landing of the
+autonomous delivery robots since the autonomous delivery robots need to
+navigate on the sidewalk, campus, and other urban scenarios, where the
+simulations can avoid real damage to pedestrians and properties in the real
+world caused by any algorithm failures and programming errors and thus
+accelerate the whole developing procedure and cut down the cost. In this case,
+this study proposes an open-source simulator based on our autonomous delivery
+robot ZebraT to accelerate the research on autonomous delivery. The simulator
+developing procedure is illustrated step by step. What is more, the
+applications on the simulator that we are working on are also introduced, which
+includes autonomous navigation in the simulated urban environment, cooperation
+between an autonomous vehicle and an autonomous delivery robot, and
+reinforcement learning practice on the task training in the simulator. We have
+published the proposed simulator in Github.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zhaofeng Tian</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Weisong Shi</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2205.07944v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2205.07944v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

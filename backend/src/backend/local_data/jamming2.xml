@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2208.09518v1</ns0:id>
+    <ns0:updated>2022-08-19T19:12:38Z</ns0:updated>
+    <ns0:published>2022-08-19T19:12:38Z</ns0:published>
+    <ns0:title>Recurrent Neural Network-based Anti-jamming Framework for Defense
+  Against Multiple Jamming Policies</ns0:title>
+    <ns0:summary>  Conventional anti-jamming methods mainly focus on preventing single jammer
+attacks with an invariant jamming policy or jamming attacks from multiple
+jammers with similar jamming policies. These anti-jamming methods are
+ineffective against a single jammer following several different jamming
+policies or multiple jammers with distinct policies. Therefore, this paper
+proposes an anti-jamming method that can adapt its policy to the current
+jamming attack. Moreover, for the multiple jammers scenario, an anti-jamming
+method that estimates the future occupied channels using the jammers' occupied
+channels in previous time slots is proposed. In both single and multiple
+jammers scenarios, the interaction between the users and jammers is modeled
+using recurrent neural networks (RNN)s. The performance of the proposed
+anti-jamming methods is evaluated by calculating the users' successful
+transmission rate (STR) and ergodic rate (ER), and compared to a baseline based
+on Q-learning (DQL). Simulation results show that for the single jammer
+scenario, all the considered jamming policies are perfectly detected and high
+STR and ER are maintained. Moreover, when 70 % of the spectrum is under jamming
+attacks from multiple jammers, the proposed method achieves an STR and ER
+greater than 75 % and 80 %, respectively. These values rise to 90 % when 30 %
+of the spectrum is under jamming attacks. In addition, the proposed
+anti-jamming methods significantly outperform the DQL method for all the
+considered cases and jamming scenarios.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ali Pourranjbar</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Georges Kaddoum</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Walid Saad</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2208.09518v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2208.09518v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2401.15433v1</ns0:id>
+    <ns0:updated>2024-01-27T15:05:17Z</ns0:updated>
+    <ns0:published>2024-01-27T15:05:17Z</ns0:published>
+    <ns0:title>Unveiling City Jam-prints of Urban Traffic based on Jam Patterns</ns0:title>
+    <ns0:summary>  We analyze the patterns of traffic jams in urban networks of five large
+cities and an urban agglomeration region in China using real data based on a
+recently developed jam tree model. This model focuses on the way traffic jams
+spread through a network of streets, where the first street that becomes
+congested represents the bottleneck of the jam. We extended the model by
+integrating additional realistic jam components into the model and find that,
+while the locations of traffic jams can vary significantly from day to day and
+hour to hour, the daily distribution of the costs associated with these jams
+follows a consistent pattern, i.e., a power law with similar exponents. This
+distribution pattern appears to hold not only for a given region on different
+days, but also for the same hours on different days. This daily pattern of
+exponent values for traffic jams can be used as a fingerprint for urban
+traffic, i.e., jam-prints. Our findings are useful for quantifying the
+reliability of urban traffic system, and for improving traffic management and
+control.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zeng Guanwen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Serok Nimrod</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lieberthal Efrat Blumenfeld</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Duan Jinxiao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Liu Shiyan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sui Shaobo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Li Daqing</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Havlin Shlomo</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2401.15433v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2401.15433v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

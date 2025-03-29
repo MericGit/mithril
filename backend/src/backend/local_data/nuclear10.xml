@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/nucl-th/0312002v2</ns0:id>
+    <ns0:updated>2004-10-10T10:18:16Z</ns0:updated>
+    <ns0:published>2003-12-01T05:52:39Z</ns0:published>
+    <ns0:title>Equation of state for nuclear matter based on density dependent
+  effective interaction</ns0:title>
+    <ns0:summary>  An interesting method of obtaining equation of state for nuclear matter, from
+a density dependent M3Y interaction, by minimizing the energy per nucleon is
+described. The density dependence parameters of the interaction are obtained by
+reproducing the saturation energy per nucleon and the saturation density of
+spin and isospin symmetric cold infinite nuclear matter. The nuclear matter
+equation of state thus obtained is then used to calculate the pressure, the
+energy density, the nuclear incompressibility and the velocity of sound in
+nuclear medium. The results obtained are in good agreement with experimental
+data and provide a unified description of radioactivity, scattering and nuclear
+matter.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>D. N. Basu</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1142/S0218301305003521</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1142/S0218301305003521" rel="related" />
+    <ns1:comment>10 pages including 2 figures</ns1:comment>
+    <ns1:journal_ref>Int.J.Mod.Phys. E14 (2005) 739-749</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/nucl-th/0312002v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/nucl-th/0312002v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

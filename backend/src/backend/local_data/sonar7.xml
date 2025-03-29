@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2409.07004v1</ns0:id>
+    <ns0:updated>2024-09-11T04:35:07Z</ns0:updated>
+    <ns0:published>2024-09-11T04:35:07Z</ns0:published>
+    <ns0:title>Performance Assessment of Feature Detection Methods for 2-D FS Sonar
+  Imagery</ns0:title>
+    <ns0:summary>  Underwater robot perception is crucial in scientific subsea exploration and
+commercial operations. The key challenges include non-uniform lighting and poor
+visibility in turbid environments. High-frequency forward-look sonar cameras
+address these issues, by providing high-resolution imagery at maximum range of
+tens of meters, despite complexities posed by high degree of speckle noise, and
+lack of color and texture. In particular, robust feature detection is an
+essential initial step for automated object recognition, localization,
+navigation, and 3-D mapping. Various local feature detectors developed for RGB
+images are not well-suited for sonar data. To assess their performances, we
+evaluate a number of feature detectors using real sonar images from five
+different sonar devices. Performance metrics such as detection accuracy, false
+positives, and robustness to variations in target characteristics and sonar
+devices are applied to analyze the experimental results. The study would
+provide a deeper insight into the bottlenecks of feature detection for sonar
+data, and developing more effective methods
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hitesh Kyatham</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shahriar Negahdaripour</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Xu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaomin Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Miao Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yiannis Aloimonos</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2409.07004v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2409.07004v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="eess.IV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.IV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  
