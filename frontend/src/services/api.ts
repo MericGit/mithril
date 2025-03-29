@@ -3,28 +3,26 @@ import { ResearchPaper } from '../types/Paper';
 const API_BASE_URL = 'http://localhost:8000/api';
 
 interface FilterParams {
+  keyword?: string;
   keywords?: string[];
   topics?: string[];
   authors?: string[];
   countries?: string[];
-  journal?: string;
   dateFrom?: string;
   dateTo?: string;
-  minCitations?: number;
 }
 
 export const getPapers = async (filters?: FilterParams): Promise<ResearchPaper[]> => {
   const params = new URLSearchParams();
   
   if (filters) {
+    if (filters.keyword) params.append('keyword', filters.keyword);
     if (filters.keywords?.length) params.append('keywords', filters.keywords.join(','));
     if (filters.topics?.length) params.append('topics', filters.topics.join(','));
     if (filters.authors?.length) params.append('authors', filters.authors.join(','));
     if (filters.countries?.length) params.append('countries', filters.countries.join(','));
-    if (filters.journal) params.append('journal', filters.journal);
     if (filters.dateFrom) params.append('date_from', filters.dateFrom);
     if (filters.dateTo) params.append('date_to', filters.dateTo);
-    if (filters.minCitations !== undefined) params.append('min_citations', filters.minCitations.toString());
   }
 
   const queryString = params.toString();

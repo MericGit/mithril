@@ -141,24 +141,6 @@ const Papers: React.FC = () => {
               ))}
             </div>
           </div>
-
-          <div className="filter-group">
-            <input
-              type="text"
-              value={journal}
-              onChange={(e) => setJournal(e.target.value)}
-              placeholder="Filter by journal"
-            />
-          </div>
-
-          <div className="filter-group">
-            <input
-              type="number"
-              value={minCitations}
-              onChange={(e) => setMinCitations(e.target.value === '' ? '' : Number(e.target.value))}
-              placeholder="Min citations"
-            />
-          </div>
         </div>
       </header>
       
