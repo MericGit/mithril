@@ -1,11 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PaperDetails from '../components/PaperDetails';
-import { samplePapers } from '../data/papers';
+// import { samplePapers } from '../data/papers';  // Keeping for reference
+import { getPapers } from '../services/api';
+import { ResearchPaper } from '../types/Paper';
 import '../styles/PaperDetails.css';
 
 const Papers: React.FC = () => {
-  const [selectedPaper, setSelectedPaper] = useState(samplePapers[0]);
-  
+  const [papers, setPapers] = useState<ResearchPaper[]>([]);
+  const [selectedPaper, setSelectedPaper] = useState<ResearchPaper | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchPapers = async () => {
+      try {
+        const fetchedPapers = await getPapers();
+        setPapers(fetchedPapers);
+        setSelectedPaper(fetchedPapers[0]);
+      } catch (err) {
+        setError('Failed to fetch papers');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPapers();
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
+  if (!selectedPaper) return <div>No papers available</div>;
+
   return (
     <div className="papers-page">
       <header className="app-header">
@@ -14,7 +39,7 @@ const Papers: React.FC = () => {
       
       <nav className="papers-nav">
         <div className="papers-list">
-          {samplePapers.map(paper => (
+          {papers.map(paper => (
             <div 
               key={paper.id}
               className={`paper-item ${selectedPaper.id === paper.id ? 'active' : ''}`}

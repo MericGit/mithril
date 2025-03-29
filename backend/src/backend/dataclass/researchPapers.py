@@ -1,37 +1,46 @@
-from dataclasses import dataclass
-from typing import List, Optional
-from pathlib import Path
+from dataclasses import dataclass, asdict
+from typing import List
+from datetime import datetime
+
+@dataclass
+class Author:
+    name: str
+    country: str
+    affiliation: str
+
+@dataclass
+class PaperKeyword:
+    keyword: str
+    relevance: float
 
 @dataclass
 class ResearchPaper:
     """
-    Represents a research paper with its metadata and file location.
+    Represents a research paper with its metadata.
     
     Attributes:
-        countries: List of countries where the research originated
-        authors: List of authors of the paper
-        file_path: Path to the research paper file
-        topic: Main topic or subject area of the paper
+        id: Unique identifier for the paper
         title: Title of the research paper
-        institutions: List of institutions involved in the research
+        abstract: Abstract or summary of the paper
+        authors: List of authors with their details
+        publishedDate: Date when the paper was published
+        citations: Number of citations
+        doi: Digital Object Identifier
+        topics: List of research topics
+        keywords: List of keywords with relevance scores
+        journal: Name of the journal where published
     """
-    countries: List[str]
-    authors: List[str]
-    file_path: Path
-    topic: str
+    id: str
     title: str
-    institutions: List[str]
-    
-    def __post_init__(self):
-        """Validate and convert file_path to Path object if it's a string."""
-        if isinstance(self.file_path, str):
-            self.file_path = Path(self.file_path)
-            
-    @property
-    def exists(self) -> bool:
-        """Check if the paper file exists in the specified location."""
-        return self.file_path.exists()
-    
-    def __str__(self) -> str:
-        """Return a string representation of the research paper."""
-        return f"{self.title} by {', '.join(self.authors)} ({', '.join(self.countries)}) - {self.topic}"
+    abstract: str
+    authors: List[Author]
+    publishedDate: str
+    citations: int
+    doi: str
+    topics: List[str]
+    keywords: List[PaperKeyword]
+    journal: str
+
+    def to_dict(self) -> dict:
+        """Convert the research paper to a dictionary format for JSON serialization."""
+        return asdict(self)
