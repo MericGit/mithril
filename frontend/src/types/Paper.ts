@@ -26,6 +26,7 @@ export interface ResearchPaper {
   abstract: string;
   authors: Author[];
   publishedDate: string;
+  addedDate: string;
   citations: number;
   doi: string;
   topics: string[];

@@ -1,196 +1,252 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, UploadFile, File, HTTPException, Request
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 import json
 import os
-from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor, PublicationsData, CountryPublicationData, WorldMapPoint
+import base64
+from pathlib import Path
+from .dataclass.researchPapers import ResearchPaper, Author, PaperKeyword, RiskFactor
+from .clients.agiClient import AGIClient
 
 router = APIRouter()
+agi_client = AGIClient()
 
-# Paths to data files
-DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/clients/data.json'
-PUBLICATIONS_DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/data/publications_data.json'
-WORLD_MAP_DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/data/world_map_data.json'
+# Path to local data directory for storing uploaded PDFs
+UPLOAD_DIR = Path(__file__).resolve().parent / "local_data"
+UPLOAD_DIR.mkdir(exist_ok=True)
 
-# Country flags mapping
-COUNTRY_FLAGS = {
-    'United States': '🇺🇸',
-    'China': '🇨🇳',
-    'Russia': '🇷🇺',
-    'Iran': '🇮🇷',
-    'India': '🇮🇳',
-    'Japan': '🇯🇵',
-    'United Kingdom': '🇬🇧',
-    'Germany': '🇩🇪',
-    'France': '🇫🇷',
-    'Brazil': '🇧🇷',
-    'Israel': '🇮🇱',
-    'South Korea': '🇰🇷',
-    'European Union': '🇪🇺',
-    'Canada': '🇨🇦',
-    'Australia': '🇦🇺',
-}
+# Maximum file size (10MB)
+MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB in bytes
+
+# Path to data.json file
+DATA_PATH = os.path.join(os.path.dirname(__file__), 'clients', 'data.json')
 
 def load_data_from_json() -> List[ResearchPaper]:
     """Load data from data.json and convert to ResearchPaper objects"""
     try:
         with open(DATA_PATH, 'r') as f:
             data_list = json.load(f)
-        
-        # Ensure data is a list
-        if not isinstance(data_list, list):
-            data_list = [data_list]
-        
-        papers = []
-        
-        # Process each paper in the list
-        for index, data in enumerate(data_list):
-            # Convert the data to a ResearchPaper object
-            paper = ResearchPaper(
-                id=str(index + 1),  # Generate a unique ID
-                title=data.get("paper_title", ""),
-                abstract=data.get("paper_abstract", ""),
-                paper_summary=data.get("paper_summary", ""),
-                presumed_publish_country=data.get("presumed_publish_country", ""),
-                topics=data.get("topics", []),
-                topics_relevence=data.get("topics_relevence", []),
-                risk_score=data.get("risk_score", 0),
-                author_info=data.get("author_info", []),
-                publishedDate=data.get("paper_publish_date", None),
-                citations=0,  # Default value
-                doi=data.get("paper_doi", ""),
-                journal=data.get("paper_journal", ""),
-            )
+            papers = []
             
-            # Process authors
-            authors_list = data.get("authors", [])
-            author_info_list = data.get("author_info", [])
-            
-            # Create Author objects
-            for i, author_name in enumerate(authors_list):
-                # Try to extract affiliation from author_info if available
-                affiliation = ""
-                country = data.get("presumed_publish_country", "")
+            for data in data_list:
+                # Create base paper object
+                paper = ResearchPaper(
+                    id=str(len(papers) + 1),
+                    title=data.get("paper_title", ""),
+                    abstract=data.get("paper_abstract", ""),
+                    paper_summary=data.get("paper_summary", ""),
+                    presumed_publish_country=data.get("presumed_publish_country", ""),
+                    topics=data.get("topics", []),
+                    topics_relevence=data.get("topics_relevence", []),
+                    risk_score=data.get("risk_score", 0),
+                    author_info=data.get("author_info", []),
+                    publishedDate=data.get("paper_publish_date", datetime.now().strftime("%Y-%m-%d")),
+                    addedDate=datetime.now().strftime("%Y-%m-%d"),  # Always set to current time
+                    citations=0,
+                    doi=data.get("paper_doi", ""),
+                    journal=data.get("paper_journal", "")
+                )
                 
-                if i < len(author_info_list):
-                    info = author_info_list[i]
-                    # Extract affiliation from info if possible
-                    if ": " in info and ", " in info:
-                        parts = info.split(", ")
-                        if len(parts) > 1:
-                            affiliation = parts[1]
-                
-                paper.authors.append(Author(
-                    name=author_name,
-                    country=country,
-                    affiliation=affiliation
-                ))
-            
-            # Process keywords/topics with relevance
-            topics = data.get("topics", [])
-            relevance_scores = data.get("topics_relevence", [])
-            
-            for i, topic in enumerate(topics):
-                relevance = 0.5  # Default relevance
-                if i < len(relevance_scores):
-                    # Convert percentage to decimal
-                    relevance = relevance_scores[i] / 100.0
-                
-                paper.keywords.append(PaperKeyword(
-                    keyword=topic,
-                    relevance=relevance
-                ))
-            
-            # Create a risk factor based on the risk score
-            risk_score = data.get("risk_score", 0)
-            reasoning = data.get("reasoning", "")
-            
-            if risk_score > 0:
-                risk_type = "LOW"
-                if risk_score >= 70:
-                    risk_type = "HIGH"
-                elif risk_score >= 40:
-                    risk_type = "MEDIUM"
+                # Add authors
+                for i, author_name in enumerate(data.get("authors", [])):
+                    affiliation = ""
+                    country = data.get("presumed_publish_country", "")
                     
-                paper.riskFactors.append(RiskFactor(
-                    type=risk_type,
-                    category="Summary",
-                    description=reasoning,
-                    relatedKeywords=topics[:2] if len(topics) >= 2 else topics,  # Use first two topics as related keywords
-                    potentialImpact="This research may have security implications based on the risk assessment.",
-                    mitigationSuggestion="Review the paper carefully and consult with security experts."
-                ))
+                    if i < len(data.get("author_info", [])):
+                        info = data["author_info"][i]
+                        if ": " in info and ", " in info:
+                            parts = info.split(", ")
+                            if len(parts) > 1:
+                                affiliation = parts[1]
+                    
+                    paper.authors.append(Author(
+                        name=author_name,
+                        country=country,
+                        affiliation=affiliation
+                    ))
+                
+                # Add keywords/topics
+                for i, topic in enumerate(data.get("topics", [])):
+                    relevance = 0.5
+                    if i < len(data.get("topics_relevence", [])):
+                        relevance = data["topics_relevence"][i] / 100.0
+                    
+                    paper.keywords.append(PaperKeyword(
+                        keyword=topic,
+                        relevance=relevance
+                    ))
+                
+                # Add risk factor if score exists
+                risk_score = data.get("risk_score", 0)
+                reasoning = data.get("reasoning", "")
+                
+                if risk_score > 0:
+                    risk_type = "LOW"
+                    if risk_score >= 70:
+                        risk_type = "HIGH"
+                    elif risk_score >= 40:
+                        risk_type = "MEDIUM"
+                    
+                    paper.riskFactors.append(RiskFactor(
+                        type=risk_type,
+                        category="Security",
+                        description=reasoning,
+                        relatedKeywords=paper.topics[:2] if len(paper.topics) >= 2 else paper.topics,
+                        potentialImpact="This research may have security implications based on the risk assessment.",
+                        mitigationSuggestion="Review the paper carefully and consult with security experts."
+                    ))
+                
+                papers.append(paper)
             
-            papers.append(paper)
-        
-        return papers
+            return papers
     except Exception as e:
-        print(f"Error loading data from JSON: {e}")
-        # Return sample data as fallback
-        return [
-            ResearchPaper(
-                id="1",
-                title="Advances in Quantum Computing: A Survey of Recent Developments",
-                abstract="This comprehensive survey examines recent developments in quantum computing, focusing on quantum supremacy achievements and practical applications in cryptography and optimization...",
-                authors=[
-                    Author(
-                        name="Sarah Chen",
-                        country="United States",
-                        affiliation="Stanford University"
-                    ),
-                    Author(
-                        name="Alexander Petrov",
-                        country="Russia",
-                        affiliation="Moscow State University"
-                    )
-                ],
-                publishedDate="2024-12-15",
-                citations=145,
-                doi="10.1234/qc.2024.12345",
-                topics=["Quantum Computing", "Cryptography", "Computer Science"],
-                keywords=[
-                    PaperKeyword(keyword="quantum supremacy", relevance=0.95),
-                    PaperKeyword(keyword="quantum circuits", relevance=0.85)
-                ],
-                journal="Nature Quantum Information"
-            ),
-            ResearchPaper(
-                id="2",
-                title="Deep Learning Applications in Autonomous Systems",
-                abstract="This paper explores novel applications of deep learning in autonomous systems, with a focus on real-time decision making and adaptive control mechanisms...",
-                authors=[
-                    Author(
-                        name="Wei Zhang",
-                        country="China",
-                        affiliation="Tsinghua University"
-                    ),
-                    Author(
-                        name="Emily Brown",
-                        country="United States",
-                        affiliation="MIT"
-                    )
-                ],
-                publishedDate="2025-01-20",
-                citations=89,
-                doi="10.1234/ai.2025.67890",
-                topics=["Artificial Intelligence", "Robotics", "Computer Vision"],
-                keywords=[
-                    PaperKeyword(keyword="deep learning", relevance=0.95),
-                    PaperKeyword(keyword="autonomous systems", relevance=0.90)
-                ],
-                journal="IEEE Transactions on Artificial Intelligence"
-            )
-        ]
+        print(f"Error loading data: {e}")
+        return []
+
+def save_papers_to_json():
+    papers_data = [paper.to_dict() for paper in sample_papers]
+    with open(DATA_PATH, 'w') as f:
+        json.dump(papers_data, f, indent=4)
 
 # Load papers from data.json
 sample_papers = load_data_from_json()
+
+@router.post("/api/papers/save")
+async def save_paper(request: Request):
+    """Save uploaded PDF file to local_data directory"""
+    try:
+        body = await request.json()
+        filename = body.get('filename')
+        content = body.get('content')  # base64 encoded content
+
+        if not filename or not content:
+            raise HTTPException(status_code=400, detail="Missing filename or content")
+
+        if not filename.endswith('.pdf'):
+            raise HTTPException(status_code=400, detail="Only PDF files are allowed")
+
+        try:
+            # Decode base64 content
+            file_content = base64.b64decode(content)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail="Invalid file content")
+
+        # Save file to local_data directory
+        file_path = UPLOAD_DIR / filename
+        with open(file_path, "wb") as f:
+            f.write(file_content)
+
+        return {"message": "File saved successfully"}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/api/papers/analyze")
+async def analyze_paper(request: Request):
+    """Analyze PDF file using AGIClient"""
+    try:
+        body = await request.json()
+        filename = body.get('filename')
+
+        if not filename:
+            raise HTTPException(status_code=400, detail="Missing filename")
+
+        # Get file path
+        file_path = UPLOAD_DIR / filename
+        if not file_path.exists():
+            raise HTTPException(status_code=404, detail="File not found")
+
+        try:
+            # Process the PDF using AGIClient
+            paper_data = agi_client.nlp_pipeline(str(file_path))
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"AGI analysis failed: {str(e)}")
+        
+        # Create a new ResearchPaper object
+        paper = ResearchPaper(
+            id=str(len(sample_papers) + 1),
+            title=paper_data.get("paper_title", ""),
+            abstract=paper_data.get("paper_abstract", ""),
+            paper_summary=paper_data.get("paper_summary", ""),
+            presumed_publish_country=paper_data.get("presumed_publish_country", ""),
+            topics=paper_data.get("topics", []),
+            topics_relevence=paper_data.get("topics_relevence", []),
+            risk_score=paper_data.get("risk_score", 0),
+            author_info=paper_data.get("author_info", []),
+            publishedDate=paper_data.get("paper_publish_date", datetime.now().strftime("%Y-%m-%d")),
+            addedDate=datetime.now().strftime("%Y-%m-%d"),  # Always set to current time
+            citations=0,
+            doi=paper_data.get("paper_doi", ""),
+            journal=paper_data.get("paper_journal", "")
+        )
+        
+        # Add authors
+        for i, author_name in enumerate(paper_data.get("authors", [])):
+            affiliation = ""
+            country = paper_data.get("presumed_publish_country", "")
+            
+            if i < len(paper_data.get("author_info", [])):
+                info = paper_data["author_info"][i]
+                if ": " in info and ", " in info:
+                    parts = info.split(", ")
+                    if len(parts) > 1:
+                        affiliation = parts[1]
+            
+            paper.authors.append(Author(
+                name=author_name,
+                country=country,
+                affiliation=affiliation
+            ))
+        
+        # Add keywords/topics
+        for i, topic in enumerate(paper_data.get("topics", [])):
+            relevance = 0.5
+            if i < len(paper_data.get("topics_relevence", [])):
+                relevance = paper_data["topics_relevence"][i] / 100.0
+            
+            paper.keywords.append(PaperKeyword(
+                keyword=topic,
+                relevance=relevance
+            ))
+        
+        # Add risk factor if score exists
+        risk_score = paper_data.get("risk_score", 0)
+        reasoning = paper_data.get("reasoning", "")
+        
+        if risk_score > 0:
+            risk_type = "LOW"
+            if risk_score >= 70:
+                risk_type = "HIGH"
+            elif risk_score >= 40:
+                risk_type = "MEDIUM"
+            
+            paper.riskFactors.append(RiskFactor(
+                type=risk_type,
+                category="Security",
+                description=reasoning,
+                relatedKeywords=paper.topics[:2] if len(paper.topics) >= 2 else paper.topics,
+                potentialImpact="This research may have security implications based on the risk assessment.",
+                mitigationSuggestion="Review the paper carefully and consult with security experts."
+            ))
+        
+        # Insert the new paper at the beginning of the list
+        sample_papers.insert(0, paper)
+        
+        # Save updated papers to data.json
+        save_papers_to_json()
+
+        return paper
+
+    except Exception as e:
+        # Clean up the file if there was an error
+        if 'file_path' in locals() and file_path.exists():
+            file_path.unlink()
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/api/papers")
 async def get_papers(
     countries: List[str] = None,
     topics: List[str] = None,
-    authors: List[str] = None,
-    keywords: List[str] = None,
     journal: str = None,
     date_from: str = None,
     date_to: str = None,
@@ -208,25 +264,13 @@ async def get_papers(
     if topics:
         filtered_papers = [
             paper for paper in filtered_papers
-            if any(topic in topics for topic in paper.topics)
-        ]
-
-    if authors:
-        filtered_papers = [
-            paper for paper in filtered_papers
-            if any(author.name in authors for author in paper.authors)
-        ]
-
-    if keywords:
-        filtered_papers = [
-            paper for paper in filtered_papers
-            if any(kw.keyword in keywords for kw in paper.keywords)
+            if any(topic in paper.topics for topic in topics)
         ]
 
     if journal:
         filtered_papers = [
             paper for paper in filtered_papers
-            if paper.journal.lower() == journal.lower()
+            if paper.journal == journal
         ]
 
     if date_from:
@@ -257,107 +301,9 @@ async def get_papers(
 
     return [paper.to_dict() for paper in filtered_papers]
 
-
-@router.get("/api/publications-data")
-async def get_publications_data():
-    """
-    Get aggregated publications data by country and year for visualization
-    
-    Returns:
-        Dict with years and countries data for charting
-    """
-    try:
-        # Load data from JSON file
-        with open(PUBLICATIONS_DATA_PATH, 'r') as f:
-            data = json.load(f)
-        
-        # Create CountryPublicationData instances
-        country_data_list = []
-        for country_json in data.get('countries', []):
-            country_data = CountryPublicationData(
-                name=country_json.get('name', ''),
-                color=country_json.get('color', '#000000'),
-                flag=country_json.get('flag', ''),
-                data=country_json.get('data', [])
-            )
-            country_data_list.append(country_data)
-        
-        # Create PublicationsData instance
-        publications_data = PublicationsData(
-            years=data.get('years', []),
-            countries=country_data_list
-        )
-        
-        # Return as dictionary for JSON serialization
-        return publications_data.to_dict()
-    
-    except Exception as e:
-        print(f"Error loading publications data from JSON: {e}")
-        # Fallback to generating data if JSON cannot be loaded
-        current_year = datetime.now().year
-        years = list(range(current_year - 4, current_year + 1))
-        
-        # Create sample country data
-        country_data_list = [
-            CountryPublicationData(
-                name="United States",
-                color="#3b82f6",
-                flag="🇺🇸",
-                data=[1200, 1500, 1800, 2100, 2400]
-            ),
-            CountryPublicationData(
-                name="China",
-                color="#ef4444",
-                flag="🇨🇳",
-                data=[1000, 1300, 1900, 2300, 2600]
-            )
-        ]
-        
-        # Create PublicationsData instance
-        publications_data = PublicationsData(
-            years=years,
-            countries=country_data_list
-        )
-        
-        return publications_data.to_dict()
-
 @router.get("/api/papers/{paper_id}")
 async def get_paper(paper_id: str):
     for paper in sample_papers:
         if paper.id == paper_id:
             return paper.to_dict()
     return {"error": "Paper not found"}
-
-@router.get("/api/world-map-data")
-async def get_world_map_data():
-    """
-    Get world map data points representing research activities across countries
-    
-    Returns:
-        List of research points on the world map
-    """
-    try:
-        # Load data from JSON file
-        with open(WORLD_MAP_DATA_PATH, 'r') as f:
-            data = json.load(f)
-        
-        # Create WorldMapPoint instances
-        world_map_points = []
-        for point_data in data:
-            world_map_point = WorldMapPoint(
-                id=point_data.get('id', ''),
-                country=point_data.get('country', ''),
-                topic=point_data.get('topic', ''),
-                # coordinates=point_data.get('coordinates', [0, 0]),
-                intensity=point_data.get('intensity', 0.0),
-                description=point_data.get('description', ''),
-                adversarial=point_data.get('adversarial', False)
-            )
-            world_map_points.append(world_map_point.to_dict())
-        
-        return world_map_points
-    
-    except Exception as e:
-        print(f"Error loading world map data from JSON: {e}")
-        # Return empty array as fallback
-        return []

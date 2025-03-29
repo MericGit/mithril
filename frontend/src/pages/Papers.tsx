@@ -1,67 +1,66 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback, forwardRef, useImperativeHandle } from 'react';
 import PaperDetails from '../components/PaperDetails';
-import { getPapers, uploadPaper } from '../services/api';
+import { getPapers } from '../services/api';
 import { ResearchPaper } from '../types/Paper';
-import { useNavigate } from 'react-router-dom';
-import { researchTopics } from '../data/researchTopics';
 import '../styles/Papers.css';
 
-const Papers: React.FC = () => {
-  const navigate = useNavigate();
-  const fileInputRef = useRef<HTMLInputElement>(null);
+export interface PapersRef {
+  addNewPaper: (paper: ResearchPaper) => void;
+}
+
+const Papers = forwardRef<PapersRef>((props, ref) => {
   const [papers, setPapers] = useState<ResearchPaper[]>([]);
   const [filteredPapers, setFilteredPapers] = useState<ResearchPaper[]>([]);
   const [selectedPaper, setSelectedPaper] = useState<ResearchPaper | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [uploadProgress, setUploadProgress] = useState<number>(0);
-  const [isUploading, setIsUploading] = useState(false);
+
+  // Add new paper to the top of the list
+  const addNewPaper = useCallback((paper: ResearchPaper) => {
+    setPapers(prevPapers => [paper, ...prevPapers]);
+    setFilteredPapers(prevFiltered => [paper, ...prevFiltered]);
+    setSelectedPaper(paper);
+  }, []);
+
+  // Expose addNewPaper method
+  useImperativeHandle(ref, () => ({
+    addNewPaper
+  }));
+
+  // Fetch papers on mount
+  const fetchPapers = useCallback(async () => {
+    try {
+      setLoading(true);
+      const fetchedPapers = await getPapers();
+      // Sort papers by most recently added first
+      const sortedPapers = fetchedPapers.sort((a, b) => {
+        return new Date(b.addedDate).getTime() - new Date(a.addedDate).getTime();
+      });
+      setPapers(sortedPapers);
+      setFilteredPapers(sortedPapers);
+      if (sortedPapers.length > 0) {
+        setSelectedPaper(prevSelected => prevSelected || sortedPapers[0]);
+      }
+    } catch (err) {
+      console.error('Error fetching papers:', err);
+      setError('Failed to fetch papers');
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  // Fetch papers on mount only
+  useEffect(() => {
+    fetchPapers();
+  }, []);
 
   // Filter states
   const [keywordInput, setKeywordInput] = useState('');
   const [keywords, setKeywords] = useState<string[]>([]);
-  const [selectedTopic, setSelectedTopic] = useState<string>('All');
+  const [topicInput, setTopicInput] = useState('');
+  const [topics, setTopics] = useState<string[]>([]);
   const [journal, setJournal] = useState('');
   const [minCitations, setMinCitations] = useState<number | ''>('');
-
-  // File upload handlers
-  const handleFileSelect = () => {
-    fileInputRef.current?.click();
-  };
-
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    const formData = new FormData();
-    formData.append('file', file);
-
-    setIsUploading(true);
-    setError(null);
-
-    try {
-      const uploadedPaper = await uploadPaper(formData, (progress) => {
-        setUploadProgress(progress);
-      });
-
-      // Add the new paper to the list and select it
-      setPapers(prev => [uploadedPaper, ...prev]);
-      setSelectedPaper(uploadedPaper);
-      
-      // Reset the file input
-      if (fileInputRef.current) {
-        fileInputRef.current.value = '';
-      }
-
-      // Navigate to the papers page
-      navigate('/papers');
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to upload paper');
-    } finally {
-      setIsUploading(false);
-      setUploadProgress(0);
-    }
-  };
 
   // Handlers
   const handleAddKeyword = () => {
@@ -71,78 +70,46 @@ const Papers: React.FC = () => {
     }
   };
 
-  const handleTopicChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedTopic(e.target.value);
+  const handleAddTopic = () => {
+    if (topicInput && !topics.includes(topicInput)) {
+      setTopics([...topics, topicInput]);
+      setTopicInput('');
+    }
   };
 
-  // Filter papers based on criteria
-  const filterPapers = useCallback(() => {
+  // Filter papers based on selected filters
+  useEffect(() => {
     let filtered = [...papers];
 
     if (keywords.length > 0) {
       filtered = filtered.filter(paper =>
-        // Check if any of the selected keywords are in the paper's keywords list
-        paper.keywords.some(k => keywords.includes(k.keyword.toLowerCase())) ||
-        // Check if any of the selected keywords are in the paper title
-        keywords.some(keyword => 
-          paper.title.toLowerCase().includes(keyword.toLowerCase())
-        )
+        paper.topics.some(t => keywords.includes(t.toLowerCase()))
       );
     }
 
-    if (selectedTopic !== 'All') {
+    if (topics.length > 0) {
       filtered = filtered.filter(paper =>
-        // Check if the paper's topics match the selected topic
-        paper.topics.some(t => t.toLowerCase().includes(selectedTopic.toLowerCase())) ||
-        // Check if the selected topic is in the paper title
-        paper.title.toLowerCase().includes(selectedTopic.toLowerCase())
+        paper.topics.some(t => topics.includes(t.toLowerCase()))
       );
     }
 
     if (journal) {
       filtered = filtered.filter(paper =>
-        paper.journal.toLowerCase().includes(journal.toLowerCase())
+        paper.journal?.toLowerCase().includes(journal.toLowerCase())
       );
     }
 
     if (minCitations !== '') {
-      filtered = filtered.filter(paper => paper.citations >= minCitations);
+      filtered = filtered.filter(paper => paper.citations !== undefined && paper.citations >= minCitations);
     }
 
     setFilteredPapers(filtered);
-    if (filtered.length > 0 && !selectedPaper) {
+    if (filtered.length > 0 && !filtered.includes(selectedPaper as ResearchPaper)) {
       setSelectedPaper(filtered[0]);
     }
-  }, [papers, keywords, selectedTopic, journal, minCitations, selectedPaper]);
+  }, [papers, keywords, topics, journal, minCitations, selectedPaper]);
 
-  // Fetch papers on mount
-  useEffect(() => {
-    const fetchPapers = async () => {
-      try {
-        setLoading(true);
-        const fetchedPapers = await getPapers();
-        setPapers(fetchedPapers);
-        setFilteredPapers(fetchedPapers);
-        if (fetchedPapers.length > 0) {
-          setSelectedPaper(fetchedPapers[0]);
-        }
-      } catch (err) {
-        console.error('Error fetching papers:', err);
-        setError('Failed to fetch papers');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPapers();
-  }, []);
-
-  // Apply filters whenever filter criteria change
-  useEffect(() => {
-    filterPapers();
-  }, [filterPapers]);
-
-  if (loading) return <div className="loading">Loading...</div>;
+  if (loading) return <div>Loading...</div>;
   if (error) return <div className="error">Error: {error}</div>;
 
   return (
@@ -150,48 +117,45 @@ const Papers: React.FC = () => {
       <header className="app-header">
         <div className="header-content">
           <h1>Research Papers</h1>
-          <div className="upload-section">
-            <input
-              type="file"
-              ref={fileInputRef}
-              onChange={handleFileUpload}
-              accept=".pdf"
-              style={{ display: 'none' }}
-            />
-            {error && <div className="error-message">{error}</div>}
-          </div>
         </div>
         
         <div className="filters-section">
           <div className="filter-group">
-          <label htmlFor="topic-select">Keyword Search: </label>
             <input
               type="text"
               value={keywordInput}
               onChange={(e) => setKeywordInput(e.target.value)}
-              placeholder="Search"
+              placeholder="Add keyword"
               onKeyPress={(e) => e.key === 'Enter' && handleAddKeyword()}
             />
+            <button onClick={handleAddKeyword}>Add</button>
+            <div className="tags">
+              {keywords.map(keyword => (
+                <span key={keyword} className="tag">
+                  {keyword}
+                  <button onClick={() => setKeywords(keywords.filter(k => k !== keyword))}>×</button>
+                </span>
+              ))}
+            </div>
           </div>
 
           <div className="filter-group">
-            <label htmlFor="topic-select">Research Topic: </label>
-            <select
-              id="topic-select"
-              value={selectedTopic}
-              onChange={handleTopicChange}
-              className="topic-dropdown"
-            >
-              <option value="All">All Topics</option>
-              {researchTopics.map(topic => (
-                <option key={topic} value={topic}>
+            <input
+              type="text"
+              value={topicInput}
+              onChange={(e) => setTopicInput(e.target.value)}
+              placeholder="Add topic"
+              onKeyPress={(e) => e.key === 'Enter' && handleAddTopic()}
+            />
+            <button onClick={handleAddTopic}>Add</button>
+            <div className="tags">
+              {topics.map(topic => (
+                <span key={topic} className="tag">
                   {topic}
-                </option>
+                  <button onClick={() => setTopics(topics.filter(t => t !== topic))}>×</button>
+                </span>
               ))}
-            </select>
-          </div>
-          <div className="filter-group">
-            <button onClick={handleAddKeyword}>Search</button>
+            </div>
           </div>
         </div>
       </header>
@@ -227,6 +191,6 @@ const Papers: React.FC = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Papers;
