@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from datetime import datetime
 import json
 import os
@@ -173,7 +173,8 @@ async def get_papers(
     journal: str = None,
     date_from: str = None,
     date_to: str = None,
-    min_citations: int = None
+    min_citations: int = None,
+    keyword: Optional[str] = None
 ):
     filtered_papers = sample_papers
 
@@ -223,6 +224,14 @@ async def get_papers(
         filtered_papers = [
             paper for paper in filtered_papers
             if paper.citations >= min_citations
+        ]
+
+    if keyword:
+        keyword_lower = keyword.lower()
+        filtered_papers = [
+            paper for paper in filtered_papers
+            if keyword_lower in paper.title.lower() or
+               any(keyword_lower in topic.lower() for topic in paper.topics)
         ]
 
     return [paper.to_dict() for paper in filtered_papers]

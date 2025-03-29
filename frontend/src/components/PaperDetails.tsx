@@ -93,15 +93,6 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
         </div>
       </div>
 
-      {/* Citations */}
-      <div className="citations-section">
-        <h2>Impact</h2>
-        <div className="citations-card">
-          <div className="citations-count">{paper.citations}</div>
-          <div className="citations-label">Citations</div>
-        </div>
-      </div>
-
       {/* Risk Analysis */}
       <div className="risk-analysis-section">
         <h2>Risk Analysis</h2>

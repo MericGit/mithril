@@ -145,6 +145,7 @@ const Papers: React.FC = () => {
       <header className="app-header">
         <div className="header-content">
           <h1>Research Papers</h1>
+<<<<<<< HEAD
           <div className="upload-section">
             <input
               type="file"
@@ -162,6 +163,8 @@ const Papers: React.FC = () => {
             </button>
             {error && <div className="error-message">{error}</div>}
           </div>
+=======
+>>>>>>> fc6b5b00138f644dc7642cce90ca00207dedf5b3
         </div>
         
         <div className="filters-section">
@@ -201,24 +204,6 @@ const Papers: React.FC = () => {
                 </span>
               ))}
             </div>
-          </div>
-
-          <div className="filter-group">
-            <input
-              type="text"
-              value={journal}
-              onChange={(e) => setJournal(e.target.value)}
-              placeholder="Filter by journal"
-            />
-          </div>
-
-          <div className="filter-group">
-            <input
-              type="number"
-              value={minCitations}
-              onChange={(e) => setMinCitations(e.target.value === '' ? '' : Number(e.target.value))}
-              placeholder="Min citations"
-            />
           </div>
         </div>
       </header>
