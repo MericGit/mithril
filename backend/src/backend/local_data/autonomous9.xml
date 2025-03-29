@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1810.02144v1</ns0:id>
+    <ns0:updated>2018-10-04T10:56:35Z</ns0:updated>
+    <ns0:published>2018-10-04T10:56:35Z</ns0:published>
+    <ns0:title>Dynamics of weakly mixing non-autonomous systems</ns0:title>
+    <ns0:summary>  For a commutative non-autonomous dynamical system we show that topological
+transitivity of the non-autonomous system induced on probability measures
+(hyperspaces) is equivalent to the weak mixing of the induced systems. Several
+counter examples are given for the results which are true in autonomous but
+need not be true in non-autonomous systems. Wherever possible sufficient
+conditions are obtained for the results to hold true. For a commutative
+periodic non-autonomous system on intervals, it is proved that weakly mixing
+implies Devaney chaos. Given a periodic non-autonomous system, it is shown that
+sensitivity is equivalent to some stronger forms of sensitivity on a closed
+unit interval.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mohammad Salman</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruchi Das</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1142/S0218127419501232</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1142/S0218127419501232" rel="related" />
+    <ns1:comment>17 pages</ns1:comment>
+    <ns1:journal_ref>International Journal of Bifurcation and Chaos, Vol. 29, No. 9,
+  1950123 (2019)</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1810.02144v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1810.02144v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.DS" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.DS" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="Primary 54H20, Secondary 37B55" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

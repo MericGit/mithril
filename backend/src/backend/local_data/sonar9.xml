@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2111.08994v3</ns0:id>
+    <ns0:updated>2021-12-15T02:53:03Z</ns0:updated>
+    <ns0:published>2021-11-17T09:30:43Z</ns0:published>
+    <ns0:title>Nonlinear Intensity Sonar Image Matching based on Deep Convolution
+  Features</ns0:title>
+    <ns0:summary>  With the continuous development of underwater vision technology, more and
+more remote sensing images could be obtained. In the underwater scene, sonar
+sensors are currently the most effective remote perception devices, and the
+sonar images captured by them could provide rich environment information. In
+order to analyze a certain scene, we often need to merge the sonar images from
+different periods, various sonar frequencies and distinctive viewpoints.
+However, the above scenes will bring nonlinear intensity differences to the
+sonar images, which will make traditional matching methods almost ineffective.
+This paper proposes a non-linear intensity sonar image matching method that
+combines local feature points and deep convolution features. This method has
+two key advantages: (i) we generate data samples related to local feature
+points based on the self-learning idea; (ii) we use the convolutional neural
+network (CNN) and Siamese network architecture to measure the similarity of the
+local position in the sonar image pair. Our method encapsulates the feature
+extraction and feature matching stage in a model, and directly learns the
+mapping function from image patch pairs to matching labels, and achieves
+matching tasks in a near-end-to-end manner. Feature matching experiments are
+carried out on the sonar images acquired by autonomous underwater vehicle (AUV)
+in the real underwater environment. Experiment results show that our method has
+better matching effects and strong robustness.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xiaoteng Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changli Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xin Yuan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yi Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Haijun Feng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Citong Luo</ns0:name>
+    </ns0:author>
+    <ns1:comment>5 pages, 9 figures. The final manuscript we submitted is a research
+  under the original title. Compared with the previous papers, we adopted a
+  more novel research method and experimental design</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2111.08994v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2111.08994v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

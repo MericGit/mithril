@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1701.03564v1</ns0:id>
+    <ns0:updated>2017-01-13T04:58:27Z</ns0:updated>
+    <ns0:published>2017-01-13T04:58:27Z</ns0:published>
+    <ns0:title>Nuclear Symmetry Energy Extracted from Laboratory Experiments</ns0:title>
+    <ns0:summary>  Some recent progress and open questions in extracting and understanding the
+new physics underlying the density dependence of nuclear symmetry energy from
+laboratory experiments are discussed.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Bao-An Li</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1080/10619127.2017.1388681</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1080/10619127.2017.1388681" rel="related" />
+    <ns1:comment>A feature article to appear in Nuclear Physics News</ns1:comment>
+    <ns1:journal_ref>Nuclear Physics News, Vol. 27, No. 4, 7-11 (2017)</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1701.03564v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1701.03564v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-ex" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1907.02200v2</ns0:id>
+    <ns0:updated>2020-06-05T14:56:50Z</ns0:updated>
+    <ns0:published>2019-07-04T03:14:29Z</ns0:published>
+    <ns0:title>Design and Evaluation of Torque Compensation Controllers for a Lower
+  Extremity Exoskeleton</ns0:title>
+    <ns0:summary>  In this paper, we present an integrated human-in-the-loop simulation paradigm
+for the design and evaluation of a lower extremity exoskeleton that is
+elastically strapped onto human lower limbs. The exoskeleton has 3 rotational
+DOFs on each side and weighs 23kg. Two torque compensation controllers of the
+exoskeleton are introduced, aiming to minimize interference and maximize
+assistance to human motions, respectively. Their effects on the wearer's
+biomechanical loadings are studied with a running motion and predicted ground
+reaction forces. It is found that the added weight of the passive exoskeleton
+substantially increases the wearer's musculoskeletal loadings. The maximizing
+assistance controller reduces the knee joint torque by almost a half when
+compared to the passive exoskeleton and the resultant torque is only 72% of
+that from the normal running without exoskeleton. When compared to the normal
+running, this controller also reduces the hip flexion and extension torques by
+31% and 38%, respectively. As a result, the peak activations of the biceps
+short head, gluteus maximus, and rectus femoris muscles are reduced by more
+than a half. Nonetheless, the axial knee joint reaction force increases for all
+exoskeleton cases due to the added weight and higher GRFs. In summary, the
+results provide sound evidence of the efficacy of these two controllers on
+reducing the wearer's musculoskeletal loadings when compared to the passive
+exoskeleton. And it is shown the human-in-the-loop simulation paradigm
+presented here can be used for virtual design and evaluation of powered
+exoskeletons and pave the way for building optimized exoskeleton prototypes for
+experimental evaluation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xianlian Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xinyu Chen</ns0:name>
+    </ns0:author>
+    <ns1:comment>44 pages, 11 figures, 3 tables</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1907.02200v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1907.02200v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="70E60" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="H.1.2" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

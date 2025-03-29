@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1101.0677v2</ns0:id>
+    <ns0:updated>2011-03-24T05:57:03Z</ns0:updated>
+    <ns0:published>2011-01-04T09:14:37Z</ns0:published>
+    <ns0:title>New jamming scenario: From marginal jamming to deep jamming</ns0:title>
+    <ns0:summary>  We study properties of jammed packings of frictionless spheres over a wide
+range of volume fractions. There exists a crossover volume fraction which
+separates deeply jammed solids from marginally jammed solids. In deeply jammed
+solids, all the scalings presented in marginally jammed solids are replaced
+with remarkably different ones with potential independent exponents.
+Correspondingly, there are structural changes in the pair distribution function
+associated with the crossover. The normal modes of vibration of deeply jammed
+solids also exhibit some anomalies, e.g. strengthened quasi-localization and
+absence of Debye-like density of states at low frequencies. Deeply jammed
+systems may thus be cataloged to a new class of amorphous solids.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Cang Zhao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kaiwen Tian</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ning Xu</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1103/PhysRevLett.106.125503</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1103/PhysRevLett.106.125503" rel="related" />
+    <ns1:comment>4 pages, 4 figures</ns1:comment>
+    <ns1:journal_ref>Physical Review Letters 106, 125503 (2011)</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1101.0677v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1101.0677v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

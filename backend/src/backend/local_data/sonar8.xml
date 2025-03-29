@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2412.11840v1</ns0:id>
+    <ns0:updated>2024-12-16T15:03:08Z</ns0:updated>
+    <ns0:published>2024-12-16T15:03:08Z</ns0:published>
+    <ns0:title>Sonar-based Deep Learning in Underwater Robotics: Overview, Robustness
+  and Challenges</ns0:title>
+    <ns0:summary>  With the growing interest in underwater exploration and monitoring,
+Autonomous Underwater Vehicles (AUVs) have become essential. The recent
+interest in onboard Deep Learning (DL) has advanced real-time environmental
+interaction capabilities relying on efficient and accurate vision-based DL
+models. However, the predominant use of sonar in underwater environments,
+characterized by limited training data and inherent noise, poses challenges to
+model robustness. This autonomy improvement raises safety concerns for
+deploying such models during underwater operations, potentially leading to
+hazardous situations. This paper aims to provide the first comprehensive
+overview of sonar-based DL under the scope of robustness. It studies
+sonar-based DL perception task models, such as classification, object
+detection, segmentation, and SLAM. Furthermore, the paper systematizes
+sonar-based state-of-the-art datasets, simulators, and robustness methods such
+as neural network verification, out-of-distribution, and adversarial attacks.
+This paper highlights the lack of robustness in sonar-based DL research and
+suggests future research pathways, notably establishing a baseline sonar-based
+dataset and bridging the simulation-to-reality gap.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Martin Aubard</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ana Madureira</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Luís Teixeira</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>José Pinto</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2412.11840v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2412.11840v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.SP" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

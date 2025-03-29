@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2209.08221v1</ns0:id>
+    <ns0:updated>2022-09-17T02:23:09Z</ns0:updated>
+    <ns0:published>2022-09-17T02:23:09Z</ns0:published>
+    <ns0:title>Neural Implicit Surface Reconstruction using Imaging Sonar</ns0:title>
+    <ns0:summary>  We present a technique for dense 3D reconstruction of objects using an
+imaging sonar, also known as forward-looking sonar (FLS). Compared to previous
+methods that model the scene geometry as point clouds or volumetric grids, we
+represent the geometry as a neural implicit function. Additionally, given such
+a representation, we use a differentiable volumetric renderer that models the
+propagation of acoustic waves to synthesize imaging sonar measurements. We
+perform experiments on real and synthetic datasets and show that our algorithm
+reconstructs high-fidelity surface geometry from multi-view FLS images at much
+higher quality than was possible with previous techniques and without suffering
+from their associated memory overhead.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mohamad Qadri</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Kaess</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ioannis Gkioulekas</ns0:name>
+    </ns0:author>
+    <ns1:comment>8 pages, 8 figures. This paper is under review</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2209.08221v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2209.08221v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

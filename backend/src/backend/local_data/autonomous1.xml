@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2103.02176v1</ns0:id>
+    <ns0:updated>2021-03-03T04:50:43Z</ns0:updated>
+    <ns0:published>2021-03-03T04:50:43Z</ns0:published>
+    <ns0:title>Towards Fully Intelligent Transportation through Infrastructure-Vehicle
+  Cooperative Autonomous Driving: Challenges and Opportunities</ns0:title>
+    <ns0:summary>  The infrastructure-vehicle cooperative autonomous driving approach depends on
+the cooperation between intelligent roads and intelligent vehicles. This
+approach is not only safer but also more economical compared to the traditional
+on-vehicle-only autonomous driving approach. In this paper, we introduce our
+real-world deployment experiences of cooperative autonomous driving, and delve
+into the details of new challenges and opportunities. Specifically, based on
+our progress towards commercial deployment, we follow a three-stage development
+roadmap of the cooperative autonomous driving approach:infrastructure-augmented
+autonomous driving (IAAD), infrastructure-guided autonomous driving (IGAD), and
+infrastructure-planned autonomous driving (IPAD).
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Shaoshan Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bo Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jie Tang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Qi Zhu</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2103.02176v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2103.02176v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

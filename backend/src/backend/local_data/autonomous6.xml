@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2209.03018v2</ns0:id>
+    <ns0:updated>2023-02-16T09:11:19Z</ns0:updated>
+    <ns0:published>2022-09-07T09:29:06Z</ns0:published>
+    <ns0:title>Multi-component Painlevé ODE's and related non-autonomous KdV
+  stationary hierarchies</ns0:title>
+    <ns0:summary>  First, starting from two hierarchies of autonomous St\"{a}ckel ODE's, we
+reconstruct the hierarchy of KdV stationary systems. Next, we deform considered
+autonomous St\"{a}ckel systems to non-autonomous Painlev\'{e} hierarchies of
+ODE's. Finally, we reconstruct the related non-autonomous KdV stationary
+hierarchies from respective Painlev\'{e} systems.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>M. Błaszak</ns0:name>
+    </ns0:author>
+    <ns1:comment>24 pages</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2209.03018v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2209.03018v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nlin.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nlin.SI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

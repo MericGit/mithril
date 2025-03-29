@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1311.1679v1</ns0:id>
+    <ns0:updated>2013-11-07T13:37:50Z</ns0:updated>
+    <ns0:published>2013-11-07T13:37:50Z</ns0:published>
+    <ns0:title>New Constructions of Sonar Sequences</ns0:title>
+    <ns0:summary>  A set A is a Sidon set in an additive group G if every element of G can be
+written at most one way as sum of two elements of A. A particular case of
+two-dimensional Sidon sets are the sonar sequences, which are two-dimensional
+synchronization patterns. The main known constructions of sonar sequences are
+reminiscent of Costas arrays constructions (Welch and Golomb). Other
+constructions are Quadratic and Shift. In this work we present new
+constructions of sonar sequences, independent of the named above, using
+one-dimensional Sidon sets.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Diego F. Ruiz</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Carlos A. Trujillo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yadira Caicedo</ns0:name>
+    </ns0:author>
+    <ns1:comment>12 pages</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1311.1679v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1311.1679v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.NT" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.NT" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

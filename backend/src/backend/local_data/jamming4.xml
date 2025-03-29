@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2201.09726v1</ns0:id>
+    <ns0:updated>2022-01-24T14:59:48Z</ns0:updated>
+    <ns0:published>2022-01-24T14:59:48Z</ns0:published>
+    <ns0:title>Criticality and marginal stability of the shear jamming transition of
+  frictionless soft spheres</ns0:title>
+    <ns0:summary>  We study numerically the critical behavior and marginal stability of the
+shear jamming transition for frictionless soft spheres, observed to occur over
+a finite range of densities, associated with isotropic jamming for densities
+above the minimum jamming (J-point) density. Several quantities are shown to
+scale near the shear jamming point in the same way as the isotropic jamming
+point. We compute the exponents associated with the small force distribution
+and the interparticle gap distribution,and show that the corresponding
+exponents are consistent with the marginal stability condition observed for
+isotropic jamming, and with predictions of the mean field theory of jamming in
+hard spheres.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Varghese Babu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Srikanth Sastry</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1103/PhysRevE.105.L042901</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1103/PhysRevE.105.L042901" rel="related" />
+    <ns1:comment>6 pages, 2 figures and supplemental material as ancillary file</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2201.09726v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2201.09726v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

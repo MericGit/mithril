@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/nucl-th/0107074v1</ns0:id>
+    <ns0:updated>2001-07-30T23:13:32Z</ns0:updated>
+    <ns0:published>2001-07-30T23:13:32Z</ns0:published>
+    <ns0:title>The low-energy nuclear density of states and the saddle point
+  approximation</ns0:title>
+    <ns0:summary>  The nuclear density of states plays an important role in nuclear reactions.
+At high energies, above a few MeV, the nuclear density of states is well
+described by a formula that depends on the smooth single particle density of
+states at the Fermi surface, the nuclear shell correction and the pairing
+energy. In this paper we present an analysis of the low energy behaviour of the
+nuclear density of states using the saddle point approximation and extensions
+to it. Furthermore, we prescribe a simple parabolic form for excitation energy,
+in the low energy limit, which may facilitate an easy computation of level
+densities.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Sanjay K. Ghosh</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Byron K. Jennings</ns0:name>
+    </ns0:author>
+    <ns1:comment>11 pages, 6 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/nucl-th/0107074v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/nucl-th/0107074v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

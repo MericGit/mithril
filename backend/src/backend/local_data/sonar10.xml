@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/math/0607437v1</ns0:id>
+    <ns0:updated>2006-07-18T18:47:50Z</ns0:updated>
+    <ns0:published>2006-07-18T18:47:50Z</ns0:published>
+    <ns0:title>Operator identities relating sonar and Radon transforms in Euclidean
+  space</ns0:title>
+    <ns0:summary>  We establish new relations which connect Euclidean sonar transforms
+(integrals taken over spheres with centers in a hyperplane) with classical
+Radon transforms. The relations, stated as operator identities, allow us to
+reduce the inversion of sonar transforms to classical Radon inversion.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aleksei Beltukov</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Feldman</ns0:name>
+    </ns0:author>
+    <ns1:comment>20 pages, 3 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/math/0607437v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/math/0607437v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.CA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="44A12" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

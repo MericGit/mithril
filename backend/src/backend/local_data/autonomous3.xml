@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1010.5304v1</ns0:id>
+    <ns0:updated>2010-10-26T02:34:03Z</ns0:updated>
+    <ns0:published>2010-10-26T02:34:03Z</ns0:published>
+    <ns0:title>Note on star-autonomous comonads</ns0:title>
+    <ns0:summary>  We develop an alternative approach to star-autonomous comonads via linearly
+distributive categories. It is shown that in the autonomous case the notions of
+star-autonomous comonad and Hopf comonad coincide.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Craig Pastro</ns0:name>
+    </ns0:author>
+    <ns1:comment>9 pages</ns1:comment>
+    <ns1:journal_ref>Theory and Applications of Categories 26 (2012) 194-203</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1010.5304v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1010.5304v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.CT" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.CT" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

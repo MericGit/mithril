@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1911.06408v1</ns0:id>
+    <ns0:updated>2019-11-14T22:42:35Z</ns0:updated>
+    <ns0:published>2019-11-14T22:42:35Z</ns0:published>
+    <ns0:title>Design Requirements of Generic Hand Exoskeletons and Survey of Hand
+  Exoskeletons for Rehabilitation, Assistive or Haptic Use</ns0:title>
+    <ns0:summary>  Most current hand exoskeletons have been designed specifically for
+rehabilitation, assistive or haptic applications to simplify the design
+requirements. Clinical studies on post-stroke rehabilitation have shown that
+adapting assistive or haptic applications into physical therapy sessions
+significantly improves the motor learning and treatment process. The recent
+technology can lead to the creation of generic hand exoskeletons that are
+application-agnostic. In this paper, our motivation is to create guidelines and
+best practices for generic exoskeletons by reviewing the literature of current
+devices. First, we describe each application and briefly explain their design
+requirements, and then list the design selections to achieve these
+requirements. Then, we detail each selection by investigating the existing
+exoskeletons based on their design choices, and by highlighting their impact on
+application types. With the motivation of creating efficient generic
+exoskeletons in the future, we finally summarize the best practices in the
+literature.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mine Sarac</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Massimiliano Solazzi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Antonio Frisoli</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TOH.2019.2924881</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TOH.2019.2924881" rel="related" />
+    <ns1:comment>15 pages</ns1:comment>
+    <ns1:journal_ref>IEEE Transactions on Haptics, 2019</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1911.06408v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1911.06408v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.HC" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

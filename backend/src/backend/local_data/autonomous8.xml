@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2410.19262v1</ns0:id>
+    <ns0:updated>2024-10-25T02:34:54Z</ns0:updated>
+    <ns0:published>2024-10-25T02:34:54Z</ns0:published>
+    <ns0:title>Autonomous Building Cyber-Physical Systems Using Decentralized
+  Autonomous Organizations, Digital Twins, and Large Language Model</ns0:title>
+    <ns0:summary>  Current autonomous building research primarily focuses on energy efficiency
+and automation. While traditional artificial intelligence has advanced
+autonomous building research, it often relies on predefined rules and struggles
+to adapt to complex, evolving building operations. Moreover, the centralized
+organizational structures of facilities management hinder transparency in
+decision-making, limiting true building autonomy. Research on decentralized
+governance and adaptive building infrastructure, which could overcome these
+challenges, remains relatively unexplored. This paper addresses these
+limitations by introducing a novel Decentralized Autonomous Building
+Cyber-Physical System framework that integrates Decentralized Autonomous
+Organizations, Large Language Models, and digital twins to create a smart,
+self-managed, operational, and financially autonomous building infrastructure.
+This study develops a full-stack decentralized application to facilitate
+decentralized governance of building infrastructure. An LLM-based artificial
+intelligence assistant is developed to provide intuitive human-building
+interaction for blockchain and building operation management-related tasks and
+enable autonomous building operation. Six real-world scenarios were tested to
+evaluate the autonomous building system's workability, including building
+revenue and expense management, AI-assisted facility control, and autonomous
+adjustment of building systems. Results indicate that the prototype
+successfully executes these operations, confirming the framework's suitability
+for developing building infrastructure with decentralized governance and
+autonomous operation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Reachsak Ly</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alireza Shojaei</ns0:name>
+    </ns0:author>
+    <ns1:comment>40 pages, 22 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2410.19262v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2410.19262v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

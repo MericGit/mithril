@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1701.02756v1</ns0:id>
+    <ns0:updated>2017-01-10T19:02:08Z</ns0:updated>
+    <ns0:published>2017-01-10T19:02:08Z</ns0:published>
+    <ns0:title>Applications of Nuclear Physics</ns0:title>
+    <ns0:summary>  Today the applications of nuclear physics span a very broad range of topics
+and fields. This review discusses a number of aspects of these applications,
+including selected topics and concepts in nuclear reactor physics, nuclear
+fusion, nuclear non-proliferation, nuclear-geophysics, and nuclear medicine.
+The review begins with a historic summary of the early years in applied nuclear
+physics, with an emphasis on the huge developments that took place around the
+time of World War II, and that underlie the physics involved in designs of
+nuclear explosions, controlled nuclear energy, and nuclear fusion. The review
+then moves to focus on modern applications of these concepts, including the
+basic concepts and diagnostics developed for the forensics of nuclear
+explosions, the nuclear diagnostics at the National Ignition Facility, nuclear
+reactor safeguards, and the detection of nuclear material production and
+trafficking. The review also summarizes recent developments in nuclear
+geophysics and nuclear medicine. The nuclear geophysics areas discussed include
+geo-chronology, nuclear logging for industry, the Oklo reactor, and
+geo-neutrinos. The section on nuclear medicine summarizes the critical advances
+in nuclear imaging, including PET and SPECT imaging, targeted radionuclide
+therapy, and the nuclear physics of medical isotope production. Each subfield
+discussed requires a review article onto itself, which is not the intention of
+the current review. Rather, the current review is intended for readers who wish
+to get a broad understanding of applied nuclear physics.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Anna C. Hayes</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1088/1361-6633/80/2/026301</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1088/1361-6633/80/2/026301" rel="related" />
+    <ns1:journal_ref>Rep. Prog. Phys. 80 (2017) 026301</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1701.02756v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1701.02756v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-ex" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

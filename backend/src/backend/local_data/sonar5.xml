@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2108.12072v1</ns0:id>
+    <ns0:updated>2021-08-27T00:32:52Z</ns0:updated>
+    <ns0:published>2021-08-27T00:32:52Z</ns0:published>
+    <ns0:title>Matching Underwater Sonar Images by the Learned Descriptor Based on
+  Style Transfer Method</ns0:title>
+    <ns0:summary>  This paper proposes a method that combines the style transfer technique and
+the learned descriptor to enhance the matching performances of underwater sonar
+images. In the field of underwater vision, sonar is currently the most
+effective long-distance detection sensor, it has excellent performances in map
+building and target search tasks. However, the traditional image matching
+algorithms are all developed based on optical images. In order to solve this
+contradiction, the style transfer method is used to convert the sonar images
+into optical styles, and at the same time, the learned descriptor with
+excellent expressiveness for sonar images matching is introduced. Experiments
+show that this method significantly enhances the matching quality of sonar
+images. In addition, it also provides new ideas for the preprocessing of
+underwater sonar images by using the style transfer approach.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xiaoteng Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changli Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xin Yuan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Citong Luo</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2108.12072v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2108.12072v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

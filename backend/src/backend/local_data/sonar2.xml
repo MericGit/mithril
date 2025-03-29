@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2204.09323v1</ns0:id>
+    <ns0:updated>2022-04-20T08:58:35Z</ns0:updated>
+    <ns0:published>2022-04-20T08:58:35Z</ns0:published>
+    <ns0:title>Self-supervised Learning for Sonar Image Classification</ns0:title>
+    <ns0:summary>  Self-supervised learning has proved to be a powerful approach to learn image
+representations without the need of large labeled datasets. For underwater
+robotics, it is of great interest to design computer vision algorithms to
+improve perception capabilities such as sonar image classification. Due to the
+confidential nature of sonar imaging and the difficulty to interpret sonar
+images, it is challenging to create public large labeled sonar datasets to
+train supervised learning algorithms. In this work, we investigate the
+potential of three self-supervised learning methods (RotNet, Denoising
+Autoencoders, and Jigsaw) to learn high-quality sonar image representation
+without the need of human labels. We present pre-training and transfer learning
+results on real-life sonar image datasets. Our results indicate that
+self-supervised pre-training yields classification performance comparable to
+supervised pre-training in a few-shot transfer learning setup across all three
+methods. Code and self-supervised pre-trained models are be available at
+https://github.com/agrija9/ssl-sonar-images
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alan Preciado-Grijalva</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bilal Wehbe</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Miguel Bande Firvida</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Matias Valdenegro-Toro</ns0:name>
+    </ns0:author>
+    <ns1:comment>8 pages, 10 figures, with supplementary. LatinX in CV Workshop @ CVPR
+  2022 Camera Ready</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2204.09323v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2204.09323v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

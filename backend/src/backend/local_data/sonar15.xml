@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2111.15514v1</ns0:id>
+    <ns0:updated>2021-11-29T02:36:49Z</ns0:updated>
+    <ns0:published>2021-11-29T02:36:49Z</ns0:published>
+    <ns0:title>Nonlinear Intensity Underwater Sonar Image Matching Method Based on
+  Phase Information and Deep Convolution Features</ns0:title>
+    <ns0:summary>  In the field of deep-sea exploration, sonar is presently the only efficient
+long-distance sensing device. The complicated underwater environment, such as
+noise interference, low target intensity or background dynamics, has brought
+many negative effects on sonar imaging. Among them, the problem of nonlinear
+intensity is extremely prevalent. It is also known as the anisotropy of
+acoustic sensor imaging, that is, when autonomous underwater vehicles (AUVs)
+carry sonar to detect the same target from different angles, the intensity
+variation between image pairs is sometimes very large, which makes the
+traditional matching algorithm almost ineffective. However, image matching is
+the basis of comprehensive tasks such as navigation, positioning, and mapping.
+Therefore, it is very valuable to obtain robust and accurate matching results.
+This paper proposes a combined matching method based on phase information and
+deep convolution features. It has two outstanding advantages: one is that the
+deep convolution features could be used to measure the similarity of the local
+and global positions of the sonar image; the other is that local feature
+matching could be performed at the key target position of the sonar image. This
+method does not need complex manual designs, and completes the matching task of
+nonlinear intensity sonar images in a close end-to-end manner. Feature matching
+experiments are carried out on the deep-sea sonar images captured by AUVs, and
+the results show that our proposal has preeminent matching accuracy and
+robustness.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xiaoteng Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changli Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xin Yuan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Haijun Feng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yang Xu</ns0:name>
+    </ns0:author>
+    <ns1:comment>6 pages, letters, 9 figures. arXiv admin note: substantial text
+  overlap with arXiv:2111.08994</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2111.15514v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2111.15514v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1212.1178v1</ns0:id>
+    <ns0:updated>2012-12-05T21:13:51Z</ns0:updated>
+    <ns0:published>2012-12-05T21:13:51Z</ns0:published>
+    <ns0:title>Probing Nuclear Symmetry Energy and its Imprints on Properties of
+  Nuclei, Nuclear Reactions, Neutron Stars and Gravitational Waves</ns0:title>
+    <ns0:summary>  Significant progress has been made in recent years in constraining nuclear
+symmetry energy at and below the saturation density of nuclear matter using
+data from both terrestrial nuclear experiments and astrophysical observations.
+However, many interesting questions remain to be studied especially at
+supra-saturation densities. In this lecture note, after a brief summary of the
+currently available constraints on nuclear symmetry energy near the saturation
+density we first discuss the relationship between the symmetry energy and the
+isopin and momentum dependence of the single-nucleon potential in
+isospin-asymmetric nuclear medium. We then discuss several open issues
+regarding effects of the tensor force induced neutron-proton short-range
+correlation (SRC) on nuclear symmetry energy. Finally, as an example of the
+impacts of nuclear symmetry energy on properties of neutron stars and
+gravitational waves, we illustrate effects of the high-density symmetry energy
+on the tidal polarizability of neutron stars in coalescing binaries.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Bao-An Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lie-Wen Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Farrukh J. Fattoyev</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>William G. Newton</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chang Xu</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1088/1742-6596/413/1/012021</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1088/1742-6596/413/1/012021" rel="related" />
+    <ns1:comment>A lecture given at the International Summer School for Advanced
+  Studies "Dynamics of Open Nuclear Systems", July 9-20, 2012, Predeal, Romania</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1212.1178v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1212.1178v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-ex" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

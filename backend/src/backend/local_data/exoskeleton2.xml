@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2003.11598v1</ns0:id>
+    <ns0:updated>2020-03-25T19:40:31Z</ns0:updated>
+    <ns0:published>2020-03-25T19:40:31Z</ns0:published>
+    <ns0:title>Design, Implementation and Control of an Underactuated Hand Exoskeleton</ns0:title>
+    <ns0:summary>  I present the design, implementation and control of a novel, linkage-based,
+underactuated hand exoskeleton aimed to assist patients with hand disabilities
+during grasping tasks for robot assisted physical rehabilitation or robot
+assisted activities of daily living. Even though the proposed exoskeleton was
+designed with the purpose of assisting users during interactions with real
+objects around them, its use can be extended for haptic applications as well.
+In this thesis, I will deeply mention the exoskeletons in the literature,
+detail the design decisions and implement various control strategies to use
+this exoskeleton for different applications in the future.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mine Sarac Stroppa</ns0:name>
+    </ns0:author>
+    <ns1:comment>PhD thesis from Scuola Superiore Sant'Anna in 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2003.11598v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2003.11598v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1802.07478v1</ns0:id>
+    <ns0:updated>2018-02-21T09:31:26Z</ns0:updated>
+    <ns0:published>2018-02-21T09:31:26Z</ns0:published>
+    <ns0:title>Neutrino astrophysics and its connections to nuclear physics</ns0:title>
+    <ns0:summary>  We highlight recent developments in neutrino astrophysics. We discuss some of
+the connections with nuclear physics.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Maria Cristina Volpe</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1088/1742-6596/1056/1/012060</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1088/1742-6596/1056/1/012060" rel="related" />
+    <ns1:comment>7 pages, 1 figure, Proceedings of the "Conference on Neutrino and
+  Nuclear Physics (CNNP2017), 15-21 October, Catania</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1802.07478v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1802.07478v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="hep-ph" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="hep-ph" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-ex" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="nucl-th" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/cond-mat/9812212v1</ns0:id>
+    <ns0:updated>1998-12-12T14:21:57Z</ns0:updated>
+    <ns0:published>1998-12-12T14:21:57Z</ns0:published>
+    <ns0:title>Critical behavior of a traffic flow model</ns0:title>
+    <ns0:summary>  The Nagel-Schreckenberg traffic flow model shows a transition from a free
+flow regime to a jammed regime for increasing car density. The measurement of
+the dynamical structure factor offers the chance to observe the evolution of
+jams without the necessity to define a car to be jammed or not. Above the
+jamming transition the dynamical structure factor exhibits for a given k-value
+two maxima corresponding to the separation of the system into the free flow
+phase and jammed phase. We obtain from a finite-size scaling analysis of the
+smallest jam mode that approaching the transition long range correlations of
+the jams occur.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>L. Roters</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>S. Lubeck</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>K. D. Usadel</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1103/PhysRevE.59.2672</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1103/PhysRevE.59.2672" rel="related" />
+    <ns1:comment>5 pages, 7 figures, accepted for publication in Physical Review E</ns1:comment>
+    <ns1:journal_ref>Physical Review E 59, 2672 (1999)</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/cond-mat/9812212v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/cond-mat/9812212v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

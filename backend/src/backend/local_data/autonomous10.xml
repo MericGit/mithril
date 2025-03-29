@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2210.11237v1</ns0:id>
+    <ns0:updated>2022-10-19T10:04:33Z</ns0:updated>
+    <ns0:published>2022-10-19T10:04:33Z</ns0:published>
+    <ns0:title>Emerging Threats in Deep Learning-Based Autonomous Driving: A
+  Comprehensive Survey</ns0:title>
+    <ns0:summary>  Since the 2004 DARPA Grand Challenge, the autonomous driving technology has
+witnessed nearly two decades of rapid development. Particularly, in recent
+years, with the application of new sensors and deep learning technologies
+extending to the autonomous field, the development of autonomous driving
+technology has continued to make breakthroughs. Thus, many carmakers and
+high-tech giants dedicated to research and system development of autonomous
+driving. However, as the foundation of autonomous driving, the deep learning
+technology faces many new security risks. The academic community has proposed
+deep learning countermeasures against the adversarial examples and AI backdoor,
+and has introduced them into the autonomous driving field for verification.
+Deep learning security matters to autonomous driving system security, and then
+matters to personal safety, which is an issue that deserves attention and
+research.This paper provides an summary of the concepts, developments and
+recent research in deep learning security technologies in autonomous driving.
+Firstly, we briefly introduce the deep learning framework and pipeline in the
+autonomous driving system, which mainly include the deep learning technologies
+and algorithms commonly used in this field. Moreover, we focus on the potential
+security threats of the deep learning based autonomous driving system in each
+functional layer in turn. We reviews the development of deep learning attack
+technologies to autonomous driving, investigates the State-of-the-Art
+algorithms, and reveals the potential risks. At last, we provides an outlook on
+deep learning security in the autonomous driving field and proposes
+recommendations for building a safe and trustworthy autonomous driving system.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hui Cao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenlong Zou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yinkun Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ting Song</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mengjun Liu</ns0:name>
+    </ns0:author>
+    <ns1:comment>28 pages,10 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2210.11237v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2210.11237v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

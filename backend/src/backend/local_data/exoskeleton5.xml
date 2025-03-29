@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2205.09910v3</ns0:id>
+    <ns0:updated>2023-07-25T02:09:57Z</ns0:updated>
+    <ns0:published>2022-05-20T00:34:19Z</ns0:published>
+    <ns0:title>Biomechanical analysis based on a full-body musculoskeletal model for
+  evaluating the effect of a passive lower-limb exoskeleton on lumbar load</ns0:title>
+    <ns0:summary>  The present study investigated the effect of a passive lower-limb exoskeleton
+on lumbar load and verified the effectiveness of biomechanical analysis for
+evaluating the physical burden while wearing the exoskeleton. Twelve healthy
+male participants performed an assembly task under three conditions: standing
+and high and low sitting while wearing the exoskeleton. We mainly analyzed the
+joint compression force computed using the musculoskeletal model based on
+measurements obtained from a motion capture system and force platform. While
+wearing the exoskeleton, the lumbar joint compression force increased. Analysis
+of the joint compression force can determine the increase in the lumbar load
+when wearing an exoskeleton, which is not possible using the traditional
+analysis of posture and muscular activity. Therefore, biomechanical analysis
+based on a full-body musculoskeletal model provides valuable information in
+evaluating the effect of the exoskeleton that attempts to prevent
+musculoskeletal disorders.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Naoto Haraguchi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kazunori Hase</ns0:name>
+    </ns0:author>
+    <ns1:comment>46 pages, 10 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2205.09910v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2205.09910v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2410.08612v1</ns0:id>
+    <ns0:updated>2024-10-11T08:27:25Z</ns0:updated>
+    <ns0:published>2024-10-11T08:27:25Z</ns0:published>
+    <ns0:title>Synth-SONAR: Sonar Image Synthesis with Enhanced Diversity and Realism
+  via Dual Diffusion Models and GPT Prompting</ns0:title>
+    <ns0:summary>  Sonar image synthesis is crucial for advancing applications in underwater
+exploration, marine biology, and defence. Traditional methods often rely on
+extensive and costly data collection using sonar sensors, jeopardizing data
+quality and diversity. To overcome these limitations, this study proposes a new
+sonar image synthesis framework, Synth-SONAR leveraging diffusion models and
+GPT prompting. The key novelties of Synth-SONAR are threefold: First, by
+integrating Generative AI-based style injection techniques along with publicly
+available real/simulated data, thereby producing one of the largest sonar data
+corpus for sonar research. Second, a dual text-conditioning sonar diffusion
+model hierarchy synthesizes coarse and fine-grained sonar images with enhanced
+quality and diversity. Third, high-level (coarse) and low-level (detailed)
+text-based sonar generation methods leverage advanced semantic information
+available in visual language models (VLMs) and GPT-prompting. During inference,
+the method generates diverse and realistic sonar images from textual prompts,
+bridging the gap between textual descriptions and sonar image generation. This
+marks the application of GPT-prompting in sonar imagery for the first time, to
+the best of our knowledge. Synth-SONAR achieves state-of-the-art results in
+producing high-quality synthetic sonar datasets, significantly enhancing their
+diversity and realism.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Purushothaman Natarajan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kamal Basha</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Athira Nambiar</ns0:name>
+    </ns0:author>
+    <ns1:comment>12 pages, 5 tables and 9 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2410.08612v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2410.08612v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="94A08 (Primary) 68T45, 68U10 (Secondary)" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="I.2.0; I.4.5" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

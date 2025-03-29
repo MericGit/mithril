@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2310.15023v2</ns0:id>
+    <ns0:updated>2024-05-13T20:22:32Z</ns0:updated>
+    <ns0:published>2023-10-23T15:21:46Z</ns0:published>
+    <ns0:title>SONIC: Sonar Image Correspondence using Pose Supervised Learning for
+  Imaging Sonars</ns0:title>
+    <ns0:summary>  In this paper, we address the challenging problem of data association for
+underwater SLAM through a novel method for sonar image correspondence using
+learned features. We introduce SONIC (SONar Image Correspondence), a
+pose-supervised network designed to yield robust feature correspondence capable
+of withstanding viewpoint variations. The inherent complexity of the underwater
+environment stems from the dynamic and frequently limited visibility
+conditions, restricting vision to a few meters of often featureless expanses.
+This makes camera-based systems suboptimal in most open water application
+scenarios. Consequently, multibeam imaging sonars emerge as the preferred
+choice for perception sensors. However, they too are not without their
+limitations. While imaging sonars offer superior long-range visibility compared
+to cameras, their measurements can appear different from varying viewpoints.
+This inherent variability presents formidable challenges in data association,
+particularly for feature-based methods. Our method demonstrates significantly
+better performance in generating correspondences for sonar images which will
+pave the way for more accurate loop closure constraints and sonar-based place
+recognition. Code as well as simulated and real-world datasets will be made
+public to facilitate further development in the field.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Samiran Gode</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Akshay Hinduja</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Kaess</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2310.15023v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2310.15023v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.RO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2101.00292v1</ns0:id>
+    <ns0:updated>2021-01-01T18:46:44Z</ns0:updated>
+    <ns0:published>2021-01-01T18:46:44Z</ns0:published>
+    <ns0:title>Jamming Attacks and Anti-Jamming Strategies in Wireless Networks: A
+  Comprehensive Survey</ns0:title>
+    <ns0:summary>  Wireless networks are a key component of the telecommunications
+infrastructure in our society, and wireless services become increasingly
+important as the applications of wireless devices have penetrated every aspect
+of our lives. Although wireless technologies have significantly advanced in the
+past decades, most wireless networks are still vulnerable to radio jamming
+attacks due to the openness nature of wireless channels, and the progress in
+the design of jamming-resistant wireless networking systems remains limited.
+This stagnation can be attributed to the lack of practical physical-layer
+wireless technologies that can efficiently decode data packets in the presence
+of jamming attacks. This article surveys existing jamming attacks and
+anti-jamming strategies in wireless local area networks (WLANs), cellular
+networks, cognitive radio networks (CRNs), ZigBee networks, Bluetooth networks,
+vehicular networks, LoRa networks, RFID networks, and GPS system, with the
+objective of offering a comprehensive knowledge landscape of existing
+jamming/anti-jamming strategies and stimulating more research efforts to secure
+wireless networks against jamming attacks. Different from prior survey papers,
+this article conducts a comprehensive, in-depth review on jamming and
+anti-jamming strategies, casting insights on the design of jamming-resilient
+wireless networking systems. An outlook on promising antijamming techniques is
+offered at the end of this article to delineate important research directions.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hossein Pirayesh</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Huacheng Zeng</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2101.00292v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2101.00292v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
+  
