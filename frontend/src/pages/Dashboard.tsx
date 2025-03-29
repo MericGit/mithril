@@ -1,12 +1,13 @@
 import React from 'react';
-import PaperUpload from '../components/PaperUpload';
 import { useNavigate } from 'react-router-dom';
+import PaperUpload from '../components/PaperUpload';
+import { ResearchPaper } from '../types/Paper';
 import '../styles/Dashboard.css';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
 
-  const handleUploadSuccess = () => {
+  const handleUploadSuccess = (paper: ResearchPaper) => {
     navigate('/papers');
   };
 
@@ -21,6 +22,7 @@ const Dashboard: React.FC = () => {
         </div>
 
         <div className="upload-section">
+          <h1>Upload Research Paper</h1>
           <PaperUpload onUploadSuccess={handleUploadSuccess} />
         </div>
 

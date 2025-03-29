@@ -1,12 +1,10 @@
+from fastapi import FastAPI
+from .clients.agiClient import AGIClient
+from .papers import router
+import uvicorn
 
-from clients.agiClient import agiClient
-from anotherfolder.test2 import test2
+app = FastAPI()
+app.include_router(router)
 
-#app = create_app()
-
-if __name__ == '__main__':
-    #app.run(debug=True)
-    client = agiClient()
-    print(client.get())
-    client2 = test2()
-    print(client2.get())
+if __name__ == "__main__":
+    uvicorn.run("src.backend.run:app", host="127.0.0.1", port=8000, reload=True)
