@@ -275,7 +275,3 @@ Digital Infrastructure
         combined = {**summary, **risk_score}
         return combined
 
-
-client = AGIClient()
-#client.nlp_pipeline("entry_1.xml")
-print(json.dumps(client.nlp_pipeline("entry_1.xml")))

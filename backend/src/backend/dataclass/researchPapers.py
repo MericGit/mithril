@@ -46,6 +46,7 @@ class ResearchPaper:
     abstract: str = ""
     authors: List[Author] = field(default_factory=list)
     publishedDate: str = ""
+    addedDate: str = ""
     citations: int = 0
     doi: str = ""
     topics: List[str] = field(default_factory=list)

@@ -32,6 +32,7 @@ export interface ResearchPaper {
   keywords: Keyword[];
   journal: string;
   riskFactors: RiskFactor[];
+  addedDate: string;
   
   // Additional fields from data.json
   paper_summary?: string;
