@@ -65,19 +65,6 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
         </div>
       )}
 
-      {/* Keywords Section */}
-      <div className="keywords-section">
-        <h2>Keywords</h2>
-        <div className="keywords-list">
-          {paper.keywords.map((keyword, index) => (
-            <div key={index} className="keyword-card">
-              <span className="keyword-text">{keyword.keyword}</span>
-              <span className="keyword-relevance">{(keyword.relevance * 100).toFixed(0)}% relevance</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Topics Section */}
       <div className="topics-section">
         <h2>Topics</h2>
