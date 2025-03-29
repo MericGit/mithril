@@ -1,15 +1,20 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import PaperDetails from '../components/PaperDetails';
-import { getPapers } from '../services/api';
+import { getPapers, uploadPaper } from '../services/api';
 import { ResearchPaper } from '../types/Paper';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Papers.css';
 
 const Papers: React.FC = () => {
+  const navigate = useNavigate();
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const [papers, setPapers] = useState<ResearchPaper[]>([]);
   const [filteredPapers, setFilteredPapers] = useState<ResearchPaper[]>([]);
   const [selectedPaper, setSelectedPaper] = useState<ResearchPaper | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [uploadProgress, setUploadProgress] = useState<number>(0);
+  const [isUploading, setIsUploading] = useState(false);
 
   // Filter states
   const [keywordInput, setKeywordInput] = useState('');
@@ -18,6 +23,45 @@ const Papers: React.FC = () => {
   const [topics, setTopics] = useState<string[]>([]);
   const [journal, setJournal] = useState('');
   const [minCitations, setMinCitations] = useState<number | ''>('');
+
+  // File upload handlers
+  const handleFileSelect = () => {
+    fileInputRef.current?.click();
+  };
+
+  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    setIsUploading(true);
+    setError(null);
+
+    try {
+      const uploadedPaper = await uploadPaper(formData, (progress) => {
+        setUploadProgress(progress);
+      });
+
+      // Add the new paper to the list and select it
+      setPapers(prev => [uploadedPaper, ...prev]);
+      setSelectedPaper(uploadedPaper);
+      
+      // Reset the file input
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+
+      // Navigate to the papers page
+      navigate('/papers');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to upload paper');
+    } finally {
+      setIsUploading(false);
+      setUploadProgress(0);
+    }
+  };
 
   // Handlers
   const handleAddKeyword = () => {
@@ -101,14 +145,23 @@ const Papers: React.FC = () => {
       <header className="app-header">
         <div className="header-content">
           <h1>Research Papers</h1>
-          <button 
-            className="back-to-home"
-            onClick={() => {
-              const navigate = window.location.href = '/';
-            }}
-          >
-            + Upload New Paper
-          </button>
+          <div className="upload-section">
+            <input
+              type="file"
+              ref={fileInputRef}
+              onChange={handleFileUpload}
+              accept=".pdf"
+              style={{ display: 'none' }}
+            />
+            <button 
+              onClick={handleFileSelect}
+              disabled={isUploading}
+              className="upload-button"
+            >
+              {isUploading ? `Uploading... ${uploadProgress}%` : 'Upload PDF'}
+            </button>
+            {error && <div className="error-message">{error}</div>}
+          </div>
         </div>
         
         <div className="filters-section">
