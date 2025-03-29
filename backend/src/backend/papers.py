@@ -10,6 +10,25 @@ router = APIRouter()
 # Path to data.json file
 DATA_PATH = '/Users/andreamor/Documents/mithril/backend/src/backend/clients/data.json'
 
+# Country flags mapping
+COUNTRY_FLAGS = {
+    'United States': '🇺🇸',
+    'China': '🇨🇳',
+    'Russia': '🇷🇺',
+    'Iran': '🇮🇷',
+    'India': '🇮🇳',
+    'Japan': '🇯🇵',
+    'United Kingdom': '🇬🇧',
+    'Germany': '🇩🇪',
+    'France': '🇫🇷',
+    'Brazil': '🇧🇷',
+    'Israel': '🇮🇱',
+    'South Korea': '🇰🇷',
+    'European Union': '🇪🇺',
+    'Canada': '🇨🇦',
+    'Australia': '🇦🇺',
+}
+
 def load_data_from_json() -> List[ResearchPaper]:
     """Load data from data.json and convert to ResearchPaper objects"""
     try:
@@ -235,6 +254,90 @@ async def get_papers(
         ]
 
     return [paper.to_dict() for paper in filtered_papers]
+
+@router.get("/api/publications-data")
+async def get_publications_data():
+    """
+    Get aggregated publications data by country and year for visualization
+    
+    Returns:
+        Dict with years and countries data for charting
+    """
+    # Use sample_papers as our data source
+    papers = sample_papers
+    
+    # Define the years range (last 5 years)
+    current_year = datetime.now().year
+    years = list(range(current_year - 4, current_year + 1))
+    
+    # Initialize country data structure
+    country_data = {}
+    
+    # Default colors for countries
+    colors = {
+        'United States': '#3b82f6',
+        'China': '#ef4444',
+        'Russia': '#8b5cf6',
+        'Iran': '#dc2626',
+        'European Union': '#10b981',
+        'India': '#f59e0b',
+        'Japan': '#ec4899',
+        'United Kingdom': '#6366f1',
+        'Germany': '#fbbf24',
+        'France': '#14b8a6',
+        'default': '#9ca3af',
+    }
+    
+    # Process papers to count by country and year
+    for paper in papers:
+        publish_date = paper.publishedDate
+        try:
+            # Try to parse the date to extract year
+            year = datetime.strptime(publish_date, '%Y-%m-%d').year
+        except (ValueError, TypeError):
+            # If date can't be parsed, use the current year as default
+            year = current_year
+            
+        # Skip if year is not in our range
+        if year not in years:
+            continue
+            
+        # Get the country from paper
+        country = paper.presumed_publish_country
+        if not country:
+            # Use the first author's country if paper doesn't have a country
+            if paper.authors and hasattr(paper.authors[0], 'country') and paper.authors[0].country:
+                country = paper.authors[0].country
+            else:
+                country = 'Unknown'
+        
+        # Initialize country data if not exists
+        if country not in country_data:
+            country_data[country] = {
+                'name': country,
+                'color': colors.get(country, colors['default']),
+                'flag': COUNTRY_FLAGS.get(country, '🏳️'),
+                'data': [0] * len(years)
+            }
+        
+        # Increment the count for the appropriate year
+        year_index = years.index(year) if year in years else -1
+        if year_index >= 0:
+            country_data[country]['data'][year_index] += 1
+    
+    # Convert to list format
+    countries_list = list(country_data.values())
+    
+    # Sort by total publications (descending)
+    countries_list.sort(key=lambda x: sum(x['data']), reverse=True)
+    
+    # Take top 8 countries
+    top_countries = countries_list[:8]
+    
+    return {
+        'years': years,
+        'countries': top_countries
+    }
 
 @router.get("/api/papers/{paper_id}")
 async def get_paper(paper_id: str):

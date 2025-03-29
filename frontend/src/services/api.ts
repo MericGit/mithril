@@ -1,5 +1,16 @@
 import { ResearchPaper } from '../types/Paper';
 
+// Interface for publication data returned by the API
+export interface PublicationData {
+  years: number[];
+  countries: {
+    name: string;
+    color: string;
+    flag: string;
+    data: number[];
+  }[];
+}
+
 const API_BASE_URL = 'http://localhost:8000/api';
 
 interface FilterParams {
@@ -78,3 +89,11 @@ export async function uploadPaper(
     xhr.send(formData);
   });
 }
+
+export const getPublicationsData = async (): Promise<PublicationData> => {
+  const response = await fetch(`${API_BASE_URL}/publications-data`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch publications data');
+  }
+  return response.json();
+};
