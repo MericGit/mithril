@@ -138,6 +138,21 @@ Digital Infrastructure
                     "presumed_publish_country": genai.types.Schema(
                         type = genai.types.Type.STRING,
                     ),
+                    "paper_title": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                    "paper_abstract": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                    "paper_publish_date": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                    "paper_doi": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    ),
+                    "paper_journal": genai.types.Schema(
+                        type = genai.types.Type.STRING,
+                    )
                 },
             ),
         )
