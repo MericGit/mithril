@@ -1,39 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import './App.css';
 
-const publicationsData = {
-  years: [2020, 2021, 2022, 2023, 2024],
-  countries: [
-    {
-      name: 'United States',
-      color: '#3b82f6',
-      flag: '🇺🇸',
-      data: [1200, 1500, 1800, 2100, 2400]
-    },
-    {
-      name: 'China',
-      color: '#ef4444',
-      flag: '🇨🇳',
-      data: [1000, 1300, 1900, 2300, 2600]
-    },
-    {
-      name: 'European Union',
-      color: '#10b981',
-      flag: '🇪🇺',
-      data: [800, 1100, 1400, 1700, 2000]
-    },
-    {
-      name: 'Russia',
-      color: '#8b5cf6',
-      flag: '🇷🇺',
-      data: [600, 800, 1000, 1200, 1400]
-    }
-  ]
-};
+import { publicationsData } from './data/publications';
+import { researchTopics } from './data/researchTopics';
+import { worldMapData } from './data/worldMap';
+
+import { 
+  ComposableMap, 
+  Geographies, 
+  Geography, 
+  ZoomableGroup 
+} from 'react-simple-maps';
+
+// Use a local copy of the geoJSON to avoid loading issues
+const geoUrl = "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
+
 
 const App: React.FC = () => {
   const [hoveredPoint, setHoveredPoint] = useState<{country: string, year: number, value: number} | null>(null);
   const [highlightedCountry, setHighlightedCountry] = useState<string | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [hoveredMapPoint, setHoveredMapPoint] = useState<any>(null);
+  const [tooltipPosition, setTooltipPosition] = useState<{x: number, y: number} | null>(null);
   return (
     <div className="app-container">
       <header className="app-header">
@@ -52,6 +40,166 @@ const App: React.FC = () => {
           <p>
             Advanced analytics and insights into global research trends, high-risk developments, and potential threats.
           </p>
+          
+          <div className="world-map-container">
+            <div className="topic-filters">
+              <button 
+                className={`filter-btn ${selectedTopic === null ? 'active' : ''}`}
+                onClick={() => setSelectedTopic(null)}
+              >
+                All Topics
+              </button>
+              {researchTopics.map(topic => (
+                <button
+                  key={topic}
+                  className={`filter-btn ${selectedTopic === topic ? 'active' : ''}`}
+                  onClick={() => setSelectedTopic(topic)}
+                >
+                  {topic}
+                </button>
+              ))}
+            </div>
+            
+            <div className="map-wrapper">
+              <ComposableMap
+                projection="geoMercator"
+                projectionConfig={{
+                  scale: 130,
+                  center: [10, 25]
+                }}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  border: "1px solid #e5e7eb",
+                  borderRadius: "8px",
+                  background: "#f9fafb"
+                }}
+              >
+                <ZoomableGroup zoom={1}>
+                  <Geographies geography={geoUrl}>
+                    {({ geographies }: { geographies: Array<any> }) =>
+                      geographies.map((geo: any) => {
+                        const countryName = geo.properties.name;
+                        
+                        // Find matching data points for this country
+                        const matchingPoints = worldMapData.filter(point => {
+                          // Try different variations of the country name
+                          if (point.country === countryName) return true;
+                          
+                          // Common mismatches
+                          if (countryName === "United States of America" && point.country === "United States") return true;
+                          if (countryName === "Russian Federation" && point.country === "Russia") return true;
+                          if (countryName === "Republic of Korea" && point.country === "South Korea") return true;
+                          if (countryName === "Dem. Rep. Korea" && point.country === "North Korea") return true;
+                          if (countryName === "Iran (Islamic Republic of)" && point.country === "Iran") return true;
+                          
+                          // Apply topic filter if selected
+                          return false;
+                        }).filter(point => !selectedTopic || point.topic === selectedTopic);
+                        
+                        // Determine if country should be highlighted
+                        const hasData = matchingPoints.length > 0;
+                        const isAdversarial = hasData && matchingPoints.some(p => p.adversarial);
+                        
+                        // Calculate intensity (if multiple points, use average)
+                        const avgIntensity = hasData 
+                          ? matchingPoints.reduce((sum, p) => sum + p.intensity, 0) / matchingPoints.length
+                          : 0;
+                          
+                        return (
+                          <Geography
+                            key={geo.rsmKey}
+                            geography={geo}
+                            className={`country-geography ${hasData ? 'has-data' : ''}`}
+                            onClick={() => {
+                              if (hasData) {
+                                setHoveredMapPoint(matchingPoints[0]);
+                              }
+                            }}
+                            onMouseEnter={(evt: React.MouseEvent) => {
+                              if (hasData) {
+                                setHighlightedCountry(countryName);
+                                setHoveredMapPoint(matchingPoints[0]);
+                                setTooltipPosition({
+                                  x: evt.clientX,
+                                  y: evt.clientY
+                                });
+                              }
+                            }}
+                            onMouseLeave={() => {
+                              setHighlightedCountry(null);
+                              setHoveredMapPoint(null);
+                              setTooltipPosition(null);
+                            }}
+                            style={{
+                              default: {
+                                fill: hasData 
+                                  ? isAdversarial 
+                                    ? `rgba(239, 68, 68, ${0.3 + (avgIntensity * 0.5)})` 
+                                    : `rgba(59, 130, 246, ${0.3 + (avgIntensity * 0.5)})` 
+                                  : '#e5e7eb',
+                                stroke: '#d1d5db',
+                                strokeWidth: 0.5,
+                                outline: 'none'
+                              },
+                              hover: {
+                                fill: hasData 
+                                  ? isAdversarial 
+                                    ? `rgba(239, 68, 68, ${0.6 + (avgIntensity * 0.4)})` 
+                                    : `rgba(59, 130, 246, ${0.6 + (avgIntensity * 0.4)})` 
+                                  : '#d1d5db',
+                                stroke: '#000',
+                                strokeWidth: 1,
+                                outline: 'none'
+                              },
+                              pressed: {
+                                fill: hasData ? '#3182CE' : '#E5E7EB',
+                                stroke: '#000',
+                                strokeWidth: 1,
+                                outline: 'none'
+                              }
+                            }}
+                          />
+                        );
+                      })
+                    }
+                  </Geographies>
+                </ZoomableGroup>
+              </ComposableMap>
+              
+              {hoveredMapPoint && tooltipPosition && (
+                <div 
+                  className="map-tooltip"
+                  style={{
+                    position: 'fixed',
+                    left: tooltipPosition.x + 10,
+                    top: tooltipPosition.y - 100,
+                    transform: 'none'
+                  }}
+                >
+                  <div className="tooltip-header">
+                    {hoveredMapPoint.country} {hoveredMapPoint.adversarial && '⚠️'}
+                  </div>
+                  <div className="tooltip-topic">{hoveredMapPoint.topic}</div>
+                  <div className="tooltip-description">{hoveredMapPoint.description}</div>
+                </div>
+              )}
+            </div>
+            
+            <div className="map-legend">
+              <div className="legend-item">
+                <span className="legend-symbol normal"></span>
+                <span>Normal Research</span>
+              </div>
+              <div className="legend-item">
+                <span className="legend-symbol adversarial"></span>
+                <span>Adversarial Activity</span>
+              </div>
+              <div className="legend-item legend-note">
+                <span>Darker color = Higher intensity</span>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="high-risk" className="content-section">
