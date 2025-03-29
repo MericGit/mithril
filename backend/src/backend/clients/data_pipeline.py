@@ -8,7 +8,7 @@ print("LOCAL DATA", LOCAL_DATA)
 
 final_json = []
 for file in LOCAL_DATA.iterdir():
-    if file.is_file() and file.suffix.lower() == '.pdf':
+    if file.is_file() and file.suffix.lower() == '.xml':
         print(file)
         try:
             result = agiClient.nlp_pipeline(file.name)
