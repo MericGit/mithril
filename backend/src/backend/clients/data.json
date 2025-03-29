@@ -1,8 +1,1498 @@
 [
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30},
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30},
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30},
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30},
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30},
-    {"author_info": ["Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, UK.", "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, UK.", "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK."], "authors": ["Jan-Hendrik Ewers", "Joe Gibbs", "David Anderson"], "paper_summary": "This research paper explores the use of the Stone Soup tracking framework as a feature extractor within a Deep Reinforcement Learning (DRL) environment. It focuses on developing a sensor management system for autonomous search and tracking tasks, specifically within a military context utilizing radar. The paper presents a framework for integrating Stone Soup components into a Gymnasium environment to train reinforcement learning agents for sensor management. The study demonstrates that DRL agents can outperform traditional methods in sensor search and track scenarios, suggesting the potential of the proposed approach to solve complex sensor management problems.", "presumed_publish_country": "UK", "topics": ["AI", "Robotics", "Defense Technology", "Autonomous Systems", "Data Science"], "topics_relevence": [90, 70, 95, 100, 80], "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment", "reasoning": "The research paper's focus on autonomous sensor management for radar systems within a military context directly translates to military applications. The use of Deep Reinforcement Learning (DRL) to improve sensor search and tracking capabilities suggests potential for enhanced surveillance, target acquisition, and potentially even autonomous weapons systems. Since the authors are affiliated with UK institutions and a UK-based defense contractor (Leonardo Electronics), the technology's development is likely geared towards the UK military, and therefore is low risk to the US. The core technology of improving sensor performance, especially within a military context, has inherent military utility. However the primary research group is based in the UK.", "risk_score": 30}
-]
+    {
+      "author_info": [
+        "HANS M. KRISTENSEN is the director of the Nuclear Information Project at the Federation of American Scientists (FAS).",
+        "MATT KORDA is a research associate with the Nuclear Information Project at FAS."
+      ],
+      "authors": [
+        "HANS M. KRISTENSEN",
+        "MATT KORDA"
+      ],
+      "paper_summary": "This research paper, published by the Federation of American Scientists (FAS), provides an assessment of global nuclear warhead stockpiles, focusing on the United States, Russia, China, and other nuclear-armed states. It analyzes trends in nuclear weapons inventories, including deployed, reserve, and retired warheads, offering a detailed overview of each country's nuclear force structure and associated delivery systems. The paper also discusses the implications of the New START treaty, which aims to limit the strategic offensive arms of the U.S. and Russia, and highlights key aspects of China's nuclear modernization program.",
+      "presumed_publish_country": "United States",
+      "topics": [
+        "Nuclear",
+        "Defense Technology",
+        "Geopolitical Tech Strategy",
+        "Advanced Materials",
+        "High-Performance Computing"
+      ],
+      "topics_relevence": [
+        100,
+        95,
+        90,
+        30,
+        20
+      ],
+      "paper_abstract": "The world's nuclear-armed states possess a combined total of nearly 14,000 nuclear warheads; more than 90% belong to Russia and the United States. Approximately 9,500 warheads are in military service, with the rest awaiting dismantlement.",
+      "paper_doi": "N/A",
+      "paper_journal": "Bulletin of the Atomic Scientists",
+      "paper_publish_date": "May 2016",
+      "reasoning": "The paper analyzes nuclear warhead stockpiles and force structures of nuclear-armed states, including the U.S., Russia, and China. This information is directly relevant to military applications, particularly in strategic planning, threat assessment, and understanding the global balance of power. Given the focus on nuclear weapons and the involvement of countries like Russia and China, the potential for misuse or the strategic advantage gained by foreign powers is a significant risk. The paper's analysis could inform military strategies, but the sensitivity of nuclear weapon information increases the risk.",
+      "risk_score": 75
+    },
+    {
+      "author_info": [
+        "Ali Ghanbarzadeh: School of Electrical Engineering, Iran University of Science and Technology, Tehran, Iran. Research Interests: Machine learning and deep learning applications.",
+        "Muhammad Soleimani: School of Electrical Engineering, Iran University of Science and Technology, Tehran, Iran. Research Interests: GNSS and machine learning.",
+        "Hossein Soleimani: School of Electrical Engineering, Iran University of Science and Technology, Tehran, Iran. Research Interests: GNSS, Machine Learning and AI, Cybersecurity, and Signal Processing."
+      ],
+      "authors": [
+        "Ali Ghanbarzadeh",
+        "Muhammad Soleimani",
+        "Hossein Soleimani"
+      ],
+      "paper_summary": "This paper investigates the use of machine learning and deep learning techniques to identify and combat GPS spoofing and jamming attacks on GNSS systems. It explores the application of various algorithms, including machine learning and deep learning, to detect these threats, and it provides a detailed analysis of the algorithms' performance on real-world datasets, evaluating their effectiveness and highlighting the potential of these techniques to enhance the security of GNSS applications.",
+      "presumed_publish_country": "Iran",
+      "topics": [
+        "Cybersecurity",
+        "Data Science",
+        "Defense Technology",
+        "Telecommunications",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        100,
+        85,
+        90,
+        70,
+        95
+      ],
+      "paper_abstract": "The increasing reliance on Global Navigation Satellite Systems (GNSS), particularly the Global Positioning System (GPS), underscores the urgent need to safeguard these technologies against malicious threats such as spoofing and jamming. As the backbone for positioning, navigation, and timing (PNT) across various applications including transportation, telecommunications, and emergency services- GNSS is vulnerable to deliberate interference that poses significant risks. Spoofing attacks, which involve transmitting counterfeit GNSS signals to mislead receivers into calculating incorrect positions, can result in serious consequences, from navigational errors in civilian aviation to security breaches in military operations. Furthermore, the lack of inherent security measures within GNSS systems makes them attractive targets for adversaries. While GNSS/GPS jamming and spoofing systems consist of numerous components, the ability to distinguish authentic signals from malicious ones is essential for maintaining system integrity. Recent advancements in machine learning and deep learning provide promising avenues for enhancing detection and mitigation strategies against these threats. This paper addresses both spoofing and jamming by tackling real-world challenges through machine learning, deep learning, and computer vision techniques. Through extensive experiments on two real-world datasets related to spoofing and jamming detection using advanced algorithms, we achieved state-of-the-art results. In the GNSS/GPS jamming detection task, we attained approximately 99% accuracy, improving performance by around 5% compared to previous studies. Additionally, we addressed a challenging tasks related to spoofing detection, yielding results that underscore the potential of machine learning and deep learning in this domain.",
+      "paper_title": "GNSS/GPS Spoofing and Jamming Identification Using Machine Learning and Deep Learning",
+      "reasoning": "The paper focuses on using machine learning and deep learning to detect and combat GPS spoofing and jamming attacks on GNSS systems, which has significant military applications. The research originates from Iran, which is a potential adversarial nation from a US perspective. The use of these techniques could enhance the security of GNSS applications, critical for navigation, targeting, and other military operations. The authors' affiliations and research interests suggest a focus on areas relevant to defense technology and autonomous systems. The paper's focus on combating spoofing and jamming directly addresses vulnerabilities that adversaries could exploit. Given the origin of the research and its potential for military applications, there is a high risk for the US.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Guilherme Palma: Instituto Superior Técnico, University of Lisbon, Portugal. Research interests: AI, Reinforcement Learning.",
+        "Pedro A. Santos: Instituto Superior Técnico, University of Lisbon, Portugal. Research interests: AI, Reinforcement Learning, Data Science.",
+        "João Dias: Faculty of Science and Technology, University of Algarve, Portugal and CINESC-ID, Portugal. Research interests: AI, Data Science, Autonomous Systems."
+      ],
+      "authors": [
+        "Guilherme Palma",
+        "Pedro A. Santos",
+        "João Dias"
+      ],
+      "paper_summary": "This paper explores the application of advanced AI techniques, specifically reinforcement learning and recurrent neural networks, to the domain of Hex and Counter Wargames. It introduces a novel system designed to address the strategic complexity of these games, integrating advancements from AlphaZero with a custom neural network architecture. The system utilizes innovative state and action representations tailored for these game environments. The research highlights the potential for generalization across various terrains and tactical scenarios, and its potential for scaling to larger map sizes. The developed system is open-source, aimed at promoting further research in this challenging domain.",
+      "presumed_publish_country": "Portugal",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Defense Technology",
+        "Data Science",
+        "High-Performance Computing",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        95,
+        60,
+        85,
+        70,
+        40,
+        80
+      ],
+      "paper_title": "Playing Hex and Counter Wargames using Reinforcement Learning and Recurrent Neural Networks",
+      "reasoning": "The paper focuses on applying AI, specifically reinforcement learning and recurrent neural networks, to wargames. This has clear military applications in areas like strategic planning, tactical decision-making, and the simulation of combat scenarios. The research's focus on generalization across terrains and scaling to larger maps suggests potential applications in complex military simulations and operational planning. The fact that the authors are based in Portugal increases the risk, because of the potential for foreign military applications. The open-source nature of the system also increases the risk, as it makes the technology more accessible. The specific technologies (AI, reinforcement learning, and neural networks) are all dual use. Given the location, openness, and the dual use nature of the core technologies, I am placing a low risk score.",
+      "risk_score": 25
+    },
+    {
+      "author_info": [
+        "Xiao Liu: Academy of Military Science, Beijing, China, liuxiao_0817@163.com",
+        "Sudan Han: Academy of Military Science, Beijing, China, xiaoxiaosu0626@163.com",
+        "Jinlin Peng: Academy of Military Science, Beijing, China, peng_jinlin@126.com"
+      ],
+      "authors": [
+        "Xiao Liu",
+        "Sudan Han",
+        "Jinlin Peng"
+      ],
+      "paper_summary": "This paper focuses on the complex electromagnetic space in modern warfare and introduces a method for modeling and analyzing combat systems-of-systems (CSoS). It proposes a quantitative modeling method for CSoS within complex electromagnetic space, aiming to calculate combat capability and identify key nodes. The approach involves dividing nodes and relationships, extracting key attributes, normalizing relationship weights, establishing a networked model, and calculating combat effectiveness based on the combat cycle. The feasibility of the method is verified through an example of an aircraft carrier fleet confrontation and compared with classical algorithms to demonstrate the advanced nature of the method.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "Defense Technology",
+        "Telecommunications",
+        "Data Science",
+        "High-Performance Computing",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        95,
+        60,
+        50,
+        30,
+        70
+      ],
+      "paper_abstract": "With the application of advanced science and technology in the military field, modern warfare has developed into a confrontation between systems. The combat system-of-systems (CSoS) has numerous nodes, multiple attributes and complex interactions, and its research and analysis are facing great difficulties. Electromagnetic space is an important dimension of modern warfare. Modeling and analyzing the CSoS from this perspective is of great significance to studying modern warfare and can provide a reference for the research of electromagnetic warfare. In this study, the types of nodes and relationships in the complex electromagnetic space of CSoS are first divided, the important attributes of the combat nodes are extracted, and the relationship weights are normalized to establish a networked model. On this basis, the calculation method of CSoS combat effectiveness based on the combat cycle is proposed, and then the identification and sorting of key nodes can be realized by the node deletion method. Finally, by constructing an instance of aircraft carrier fleet confrontation, the feasibility of this method has been verified, and the experimental results have been compared with classical algorithms to demonstrate the advanced nature of this method.",
+      "paper_title": "Complex Electromagnetic Space Combat System-of-systems Modeling and Key Node Identification Method",
+      "reasoning": "The research paper focuses on modeling and analyzing combat systems-of-systems (CSoS) within a complex electromagnetic space, which is directly relevant to modern warfare and military applications. The paper's focus on modeling combat effectiveness, identifying key nodes within a CSoS, and the use of an aircraft carrier fleet confrontation example strongly suggests a military focus. Given the authors are affiliated with the Academy of Military Science in Beijing, China, and the research is published in China, the development is highly likely to benefit the Chinese military. This presents a significant risk from a US perspective due to potential adversarial applications. Specifically, modeling CSoS can be used to simulate and analyze military strategies, optimize resource allocation, and improve combat effectiveness, including in areas such as electronic warfare, communications, and autonomous systems. The focus on 'key node identification' is particularly concerning, as it could be used to identify vulnerabilities in US military systems. The fact that the paper's authors are from China means the US will have a very hard time accessing or influencing the research outcomes.",
+      "risk_score": 95
+    },
+    {
+      "author_info": [
+        "Jan-Hendrik Ewers: PhD candidate on secondment at Leonardo Electronics, University of Glasgow, UK. Research interests include Deep Reinforcement Learning, Sensor Management.",
+        "Joe Gibbs: Sponsored PhD candidate with Leonardo Electronics, University of Glasgow, UK. Research interests include Multi-Target Tracking, Reinforcement Learning, Sensor Management.",
+        "David Anderson: Autonomous Systems and Connectivity, University of Glasgow, UK. Research interests include Deep Reinforcement Learning, Sensor Management."
+      ],
+      "authors": [
+        "Jan-Hendrik Ewers",
+        "Joe Gibbs",
+        "David Anderson"
+      ],
+      "paper_summary": "This paper explores the application of deep reinforcement learning (DRL) for autonomous search and track tasks, specifically focusing on sensor management in military air assets. The core innovation involves integrating the Stone Soup multi-target tracking (MTT) framework as a feature extractor within a Gymnasium environment to train DRL agents. The research presents a general framework for this integration, demonstrates its effectiveness in a sensor management problem, and showcases the performance of DRL agents against traditional methods. The paper emphasizes the need for high-fidelity training environments and feature extractors in DRL and highlights the potential of Stone Soup for future research in reinforcement learning and sensor management, especially in the context of military applications.",
+      "presumed_publish_country": "UK",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Defense Technology",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        95,
+        70,
+        90,
+        85,
+        100
+      ],
+      "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment",
+      "reasoning": "The research paper focuses on applying Deep Reinforcement Learning (DRL) for autonomous search and track tasks, specifically sensor management in military air assets. The integration of the Stone Soup multi-target tracking (MTT) framework suggests potential applications in military surveillance, target identification, and autonomous weapon systems. Given the UK's involvement and the explicit mention of military applications, the technology is likely being developed with defense in mind. The use of DRL for sensor management directly translates to enhanced capabilities in areas such as reconnaissance, threat detection, and combat effectiveness for military air assets. Foreign development increases the risk of technology transfer and unintended consequences for the US. Therefore, from a US perspective, this has moderate but potentially concerning military applications.",
+      "risk_score": 65
+    },
+    {
+      "author_info": [
+        "Jan-Hendrik Ewers is a PhD candidate on secondment at Leonardo Electronics.",
+        "Joe Gibbs is a sponsored PhD candidate with Leonardo Electronics.",
+        "David Anderson is a faculty member at the University of Glasgow."
+      ],
+      "authors": [
+        "Jan-Hendrik Ewers",
+        "Joe Gibbs",
+        "David Anderson"
+      ],
+      "paper_summary": "This research paper is in the field of autonomous systems and deep reinforcement learning, specifically focusing on multi-target tracking. It introduces a novel application of the Stone Soup tracking framework as a feature extractor within a reinforcement learning (RL) environment for sensor management tasks. The study presents a framework for integrating Stone Soup tracker components into a Gymnasium environment, enabling the training of RL agents for tasks such as searching and tracking targets in airspace using sensor data. The authors demonstrate that RL agents can outperform conventional sensor management strategies when trained within this environment, highlighting the potential of this approach for future military applications.",
+      "presumed_publish_country": "UK",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Defense Technology",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        90,
+        85,
+        95,
+        70,
+        100
+      ],
+      "paper_abstract": "Management of sensing resources is a non-trivial problem for future military air assets with future systems deploying heterogeneous sensors to generate information of the battlespace. Machine learning techniques including deep reinforcement learning (DRL) have been identified as promising approaches, but require high-fidelity training environments and feature extractors to generate information for the agent. This paper presents a deep reinforcement learning training approach, utilising the Stone Soup tracking framework as a feature extractor to train an agent for a sensor management task. A general framework for embedding Stone Soup tracker components within a Gymnasium environment is presented, enabling fast and configurable tracker deployments for RL training using Stable Baselines3. The approach is demonstrated in a sensor management task where an agent is trained to search and track a region of airspace utilising track lists generated from Stone Soup trackers. A sample implementation using three neural network architectures in a search-and-track scenario demonstrates the approach and shows that RL agents can outperform simple sensor search and track policies when trained within the Gymnasium and Stone Soup environment.",
+      "paper_title": "Stone Soup Multi-Target Tracking Feature Extraction For Autonomous Search And Track In Deep Reinforcement Learning Environment",
+      "reasoning": "The research paper focuses on multi-target tracking using deep reinforcement learning (DRL) within an autonomous systems framework. Its potential military applications are significant, particularly in airspace management, sensor management, and autonomous search and track operations. The use of DRL could lead to more efficient and adaptive sensor strategies, which is of high interest for military applications. Given the UK-based authors and the project being a collaboration with Leonardo Electronics, which is a defense contractor, there's a possibility the research has direct military applications for the UK. From a US perspective, this poses a moderate risk due to potential foreign military development that might benefit the UK.",
+      "risk_score": 65
+    },
+    {
+      "author_info": [
+        "David Algis: Université de Poitiers, Univ. Limoges, CNRS, XLIM, France, Studio Nyx. Corresponding Author.",
+        "Berenger Bramas: Inria Nancy Grand Est, ICube, France",
+        "Emmanuelle Darles: Université de Poitiers, Univ. Limoges, CNRS, XLIM, France",
+        "Lilian Aveneau: Université de Poitiers, Univ. Limoges, CNRS, XLIM, France"
+      ],
+      "authors": [
+        "David Algis",
+        "Berenger Bramas",
+        "Emmanuelle Darles",
+        "Lilian Aveneau"
+      ],
+      "paper_summary": "This paper introduces \"Arc Blanc\", a real-time ocean simulation framework designed for computer graphics applications. It focuses on simulating the ocean surface and interactions between solids and fluids in real-time, leveraging the multi-threading capabilities of GPUs and CPUs. The framework incorporates existing methods for free surface simulation, fluid-solid coupling, and solid-fluid coupling, while also introducing new contributions including algorithms for calculating ocean velocity at different depths and more realistic solid-fluid interactions. The research aims to achieve high performance and realistic physics for ocean simulations on desktop PCs.",
+      "presumed_publish_country": "France",
+      "topics": [
+        "High-Performance Computing",
+        "Robotics",
+        "Autonomous Systems",
+        "Data Science",
+        "Environmental Science"
+      ],
+      "topics_relevence": [
+        90,
+        20,
+        60,
+        30,
+        25
+      ],
+      "paper_title": "Arc Blanc: a real time ocean simulation framework",
+      "reasoning": "The \"Arc Blanc\" framework simulates ocean environments in real-time, which has potential military applications. The ability to simulate ocean surfaces and fluid-solid interactions could be useful for training simulations, naval architecture, and predicting the behavior of marine vessels. The framework's focus on high performance is also relevant for real-time military applications. However, given that the research originates from France, any potential military applications for the US would need to consider foreign technology and potential export controls, and the current summary doesn't suggest any specific military applications outside general simulation. Further, given the topics present, autonomous systems is the only area that really has potential military usage and its relevance is only rated at 60.",
+      "risk_score": 25
+    },
+    {
+      "author_info": [
+        "Dan Hendrycks: Information not available, but lead author. Likely in the US",
+        "Eric Schmidt: Former CEO of Google, current information not available, but has significant expertise in AI and technology. Likely in the US",
+        "Alexandr Wang: CEO of Scale AI, a data labeling and AI platform company. US"
+      ],
+      "authors": [
+        "Dan Hendrycks",
+        "Eric Schmidt",
+        "Alexandr Wang"
+      ],
+      "paper_summary": "This research paper delves into the strategic implications of Superintelligence (AI) for national security. The core argument is that the development of AI presents a dual-use technology that necessitates a new strategic approach. The paper focuses on the threats arising from the use of AI by rival states, rogue actors, and the potential loss of control over AI systems. The core novel application is the concept of Mutual Assured AI Malfunction (MAIM), a deterrence strategy akin to mutually assured destruction in the nuclear age, designed to mitigate the risks of AI arms races. The paper also addresses nonproliferation, information security, AI security, and economic competitiveness. Key components include export controls for AI chips, information security protocols, and legal frameworks for AI agents, advocating for a multi-layered approach to manage AI risks and ensure that AI's benefits can be realized without jeopardizing global stability.",
+      "presumed_publish_country": "US",
+      "topics": [
+        "AI",
+        "Semiconductors",
+        "Cybersecurity",
+        "Defense Technology",
+        "Geopolitical Tech Strategy",
+        "Innovation Policy",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        100,
+        60,
+        80,
+        90,
+        100,
+        70,
+        90
+      ],
+      "paper_abstract": "Rapid advances in AI are beginning to reshape national security. Destabilizing AI developments could rupture the balance of power and raise the odds of great-power conflict, while widespread proliferation of capable AI hackers and virologists would lower barriers for rogue actors to cause catastrophe. Superintelligence—AI vastly better than humans at nearly all cognitive tasks—is now anticipated by AI researchers. Just as nations once developed nuclear strategies to secure their survival, we now need a coherent superintelligence strategy to navigate a new period of transformative change. We introduce the concept of Mutual Assured AI Malfunction (MAIM): a deterrence regime resembling nuclear mutual assured destruction (MAD) where any state's aggressive bid for unilateral AI dominance is met with preventive sabotage by rivals. Given the relative ease of sabotaging a destabilizing AI project through interventions ranging from covert cyberattacks to potential kinetic strikes on datacenters—MAIM already describes the strategic picture AI superpowers find themselves in. Alongside this, states can increase their competitiveness by bolstering their economies and militaries through AI, and they can engage in nonproliferation to rogue actors to keep weaponizable AI capabilities out of their hands. Taken together, the three-part framework of deterrence, nonproliferation, and competitiveness outlines a robust strategy to superintelligence in the years ahead.",
+      "paper_title": "Superintelligence Strategy: Expert Version",
+      "reasoning": "This paper explicitly addresses the military applications of AI, particularly focusing on strategic implications for national security and potential risks from adversarial use of AI. The core concept of Mutual Assured AI Malfunction (MAIM) is a direct military application, proposing a deterrence strategy for AI arms races. The paper's discussion of export controls for AI chips, information security protocols, and legal frameworks for AI agents also underscores its relevance to military technology and national defense strategies. Given that the authors are likely based in the US, and the paper focuses on US national security interests, it is highly likely the US military would find the paper very interesting, including exploring MAIM as a framework for defense, as well as improving AI capabilities. The focus on adversarial AI development and the need to mitigate the risks associated with AI proliferation further solidify the paper's military implications.",
+      "risk_score": 95
+    },
+    {
+      "author_info": [
+        "Changzhi Yu: College of Physics and Optoelectronics Engineering, Taiyuan University of Technology, China; Shanxi Key Laboratory of Precision Measurement Physics, Taiyuan University of Technology, China.",
+        "Shuangping Han: College of Physics and Optoelectronics Engineering, Taiyuan University of Technology, China; Shanxi Key Laboratory of Precision Measurement Physics, Taiyuan University of Technology, China. Corresponding Author.",
+        "Kai Song: College of Physics and Optoelectronics Engineering, Taiyuan University of Technology, China; Shanxi Key Laboratory of Precision Measurement Physics, Taiyuan University of Technology, China.",
+        "Liantuan Xiao: College of Physics and Optoelectronics Engineering, Taiyuan University of Technology, China; Shanxi Key Laboratory of Precision Measurement Physics, Taiyuan University of Technology, China; State Key Laboratory of Quantum Optics Technologies and Devices, Institute of Laser Spectroscopy, Shanxi University, China. Corresponding Author."
+      ],
+      "authors": [
+        "Changzhi Yu",
+        "Shuangping Han",
+        "Kai Song",
+        "Liantuan Xiao"
+      ],
+      "paper_summary": "This paper introduces a spatiotemporal deep learning network for photon-level Block Compressed Sensing Imaging (BCSI). It addresses challenges like signal loss, artifacts, and noise in dynamic imaging and tracking. The approach integrates time and frequency domain information with a U-Net-LSTM deep learning model. The method shows improved image restoration at high frame rates. It demonstrates dynamic target imaging with high PSNR and SSIM, extracting dynamic information like velocity and acceleration. The approach is applicable in complex environments, with potential for remote sensing and military reconnaissance.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Data Science",
+        "Defense Technology",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        90,
+        85,
+        70,
+        75
+      ],
+      "paper_abstract": "In this paper, we propose a spatiotemporal deep learning network for photon-level Block Compressed Sensing Imaging, aimed to address challenges such as signal loss, artifacts, and noise interference in large-pixel dynamic imaging and tracking at the photon level. This approach combines information in the time and frequency domains with a U-Net-LSTM deep learning model, significantly improving the restoration quality of dynamic target images at high frame rates. The experimental results demonstrate that dynamic target imaging with an average photon number of less than 10 per pixel can be achieved using 16-channel parallel detection, where the pixel size is 256×256 and the frame rate is 200 fps.. Compared to conventional Block Compressed Sensing Imaging, this method increases the peak signal-to-noise ratio to 38.66 dB and improves the structural similarity index to 0.96. In the presence of a dynamic scattering medium and a static complex background, we successfully achieved imaging and tracking of two targets undergoing complex motion. Even in scenarios where the targets overlap or obstruct each other, we can still reconstruct clear images of each individual target separately.. This method provides an effective solution for large-pixel dynamic target recognition, tracking, and real-time imaging in complex environments, offering promising applications in remote sensing, military reconnaissance, and beyond.",
+      "paper_title": "Spatiotemporal Deep Learning Network for Photon-Level Block Compressed Sensing Imaging",
+      "reasoning": "The research paper, developed in China, focuses on a spatiotemporal deep learning network for photon-level Block Compressed Sensing Imaging. This technology has clear military applications, particularly in reconnaissance and target tracking. The ability to image dynamic targets at high frame rates, even with low photon counts and in complex environments, provides a significant advantage for military applications. The involvement of Chinese researchers and the potential for use in remote sensing increases the risk from a US perspective. The technology could provide capabilities to China to observe US military assets. Therefore, there is a high risk.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Hao Zhang, Graduate Student Member, IEEE, Nanjing University of Aeronautics and Astronautics, China. Research focuses on wireless signal recognition.",
+        "Fuhui Zhou, Senior Member, IEEE, Nanjing University of Aeronautics and Astronautics, China. Research interests include wireless communications and signal processing.",
+        "Hongyang Du, Member, IEEE, University of Hong Kong, Hong Kong. Research focuses on signal processing and machine learning.",
+        "Qihui Wu, Fellow, IEEE, Nanjing University of Aeronautics and Astronautics, China. Research interests include wireless communications and signal processing.",
+        "Chau Yuen, Fellow, IEEE, Nanyang Technological University, Singapore. Research focuses on wireless communications."
+      ],
+      "authors": [
+        "Hao Zhang",
+        "Fuhui Zhou",
+        "Hongyang Du",
+        "Qihui Wu",
+        "Chau Yuen"
+      ],
+      "paper_summary": "This paper provides a comprehensive review of wireless signal recognition (WSR) in the context of 6G networks. It covers the applications of WSR, main tasks (including radio frequency fingerprint identification, automatic modulation classification, wireless technology classification, and wireless interference identification), and various methods like model-based and intelligent WSR techniques. The paper emphasizes deep learning-based methods and their advantages. It discusses datasets, evaluation metrics, and challenges (complex, dynamic, and open 6G wireless environments), and future directions in WSR research. The main goal is to provide a comprehensive overview of the state-of-the-art WSR techniques.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Cybersecurity",
+        "Telecommunications",
+        "Defense Technology",
+        "Data Science",
+        "5G/6G Networks",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        70,
+        75,
+        95,
+        80,
+        85,
+        90,
+        70
+      ],
+      "paper_abstract": "Wireless signal recognition (WSR) is a crucial technique for intelligent communications and spectrum sharing in the next six-generation (6G) wireless communication networks. It can be utilized to enhance network performance and efficiency, improve quality of service (QoS), and improve network security and reliability. Additionally, WSR can be applied for military applications such as signal interception, signal race, and signal abduction. In the past decades, great efforts have been made for the research of WSR. Earlier works mainly focus on model-based methods, including likelihood-based (LB) and feature-based (FB) methods, which have taken the leading position for many years. With the emergence of artificial intelligence (AI), intelligent methods including machine learning-based (ML-based) and deep learning-based (DL-based) methods have been developed to extract the features of the received signals and perform the classification. In this work, we provide a comprehensive review of WSR from the view of applications, main tasks, recent advances, datasets and evaluation metrics, challenges, and future directions. Specifically, intelligent WSR methods are introduced from the perspective of model, data, learning and implementation. Moreover, we analyze the challenges for WSR from the view of complex, dynamic, and open 6G wireless environments and discuss the future directions for WSR. This survey is expected to provide a comprehensive overview of the state-of-the-art WSR techniques and inspire new research directions for WSR in 6G networks.",
+      "paper_doi": "arXiv:2503.08091v1",
+      "paper_journal": "arXiv",
+      "paper_publish_date": "11 Mar 2025",
+      "paper_title": "Revolution of Wireless Signal Recognition for 6G: Recent Advances, Challenges and Future Directions",
+      "reasoning": "The paper focuses on Wireless Signal Recognition (WSR) within 6G networks. The paper's abstract explicitly mentions military applications such as signal interception, signal reconnaissance, and signal abduction. The research originates from China, with authors affiliated with Chinese universities, increasing the risk of foreign military application and potential competitive disadvantage for the US. The topics of AI, Cybersecurity, Defense Technology, and 6G networks are highly relevant. Therefore, the paper has high military applications.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Jorge Álvaro González earned his M.Sc. in the Open University of Catalonia (2024), respectively, and an M.Sc. in ICT Cybersecurity from the European University of Madrid (2022). Previously, he worked in the Defence industry and is now a cybersecurity engineer at Alstom in the OT railway industry.",
+        "Ana Saiz García received her M.Sc. from the Open University of Catalonia (2024). She is currently employed in the Defence sector at Indra, where she is involved in a range of projects for both NATO and the Spanish Ministry of Defence.",
+        "Victor Monzon Baeza received his Ph.D. degree in Electrical Engineering from the University Carlos III of Madrid, Spain, in 2019. He was a software developer in the Defense sector and is currently working in Sateliot, Spain, as a Payload Architect and Teacher in UOC."
+      ],
+      "authors": [
+        "Jorge Álvaro González",
+        "Ana María Saiz García",
+        "Victor Monzon Baeza"
+      ],
+      "paper_summary": "This paper is in the field of Defense Technology, focusing on enhancing the security and efficiency of Federated Coalition Networks (FCNs) through the application of blockchain technology. It proposes a blockchain-based framework to improve interoperability, security, and transparency in FCNs, particularly in military and defense contexts. The paper outlines the benefits, addresses challenges, and suggests solutions for integrating blockchain to improve communication, coordination, and resource management. The paper also includes a case study, demonstrating how the framework can be used and implemented in a scenario with forces from multiple allied nations. The authors also provide a framework that supports policy and network based functionalities.",
+      "presumed_publish_country": "Spain",
+      "topics": [
+        "Cybersecurity",
+        "Defense Technology",
+        "Telecommunications",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        85,
+        95,
+        60,
+        50
+      ],
+      "paper_abstract": "In a globalized and interconnected world, interoperability has become a key concept for advancing tactical scenarios. Federated Coalition Networks (FCN) enable cooperation between entities from multiple nations while allowing each to maintain control over their systems. However, this interoperability necessitates the sharing of increasing amounts of information between different tactical assets, raising the need for higher security measures. Emerging technologies like blockchain drive a revolution in secure communications, paving the way for new tactical scenarios. In this work, we propose a blockchain-based framework to enhance the resilience and security of the management of these networks. We offer a guide to FCN design to help a broad audience understand the military networks in international missions by a use case and key functions applied to a proposed architecture. We evaluate its effectiveness and performance in information encryption to validate this framework.",
+      "paper_doi": "N/A",
+      "paper_journal": "Journal of Latex Class Files",
+      "paper_publish_date": "September 2024",
+      "paper_title": "Blockchain-Enabled Management Framework for Federated Coalition Networks",
+      "reasoning": "This research paper focuses on enhancing the security and efficiency of Federated Coalition Networks (FCNs) using blockchain technology, specifically in a military context. The paper's focus on improving interoperability, security, and resource management within FCNs directly aligns with military objectives. The inclusion of a case study involving forces from multiple allied nations and the emphasis on secure communication and information encryption further underscore the paper's military applications. The authors' affiliations with the defense industry (Indra, defense sector) and experience in the defense sector and in the context of NATO projects add to the relevance and likelihood of its military application. Considering the work is being conducted in Spain, a NATO ally, the technology would be less risky than it coming from a non-allied nation, but the fact that it could be used by other nations still adds to the risk.",
+      "risk_score": 65
+    },
+    {
+      "author_info": [
+        "Aditi Tiwari, University of Illinois Urbana-Champaign (UIUC), USA. Research interests: Deep learning, computer vision.",
+        "Klara Nahrstedt, University of Illinois Urbana-Champaign (UIUC), USA. Research interests: Multimedia systems, networking, and security."
+      ],
+      "authors": [
+        "Aditi Tiwari",
+        "Klara Nahrstedt"
+      ],
+      "paper_summary": "This research paper introduces ACT360, a novel framework designed for automated action detection and structured debriefing in mission-critical training environments. It leverages 360-degree video analysis and machine learning to address the limitations of traditional post-training analysis, which relies on manual review of 2D videos. The paper's core innovation is ACT360, which integrates a custom action detection model (360YOWO) with spatial attention and equirectangular-aware convolution (EAC) to mitigate panoramic video distortions. It also incorporates a web-based interface (360AIE) using large language models (LLMs) for action retrieval, and summarization, particularly for mission-critical training, and data. Furthermore, the study explores model optimization techniques such as quantization and pruning to enhance deployment on resource-constrained hardware. The effectiveness of the ACT360 framework is validated on a novel 360-degree firefighter training dataset.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Data Science",
+        "Autonomous Systems",
+        "Defense Technology"
+      ],
+      "topics_relevence": [
+        90,
+        60,
+        95,
+        85,
+        70
+      ],
+      "paper_abstract": "Effective training and debriefing are critical in high-stakes, mission-critical environments such as disaster response, military simulations, and industrial safety, where precision and minimizing errors are paramount. The traditional post-training analysis relies on manually reviewing 2-dimensional (2D) videos, a time-consuming process that lacks comprehensive situational awareness. To address these limitations, we introduce ACT360, a system that leverages 360-degree videos and machine learning for automated action detection and structured debriefing. ACT360 integrates 360YOWO, an enhanced You Only Watch Once (YOWO) model with spatial attention and equirectangular-aware convolution (EAC) to mitigate panoramic video distortions. To enable deployment in resource-constrained environments, we apply quantization and model pruning, reducing the model size by 74% while maintaining robust accuracy (mAP drop of only 1.5%, from 0.865 to 0.850) and improving inference speed. We validate our approach on a publicly available dataset of 55 labeled 360-degree videos covering seven key operational actions, recorded across various real-world training sessions and environmental conditions. Additionally, ACT360 integrates 360AIE (Action Insight Explorer), a web-based interface for automatic action detection, retrieval, and textual summarization using large language models (LLMs), significantly enhancing post-incident analysis efficiency. ACT360 serves as a generalized framework for mission-critical debriefing, incorporating EAC, spatial attention, summarization, and model optimization. These innovations apply to any training environment requiring lightweight action detection and structured post-exercise analysis.",
+      "paper_doi": "arXiv:2503.12852v1",
+      "paper_title": "ACT360: An Efficient 360-Degree Action Detection and Summarization Framework for Mission-Critical Training and Debriefing",
+      "reasoning": "The paper, titled \"ACT360: An Efficient 360-Degree Action Detection and Summarization Framework for Mission-Critical Training and Debriefing,\" directly addresses military applications through its focus on mission-critical training environments. The core technology, ACT360, employs 360-degree video analysis and machine learning to automate action detection and debriefing, improving upon traditional manual methods. The system integrates a custom action detection model (360YOWO) with spatial attention and equirectangular-aware convolution to mitigate panoramic video distortions. The paper mentions applications in disaster response and military simulations. The web-based interface (360AIE) for action retrieval and summarization using LLMs further enhances its utility in post-incident analysis. The research is based in the USA. Therefore, it has strong military applications, especially for training and simulation in the US military.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Weiqiang Jin: Unknown. Hongyang Du: The University of Hong Kong (HKU), Hong Kong. Biao Zhao: Xi'an Jiaotong University, China. Xingwu Tian: Unknown. Bohang Shi: Unknown. Guang Yang: Imperial College London, UK"
+      ],
+      "authors": [
+        "Weiqiang Jin",
+        "Hongyang Du",
+        "Biao Zhao",
+        "Xingwu Tian",
+        "Bohang Shi",
+        "Guang Yang"
+      ],
+      "paper_summary": "This research paper provides a comprehensive survey on multi-agent cooperative decision-making, exploring scenarios, approaches, challenges, and perspectives. It covers various aspects of multi-agent systems, including leading simulation environments, decision-making approaches (MARL and LLMs-based), applications in areas like transportation and robotics, and future research directions. The survey highlights the rapid development in artificial intelligence and intelligent decision-making techniques to meet the growing demand for more sophisticated, reliable, and efficient intelligent systems.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        95,
+        90,
+        75,
+        90
+      ],
+      "paper_abstract": "With the rapid development of artificial intelligence, intelligent decision-making techniques have gradually surpassed human levels in various human-machine competitions, especially in complex multi-agent cooperative task scenarios. Multi-agent cooperative decision-making involves multiple agents working together to complete established tasks and achieve specific objectives. These techniques are widely applicable in real-world scenarios such as autonomous driving, drone navigation, disaster rescue, and simulated military confrontations. This paper begins with a comprehensive survey of the leading simulation environments and platforms used for multi-agent cooperative decision-making. Specifically, we provide an in-depth analysis for these simulation environments from various perspectives, including task formats, reward allocation, and the underlying technologies employed. Subsequently, we provide a comprehensive overview of the mainstream intelligent decision-making approaches, algorithms and models for multi-agent systems (MAS). These approaches can be broadly categorized into five types: rule-based (primarily fuzzy logic), game theory-based, evolutionary algorithms-based, deep multi-agent reinforcement learning (MARL)-based, and large language models (LLMs) reasoning-based. Given the significant advantages of MARL and LLMs-based decision-making methods over the traditional rule, game theory, and evolutionary algorithms, this paper focuses on these multi-agent methods utilizing MARL and LLMs-based techniques. We provide an in-depth discussion of these approaches, highlighting their methodology taxonomies, advantages, and drawbacks. Further, several prominent research directions in the future and potential challenges of multi-agent cooperative decision-making are also detailed.",
+      "paper_doi": "Unknown",
+      "paper_journal": "Unknown",
+      "paper_publish_date": "17 Mar 2025",
+      "paper_title": "A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives",
+      "reasoning": "The paper focuses on multi-agent cooperative decision-making, which has direct applications in autonomous systems, robotics, and simulations. These are all critical technologies for modern military applications. The paper's focus on MARL and LLMs for decision-making are particularly relevant to autonomous weapons systems, drone swarms, and simulated military exercises. Given that the research originates from China, a potential adversary of the United States, the direct military application is high risk.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Xu Guo: Tsinghua Shenzhen International Graduate School, Tsinghua University, China. Research interests include autonomous systems and multi-agent reinforcement learning.",
+        "Xiangwang Hou: Department of Electronic Engineering, Tsinghua University, Beijing, China. Research interests include wireless communications and networking.",
+        "Minrui Xu: School of Computer Science and Engineering, Nanyang Technological University, Singapore. Research interests include robotics and AI.",
+        "Jianrui Chen: School of Cyber Science and Technology, Beihang University, Beijing, China. Research interests include cybersecurity and robotics.",
+        "Jingjing Wang: School of Cyber Science and Technology, Beihang University, Beijing, China. Research interests include cybersecurity and robotics.",
+        "Jun Du: Department of Electronic Engineering, Tsinghua University, Beijing, China. Research interests include autonomous systems and robotics.",
+        "Yong Ren: Department of Electronic Engineering, Tsinghua University, Beijing, China. Research interests include robotics and AI."
+      ],
+      "authors": [
+        "Xu Guo",
+        "Xiangwang Hou",
+        "Minrui Xu",
+        "Jianrui Chen",
+        "Jingjing Wang",
+        "Jun Du",
+        "Yong Ren"
+      ],
+      "paper_summary": "This paper introduces a novel framework for collaborative underwater target hunting using autonomous underwater vehicles (AUVs). It addresses the challenges of target evasion and the impact of eavesdropping by the target on the hunting process. The core contribution is the development of a covert communication-guaranteed framework, ensuring efficient hunting while preventing information leakage. The authors propose an adaptive multi-agent diffusion policy (AMADP) algorithm, leveraging diffusion models for trajectory generation and adaptive attention mechanisms for improved coordination. Experimental results demonstrate that AMADP achieves better hunting success rates and faster convergence compared to existing methods, while maintaining covert communication.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Cybersecurity",
+        "Autonomous Systems",
+        "Defense Technology",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        90,
+        95,
+        70,
+        95,
+        80,
+        85
+      ],
+      "paper_abstract": "Collaborative underwater target hunting, facilitated by multiple autonomous underwater vehicles (AUVs), plays a significant role in various domains, especially military missions. Existing research predominantly focuses on designing efficient and high-success-rate hunting policy, particularly addressing the target's evasion capabilities. However, in real-world scenarios, the target can not only adjust its evasion policy based on its observations and predictions but also possess eavesdropping capabilities. If communication among hunter AUVs, such as hunting policy exchanges, is intercepted by the target, it can adapt its escape policy accordingly, significantly reducing the success rate of the hunting mission. To address this challenge, we propose a covert communication-guaranteed collaborative target hunting framework, which ensures efficient hunting in complex underwater environments while defending against the target's eavesdropping. To the best of our knowledge, this is the first study to incorporate the confidentiality of inter-agent communication into the design of target hunting policy. Furthermore, given the complexity of coordinating multiple AUVs in dynamic and unpredictable environments, we propose an adaptive multi-agent diffusion policy (AMADP), which incorporates the strong generative ability of diffusion models into the multi-agent reinforcement learning (MARL) algorithm. Experimental results demonstrate that AMADP achieves faster convergence and higher hunting success rates while maintaining covertness constraints.",
+      "paper_title": "Adaptive AUV Hunting Policy with Covert Communication via Diffusion Model",
+      "reasoning": "The paper focuses on collaborative underwater target hunting using AUVs, a technology with clear military applications, specifically for anti-submarine warfare or reconnaissance. The research originates from China, and the authors are affiliated with Chinese universities. The focus on covert communication is particularly concerning, as it could be used to track and potentially attack US submarines or other underwater assets without detection. The combination of AI, robotics, and cybersecurity expertise further enhances the potential for sophisticated military applications, particularly in the context of a rival nation. The fact that this is being developed by China is a significant risk.",
+      "risk_score": 95
+    },
+    {
+      "author_info": [
+        "Hancong Feng, School of Information and Communication Engineering, UEST of China, China, Research field: radar signal processing.",
+        "Kai Li Jiang, School of Information and Communication Engineering, UEST of China, China, Research field: radar signal processing.",
+        "Bin Tang, School of Information and Communication Engineering, UEST of China, China, Research field: radar signal processing."
+      ],
+      "authors": [
+        "Hancong Feng",
+        "Kai Li Jiang",
+        "Bin Tang"
+      ],
+      "paper_summary": "This paper introduces Sig2text, a vision-language model designed for parsing non-cooperative radar signals. It leverages a vision transformer to extract features from time-frequency representations of radar waveforms and a transformer-based decoder for symbolic parsing. The model treats radar signal recognition as a parsing problem, enabling effective recognition and parameter estimation. The paper evaluates Sig2text on a synthetic radar signal dataset, demonstrating its performance in recognizing and parsing radar waveforms with varying modulation types and parameters.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Defense Technology",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        80,
+        90,
+        75,
+        85
+      ],
+      "paper_abstract": "Automatic non-cooperative analysis of intercepted radar signals is essential for intelligent equipment in both military and civilian domains. Accurate modulation identification and parameter estimation enable effective signal classification, threat assessment, and the development of countermeasures. In this paper, we propose a symbolic approach for radar signal recognition and parameter estimation based on a vision-language model that combines context-free grammar with time-frequency representation of radar waveforms. The proposed model, called Sig2text, leverages the power of vision transformers for time-frequency feature extraction and transformer-based decoders for symbolic parsing of radar waveforms. By treating radar signal recognition as a parsing problem, Sig2text can effectively recognize and parse radar waveforms with different modulation types and parameters. We evaluate the performance of Sig2text on a synthetic radar signal dataset and demonstrate its effectiveness in recognizing and parsing radar waveforms with varying modulation types and parameters. The training code of the model is available at https://github.com/Na-choneko/sig2text.",
+      "paper_title": "SIG2TEXT, A VISION-LANGUAGE MODEL FOR NON-COOPERATIVE RADAR SIGNAL PARSING",
+      "reasoning": "The paper details a vision-language model, Sig2text, designed for parsing non-cooperative radar signals. The technology's primary application lies in the automated analysis of intercepted radar signals. This is directly applicable to military intelligence, surveillance, and reconnaissance (ISR) operations for identifying, classifying, and potentially jamming or spoofing enemy radar systems. The development country is China, which presents a high risk from a US perspective due to potential adversarial applications and the security implications of foreign military technology. The authors all reside in China. The topics involve defense technology and autonomous systems, which further increases the military relevance.",
+      "risk_score": 90
+    },
+    {
+      "author_info": [
+        "Dylan Léveillé: Carleton University, Canada. Research interests likely include cybersecurity, game theory, and software engineering.",
+        "Jason Jaskolka: Carleton University, Canada. Research interests likely include cybersecurity and game theory."
+      ],
+      "authors": [
+        "Dylan Léveillé",
+        "Jason Jaskolka"
+      ],
+      "paper_summary": "This research paper is in the field of cybersecurity and proposes a game-theoretic approach for selecting security controls from standardized catalogues. The novel application involves formulating the control selection problem as a two-person zero-sum one-shot game, considering expected attacker profiles and budget constraints. The approach is demonstrated using a tool called CSAT. Key components include: 1) a game-theoretic model for security control selection, 2) the use of product family algebra to handle control dependencies, and 3) the creation of a tool (CSAT) to automate and scale the approach for larger systems.",
+      "presumed_publish_country": "Canada",
+      "topics": [
+        "Cybersecurity",
+        "Data Science",
+        "Defense Technology",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        100,
+        60,
+        70,
+        70
+      ],
+      "paper_abstract": "Selecting the combination of security controls that will most effectively protect a system's assets is a difficult task. In this paper, we present a game-theoretic approach for selecting effective combinations of security controls based on expected attacker profiles and a set budget. The control selection problem is set up as a two-person zero-sum one-shot game. Valid control combinations for selection are generated using an algebraic formalism to account for dependencies among selected controls. Using a software tool, we apply the approach on a fictional Canadian military system with Canada's standardized control catalogue, ITSG-33. Through this case study, we demonstrate the approach's scalability to assist in selecting an effective set of security controls for large systems. The results illustrate how a security analyst can use the proposed approach and supporting tool to guide and support decision-making in the control selection activity when developing secure systems of all sizes.",
+      "paper_title": "A SCALABLE GAME-THEORETIC APPROACH FOR SELECTING SECURITY CONTROLS FROM STANDARDIZED CATALOGUES",
+      "reasoning": "The research paper focuses on game-theoretic approaches to cybersecurity, specifically for selecting security controls. The use of game theory to model attacker-defender interactions is directly applicable to military cybersecurity, where the goal is to protect sensitive information and systems from adversarial attacks. The paper mentions a case study on a fictional Canadian military system using Canada's standardized control catalogue, ITSG-33, suggesting direct applicability to military contexts. However, the research is from Canada, and the focus on Canadian standards and systems indicates a lower direct military application risk for the US.",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "Yazhou Zhang: College of Intelligence and Computing, Tianjin University, China. Research interests include Natural Language Processing, Multimodal Learning.",
+        "Bo Wang: College of Intelligence and Computing, Tianjin University, China. Research interests include Natural Language Processing, Multimodal Learning.",
+        "Chunwang Zou: Software Engineering College, Zhengzhou University of Light Industry, China. No specific information available.",
+        "Jing Qin: Department of Computational Neuroscience, The Hong Kong Polytechnic University, Hong Kong, China. Research interests include Computational Neuroscience and AI.",
+        "Yazhou Zhang",
+        "Bo Wang",
+        "Chunwang Zou",
+        "Jing Qin"
+      ],
+      "authors": [
+        "Yazhou Zhang",
+        "Bo Wang",
+        "Chunwang Zou",
+        "Jing Qin"
+      ],
+      "paper_summary": "This paper introduces Commander-GPT, a novel framework designed to enhance sarcasm detection capabilities in multimodal settings.  The framework decomposes the sarcasm detection task into subtasks handled by specialized modules.  It leverages a central \"commander\" (MLLM) to manage task assignment and integrates the outputs. The approach achieves state-of-the-art results on MMSD and MMSD 2.0 datasets without fine-tuning or ground-truth rationales. The key innovation lies in the modular design, using specialized sub-models for text and image processing, and the central role of a LLM in coordinating these specialized experts.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        95,
+        85
+      ],
+      "paper_abstract": "Sarcasm detection, as a crucial research direction in the field of Natural Language Processing (NLP), has attracted widespread attention. Traditional sarcasm detection tasks have typically focused on single-modal approaches (e.g., text), but due to the implicit and subtle nature of sarcasm, such methods often fail to yield satisfactory results. In recent years, researchers have shifted the focus of sarcasm detection to multi-modal approaches. However, effectively leveraging multi-modal information to accurately identify sarcastic content remains a challenge that warrants further exploration. Leveraging the powerful integrated processing capabilities of Multi-Modal Large Language Models (MLLMs) for various information sources, we propose an innovative multi-modal Commander-GPT framework. Inspired by military strategy, we first decompose the sarcasm detection task into six distinct sub-tasks. A central commander (decision-maker) then assigns the best-suited large language model to address each specific sub-task. Ultimately, the detection results from each model are aggregated to identify sarcasm. We conducted extensive experiments on MMSD and MMSD 2.0, utilizing four multi-modal large language models and six prompting strategies. Our experiments demonstrate that our approach achieves state-of-the-art performance, with a 19.3% improvement in F1 score, without necessitating fine-tuning or ground-truth rationales.",
+      "paper_title": "Commander-GPT: Fully Unleashing the Sarcasm Detection Capability of Multi-Modal Large Language Models",
+      "reasoning": "The paper, developed by researchers primarily affiliated with Chinese universities, introduces Commander-GPT, a multimodal sarcasm detection framework. The use of a 'commander' (MLLM) and the decomposition of the task into subtasks, while innovative in the context of sarcasm detection, does not inherently suggest direct or obvious military applications. However, the underlying technologies, particularly multimodal large language models (MLLMs), are of strategic interest. The focus on sarcasm detection, while potentially useful for social media monitoring or deception analysis, is unlikely to have strong direct military applications. Furthermore, the development country, China, increases the risk profile due to potential for dual-use technologies and foreign military applications. Given the researchers are primarily based in China, there is a risk the technology could be leveraged for military purposes. The paper's focus is on methodology and its applications are in data science and AI, and thus it has only potential for military applications.",
+      "risk_score": 35
+    },
+    {
+      "author_info": [
+        "Nasir Alfaraj: The first author, who is affiliated with the Edward S. Rogers Sr. Department of Electrical and Computer Engineering at the University of Toronto, Canada. The paper's research explores silicon-integrated next-generation plasmonic devices.",
+        "Amr S. Helmy: The corresponding author and is affiliated with the Edward S. Rogers Sr. Department of Electrical and Computer Engineering at the University of Toronto, Canada. The paper's research explores silicon-integrated next-generation plasmonic devices."
+      ],
+      "authors": [
+        "Nasir Alfaraj",
+        "Amr S. Helmy"
+      ],
+      "paper_summary": "This review paper focuses on the development of silicon-integrated next-generation plasmonic devices for energy-efficient semiconductor applications. It explores the challenges and opportunities in integrating plasmonic devices with silicon platforms, emphasizing hybrid mode plasmonic devices. The paper examines key device topologies, fabrication techniques, and performance metrics, providing a comprehensive overview of the field and charting a path toward realizing the full potential of silicon-based integrated photonics. Key applications include modulators and photodetectors for on-chip data communication.",
+      "presumed_publish_country": "Canada",
+      "topics": [
+        "Nanotechnology",
+        "Advanced Materials",
+        "Telecommunications",
+        "Energy",
+        "High-Performance Computing",
+        "Digital Infrastructure",
+        "Semiconductors"
+      ],
+      "topics_relevence": [
+        90,
+        95,
+        90,
+        70,
+        60,
+        50,
+        100
+      ],
+      "paper_title": "Silicon-Integrated Next-Generation Plasmonic Devices for Energy-Efficient Semiconductor Applications",
+      "reasoning": "The research focuses on silicon-integrated plasmonic devices, which are relevant to several military applications, though not directly. The primary focus on energy-efficient semiconductor applications and on-chip data communication (modulators and photodetectors) could improve the performance and reduce the power consumption of military communication systems and high-performance computing. The research originates from Canada, increasing the risk associated with potential foreign military applications if the technology becomes widely available. However, the paper is focused on fundamental research rather than direct military applications. The applications are general purpose communications, which could include military applications, but is not the focus.",
+      "risk_score": 35
+    },
+    {
+      "author_info": [
+        "Huan Ding: School of Mathematical Sciences, Zhejiang University, China",
+        "Liu Liu: Department of Mathematics, The Chinese University of Hong Kong, Hong Kong, China",
+        "Xinghui Zhong: School of Mathematical Sciences, Zhejiang University, China"
+      ],
+      "authors": [
+        "Huan Ding",
+        "Liu Liu",
+        "Xinghui Zhong"
+      ],
+      "paper_summary": "This paper introduces an asymptotic-preserving (AP) and positivity-preserving discontinuous Galerkin (DG) method for solving the semiconductor Boltzmann equation within the diffusive scaling. The method combines the DG method for spatial discretization with a robust temporal discretization. The paper demonstrates the scheme's accuracy, robustness, and AP property through numerical examples. It also explores a complex case with mixed kinetic and diffusive regimes, providing valuable insights into its performance.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "Semiconductors",
+        "High-Performance Computing"
+      ],
+      "topics_relevence": [
+        90,
+        70
+      ],
+      "paper_abstract": "In this paper, we develop an asymptotic-preserving and positivity-preserving discontinuous Galerkin (DG) method for solving the semiconductor Boltzmann equation in the diffusive scaling. We first formulate the diffusive relaxation system based on the even-odd decomposition method, which allows us to split into one relaxation step and one transport step. We adopt a robust implicit scheme that can be explicitly implemented for the relaxation step that involves the stiffness of the collision term, while the third-order strong-stability-preserving Runge-Kutta method is employed for the transport step. We couple this temporal scheme with the DG method for spatial discretization, which provides additional advantages including high-order accuracy, h-p adaptivity, and the ability to handle arbitrary unstructured meshes. A positivity-preserving limiter is further applied to preserve physical properties of numerical solutions. The stability analysis using the even-odd decomposition is conducted for the first time. We demonstrate the accuracy and performance of our proposed scheme through several numerical examples.",
+      "paper_doi": "Not Available",
+      "paper_journal": "Not Available",
+      "paper_publish_date": "25 Mar 2025",
+      "paper_title": "ASYMPTOTIC-PRESERVING AND POSITIVITY-PRESERVING DISCONTINUOUS GALERKIN METHOD FOR THE SEMICONDUCTOR BOLTZMANN EQUATION IN THE DIFFUSIVE SCALING",
+      "reasoning": "The research focuses on computational methods for solving the semiconductor Boltzmann equation. The paper originates from China. Semiconductors are fundamental to modern electronics, and advancements in modeling their behavior can have military applications, particularly in areas like advanced sensors, high-performance computing for simulations, and potentially in the design of more efficient and robust electronic components for military systems. Given the origin of the research in China, a country considered a strategic competitor to the U.S., the risk associated with the potential military applications of this research is elevated. The focus on high-performance computing further increases the risk due to the potential for applications in areas like cryptography, signal processing, and advanced weapons systems. The specific details are about the computational methods, not the physical components, but the work improves the understanding which could then be utilized by a military.",
+      "risk_score": 75
+    },
+    {
+      "author_info": [
+        "Sakshi Dhankhar: Clausthal University of Technology, Institute for Software and Systems Engineering, Germany. Focus: AI, Data Science, Environmental Science, Climate Technology",
+        "Stefan Wittek: Clausthal University of Technology, Institute for Software and Systems Engineering, Germany. Focus: Data Science, Climate Technology.",
+        "Hamidreza Eivazi: Clausthal University of Technology, Institute for Software and Systems Engineering, Germany. Focus: Data Science, AI, Climate Technology, Environmental Science.",
+        "Andreas Rausch: Clausthal University of Technology, Institute for Software and Systems Engineering, Germany. Focus: Data Science, AI, Climate Technology, Environmental Science."
+      ],
+      "authors": [
+        "Sakshi Dhankhar",
+        "Stefan Wittek",
+        "Hamidreza Eivazi",
+        "Andreas Rausch"
+      ],
+      "paper_summary": "This research paper focuses on the application of a Spatiotemporal Radar-based Precipitation Model (STRPM) for water level prediction and flood forecasting in Goslar and Göttingen, Germany. The study uses radar-derived precipitation data to analyze the relationship between precipitation patterns and water levels, aiming to enhance flood prediction capabilities. It introduces a deep learning model incorporating (2+1)D convolutional neural networks and LSTM layers for feature extraction and time series forecasting. The study demonstrates the STRPM's potential in capturing extreme events and improving flood forecasting accuracy compared to existing benchmarks, particularly by focusing on the residuals of water levels, making it independent of upstream data.",
+      "presumed_publish_country": "Germany",
+      "topics": [
+        "AI",
+        "Environmental Science",
+        "Data Science",
+        "Climate Technology"
+      ],
+      "topics_relevence": [
+        75,
+        90,
+        95,
+        100
+      ],
+      "paper_abstract": "This paper introduces a Spatiotemporal Radar-based Precipitation Model for water level prediction and flood forecasting. The study focuses on Goslar and Göttingen, Germany, examining the impact of radar-based precipitation data on forecasting river water levels. The analysis integrates radar-derived spatiotemporal precipitation patterns with hydrological sensor data to evaluate the effectiveness of this approach in improving flood prediction capabilities. A key innovation is the use of residual-based modeling to address the non-linearity between precipitation images and water levels, leading to the STRPMr. The deep learning architecture integrates (2+1)D convolutional neural networks for spatial and temporal feature extraction with LSTM for timeseries forecasting. The results demonstrate the potential of the STRPMr for capturing extreme events and more accurate flood forecasting.",
+      "paper_doi": "N/A",
+      "paper_journal": "Journal of Hydrology: Regional Studies",
+      "paper_publish_date": "March 27, 2025",
+      "paper_title": "A Spatiotemporal Radar-Based Precipitation Model for Water Level Prediction and Flood Forecasting",
+      "reasoning": "The research paper focuses on water level prediction and flood forecasting using a Spatiotemporal Radar-based Precipitation Model (STRPM). While the core technology involves AI, data science, and climate technology, the specific application to flood prediction in Germany has limited direct military applications for the U.S. The technology could potentially be relevant for predicting water levels near military installations or for supporting disaster response in areas with a military presence. However, the paper's focus on German geography and the development being conducted in Germany significantly reduces its immediate strategic value for the U.S. military. The nature of the work, being primarily environmental and hydrological, presents little to no direct military applications, and therefore presents a low risk.",
+      "risk_score": 5
+    },
+    {
+      "author_info": [
+        "Volkan Ustun: Associate Director of the Human-Inspired Adaptive Teaming Systems Group at USC Institute for Creative Technologies. His research focuses on Multi-agent Reinforcement Learning (MARL) models, drawing inspiration from operations research, human judgment and decision-making, game theory, graph theory, and cognitive architectures to better address the challenges of developing behavior models for synthetic characters, mainly in military training simulations.",
+        "Soham Hans: Researcher at the USC Institute for Creative Technologies. His research interests are Reinforcement Learning and Large Language Models.",
+        "Rajay Kumar: Research programmer at the USC Institute for Creative Technologies. He integrates artificial intelligence models with realistic environments.",
+        "Yunzhe Wang: Computer Science Ph.D. student at the University of Southern California. His research leverages generative AI to augment human decision-making."
+      ],
+      "authors": [
+        "Volkan Ustun",
+        "Soham Hans",
+        "Rajay Kumar",
+        "Yunzhe Wang"
+      ],
+      "paper_summary": "This paper is in the field of AI, specifically focusing on Multi-Agent Reinforcement Learning (MARL) within the context of military training simulations. The novel application involves abstracting geo-specific terrains using waypoint-based navigation to improve the efficiency and performance of MARL models. The research demonstrates that waypoint-based navigation can reduce computational costs and enable the transfer of learned policies between different representations. The paper also compares waypoint-based navigation with real human trajectories, validating the approach. Key components include the development of an automatic waypoint generation system, the use of a novel MARL scenario with differing objectives, and the evaluation of waypoint-based movement against fine-grained movements. The paper also explores the potential of waypoint-based navigation for creating high-speed abstract simulation environments.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Defense Technology",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        95,
+        70,
+        90,
+        80,
+        85
+      ],
+      "paper_abstract": "Multi-agent reinforcement learning (MARL) is increasingly ubiquitous in training dynamic and adaptive synthetic characters for interactive simulations on geo-specific terrains. Frameworks such as Unity's ML-Agents help to make such reinforcement learning experiments more accessible to the simulation community. Military training simulations also benefit from advances in MARL, but they have immense computational requirements due to their complex, continuous, stochastic, partially observable, non-stationary, and doctrine-based nature. Furthermore, these simulations require geo-specific terrains, further exacerbating the computational resources problem. In our research, we leverage Unity's waypoints to automatically generate multi-layered representation abstractions of the geo-specific terrains to scale up reinforcement learning while still allowing the transfer of learned policies between different representations. Our early exploratory results on a novel MARL scenario, where each side has differing objectives, indicate that waypoint-based navigation enables faster and more efficient learning while producing trajectories similar to those taken by expert human players in CSGO gaming environments. This research points out the potential of waypoint-based navigation for reducing the computational costs of developing and training MARL models for military training simulations, where geo-specific terrains and differing objectives are crucial.",
+      "paper_title": "Abstracting Geo-specific Terrains to Scale Up Reinforcement Learning",
+      "reasoning": "The research paper focuses on using Multi-Agent Reinforcement Learning (MARL) and waypoint-based navigation to improve the efficiency of military training simulations. The paper's methods directly address challenges in training synthetic characters, particularly within geo-specific terrains, which are crucial for realistic military scenarios. The research suggests the potential to reduce computational costs and enable the transfer of learned policies, thus accelerating the development of training models. Given the US perspective, the focus on military training, especially the use of AI for simulation and autonomous systems, makes this paper's findings highly relevant to the US military.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Shanzhong Xie: No information available in the document.",
+        "Kan-Hao Xue: Corresponding author, School of Integrated Circuits, Huazhong University of Science and Technology, Wuhan, China. Referenced topics: Semiconductors, Advanced Materials, Data Science. Relevence 100.",
+        "Zijian Zhou: No information available in the document.",
+        "Xiangshui Miao: School of Integrated Circuits, Huazhong University of Science and Technology, Wuhan, China. Referenced topics: Semiconductors, Advanced Materials, Data Science. Relevence 100."
+      ],
+      "authors": [
+        "Shanzhong Xie",
+        "Kan-Hao Xue",
+        "Zijian Zhou",
+        "Xiangshui Miao"
+      ],
+      "paper_summary": "This research paper focuses on accelerating shell DFT-1/2 calculations, a method used in the field of semiconductors and advanced materials for band gap prediction. The paper introduces a novel approach to optimize the cutoff radii used in these calculations. The researchers developed a regression model, incorporating machine learning (ML) techniques, to predict these radii. The paper also presents a metal/insulator classification model, enhancing the accuracy of band gap predictions. The core aim is to improve the efficiency and reduce the computational cost of high-throughput calculations in material science, particularly for complex systems.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "AI",
+        "Semiconductors",
+        "Advanced Materials",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        80,
+        100,
+        100,
+        90
+      ],
+      "paper_abstract": "Shell DFT-1/2 is a fast band gap rectification method that is versatile for semiconductor supercell and superlattice calculations, which involves two cutoff radii that have to be optimized. Although such optimization is trivial in terms of time cost for a primitive cell, in high-throughput calculations this can be a big concern because most materials are themselves in small unit cells. The numerous optimization trials increase the computational cost to orders of magnitudes higher. In this work, we construct a regression model for the prediction of the two cutoff radii based on chemical composition and primitive cell structure. Moreover, a model for metal and insulator classification is also given, with 95.2% accuracy.",
+      "paper_title": "Acceleration of shell DFT-1/2 in high-throughput calculations via cutoff radii prediction",
+      "reasoning": "The research focuses on accelerating computational methods for predicting material properties, specifically band gaps in semiconductors and advanced materials. The core technology involves using machine learning to optimize calculations related to cutoff radii in DFT-1/2 calculations. Semiconductors and advanced materials are critical for military applications, including advanced sensors, electronics, and weapons systems. The development is taking place in China, a geopolitical competitor of the US. This raises concerns about the potential for this technology to be used in military applications by a foreign power. Given that the research is in a strategically important field and the location is China, the risk is elevated.",
+      "risk_score": 75
+    },
+    {
+      "author_info": [
+        "Yejin Kwon: Department of Industrial Engineering, Yonsei University, South Korea. Research interests: Anomaly Detection, Vision-Language Models.",
+        "Daeun Moon: Department of Industrial Engineering, Yonsei University, South Korea. Research interests: Anomaly Detection, Vision-Language Models.",
+        "Youngje Oh: Department of Industrial Engineering, Yonsei University, South Korea. Research interests: Anomaly Detection, Vision-Language Models.",
+        "Hyunsoo Yoon: Department of Industrial Engineering, Yonsei University, South Korea. Research interests: Anomaly Detection, Vision-Language Models."
+      ],
+      "authors": [
+        "Yejin Kwon",
+        "Daeun Moon",
+        "Youngje Oh",
+        "Hyunsoo Yoon"
+      ],
+      "paper_summary": "This paper introduces LogicQA, a novel framework for logical anomaly detection (AD) in industrial settings. LogicQA leverages a pre-trained Vision-Language Model (VLM) to generate questions and explanations for anomalies, eliminating the need for class-specific training or manual annotations. The method is validated on the MVTec LOCO AD dataset and a real-world semiconductor SEM dataset, showcasing its effectiveness.",
+      "presumed_publish_country": "South Korea",
+      "topics": [
+        "AI",
+        "Semiconductors",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        80,
+        90,
+        75,
+        70
+      ],
+      "paper_abstract": "Anomaly Detection (AD) focuses on detecting samples that differ from the standard pattern, making it a vital tool in process control. Logical anomalies may appear visually normal yet violate predefined constraints on object presence, arrangement, or quantity, depending on reasoning and explainability. We introduce LogicQA, a framework that enhances AD by providing industrial operators with explanations for logical anomalies. LogicQA compiles automatically generated questions into a checklist and collects responses to identify violations of logical constraints. LogicQA is training-free, annotation-free, and operates in a few-shot setting. We achieve state-of-the-art (SOTA) Logical AD performance on the public benchmark, MVTec LOCO AD, with an AUROC of 87.6% and an F₁-max of 87.0% along with the explanations of anomalies. Also, our approach has shown outstanding performance on semiconductor SEM corporate data, further validating its effectiveness in industrial applications.",
+      "paper_title": "LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions",
+      "reasoning": "The research paper focuses on LogicQA, a framework for logical anomaly detection using Vision-Language Models (VLMs) in industrial settings, particularly in semiconductors. While the core technology of anomaly detection has military applications, the specific focus on industrial applications, the absence of explicit military applications, and the origin of the research in South Korea lowers the risk score. The technology could potentially be applied to autonomous systems, which is a military area, but without specific details or a US focus, it is unlikely to have a strong military application. Additionally, the research originates from South Korea, which poses a risk from a US perspective due to potential foreign military development.",
+      "risk_score": 25
+    },
+    {
+      "author_info": [
+        "Kazuyuki Sakamoto - Department of Applied Physics, Osaka University, Osaka 565-0871, Japan; Center for Spintronics Research Network, Graduate School of Engineering Science, Osaka University, Osaka 560-8531, Japan; Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan; Department of Materials Science and Molecular Chirality Research Center, Chiba University, Chiba 263-8522, Japan; orcid.org/0000-0001-9507-6435; E-mail: kazuyuki_sakamoto@ap.eng.osaka-u.ac.jp",
+        "Hirotaka Ishikawa – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Takashi Wake – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Chie Ishimoto – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Jun Fujii - Istituto Officina dei Materiali (IOM)-CNR, Laboratorio TASC, I-34149 Trieste, Italy; orcid.org/0000-0003-3208-802X",
+        "Hendrik Bentmann – Experimentelle Physik VII and Röntgen Research Center for Complex Materials, Universität Würzburg, Am Hubland, D-97074 Würzburg, Germany",
+        "Minoru Ohtaka – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Kenta Kuroda – Institute for Solid State Physics, The University of Tokyo, Chiba 277-8581, Japan; orcid.org/0000-0002-0151-0876",
+        "Natsu Inoue – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Takuma Hattori – Institute for Solid State Physics, The University of Tokyo, Chiba 277-8581, Japan; orcid.org/0000-0003-0339-1847",
+        "Toshio Miyamachi – Institute for Solid State Physics, The University of Tokyo, Chiba 277-8581, Japan; orcid.org/0000-0002-9623-1190",
+        "Fumio Komori – Institute for Solid State Physics, The University of Tokyo, Chiba 277-8581, Japan; orcid.org/0000-0002-6405-4177",
+        "Isamu Yamamoto – Synchrotron Light Application Center, Saga University, Saga 840-8502, Japan",
+        "Cheng Fan – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan",
+        "Peter Krüger – Department of Nanomaterials Science, Chiba University, Chiba 263-8522, Japan Department of Materials Science and Molecular Chirality Research Center, Chiba University, Chiba 263-8522, Japan; orcid.org/0000-0002-1247-9886",
+        "Hiroshi Ota – UVSOR Synchrotron Facility, Institute for Molecular Science, Okazaki 444-8585, Japan",
+        "Fumihiko Matsui – UVSOR Synchrotron Facility, Institute for Molecular Science, Okazaki 444-8585, Japan; orcid.org/0000-0002-0681-4270",
+        "Friedrich Reinert – Experimentelle Physik VII and Röntgen Research Center for Complex Materials, Universität Würzburg, Am Hubland, D-97074 Würzburg, Germany",
+        "José Avila – Synchrotron SOLEIL, L'Orme des Merisiers, Saint Aubin-BP 48, 91192 Gif sur Yvette Cedex, France; orcid.org/0000-0003-1027-5676",
+        "Maria C. Asensio – Materials Science Institute of Madrid (ICMM), Spanish Scientific Research Council (CSIC), and the CSIC Associated Unit \"MATINÉE,\" between the Institute of Materials Science of the Valencia University (ICMUV) and the ICMM, E-28049 Cantoblanco, Madrid, Spain; orcid.org/0000-0001-8252-7655"
+      ],
+      "authors": [
+        "Kazuyuki Sakamoto",
+        "Hirotaka Ishikawa",
+        "Takashi Wake",
+        "Chie Ishimoto",
+        "Jun Fujii",
+        "Hendrik Bentmann",
+        "Minoru Ohtaka",
+        "Kenta Kuroda",
+        "Natsu Inoue",
+        "Takuma Hattori",
+        "Toshio Miyamachi",
+        "Fumio Komori",
+        "Isamu Yamamoto",
+        "Cheng Fan",
+        "Peter Krüger",
+        "Hiroshi Ota",
+        "Fumihiko Matsui",
+        "Friedrich Reinert",
+        "José Avila",
+        "Maria C. Asensio"
+      ],
+      "paper_summary": "The research paper focuses on \"Spatial Control of Charge Doping in n-Type Topological Insulators.\" It introduces a novel method for doping hole into n-type topological insulators, specifically Bi2X3 (X= Se, Te), which overcomes the limitations of previous methods. The key to this doping method is the adsorption of H2O on Bi2X3 decorated with a small amount of carbon. The excitation of the core-level of the outermost layer atoms acts as a trigger. This approach enables the creation of nanometer-scale spintronics devices.",
+      "presumed_publish_country": "Japan",
+      "topics": [
+        "Semiconductors",
+        "Nanotechnology",
+        "Advanced Materials"
+      ],
+      "topics_relevence": [
+        80,
+        95,
+        90
+      ],
+      "paper_abstract": "Spatially controlling the Fermi level of topological insulators and keeping its electronic states stable are indispensable processes to put this material into practical use for semiconductor spintronics devices. So far, however, such a method has not been established yet. Here we show a novel method for doping hole into n-type topological insulators Bi2X3 (X= Se, Te) that overcomes the shortcomings of the previous reported methods. The key of this doping is to adsorb H2O on Bi2X3 decorated with a small amount of carbon, and its trigger is the irradiation of photon with sufficient energy to excite core-electrons of the outermost layer atoms. This method allows controlling the doping amount by the irradiation time, and acts as photolithography. Such a tunable doping makes it possible to design the electronic states at the nanometer scale, and thus paves a promising avenue toward the realization of novel spintronics devices based on topological insulators.",
+      "paper_doi": "https://doi.org/10.1021/acs.nanolett.1c01100",
+      "paper_journal": "Nano Letters",
+      "paper_publish_date": "Not available",
+      "paper_title": "Spatial Control of Charge Doping in n-Type Topological Insulators",
+      "reasoning": "The paper focuses on spatially controlling charge doping in n-type topological insulators, specifically Bi2X3, using a novel method involving H2O adsorption and photon irradiation. This could lead to advancements in spintronics devices. The topics covered, including semiconductors, nanotechnology, and advanced materials, are all of interest to military applications. The ability to create nanometer-scale spintronics devices could be utilized in advanced sensors, communication systems, or other military electronics. However, the research is primarily conducted in Japan and other foreign institutions, which increases the risk from a US national security perspective. Furthermore, the development is in an early stage of development, as stated in the abstract, it's still trying to put this material into practical use for semiconductor spintronics devices, and the applications are theoretical at this point.",
+      "risk_score": 65
+    },
+    {
+      "author_info": [
+        "Christian Frydendahl: Aarhus University, Denmark, Research Focus: Nanophotonics, 2D materials.",
+        "Torgom Yezekyan: University of Southern Denmark, Denmark, Research Focus: Nanophotonics, Plasmonics, 2D materials.",
+        "Vladimir A. Zenin: University of Southern Denmark, Denmark, Research Focus: Nanophotonics, Plasmonics.",
+        "Sergey I. Bozhevolnyi: University of Southern Denmark, Denmark, Research Focus: Nanophotonics, Plasmonics, 2D materials."
+      ],
+      "authors": [
+        "Christian Frydendahl",
+        "Torgom Yezekyan",
+        "Vladimir A. Zenin",
+        "Sergey I. Bozhevolnyi"
+      ],
+      "paper_summary": "This research paper explores the integration of 2D semiconductors, specifically MoSe2, as on-chip light sources for integrated nanophotonics. The study demonstrates the transfer of MoSe2 onto gold plasmonic nanowaveguides and shows the direct injection of photoluminescence from MoSe2 into these waveguides. The fabrication methods are compatible with large-scale roll-to-roll manufacturing techniques, suggesting a potential cost-effective and scalable platform. The paper highlights the potential of this approach for future on-chip light sources.",
+      "presumed_publish_country": "Denmark",
+      "topics": [
+        "Nanotechnology",
+        "Advanced Materials",
+        "Telecommunications"
+      ],
+      "topics_relevence": [
+        90,
+        95,
+        60
+      ],
+      "paper_abstract": "Incorporating on-chip light sources directly into nanophotonic waveguides generally requires introducing a different material to the chip than that used for guiding the light, a crucial step that requires dealing with several technical challenges, e.g., atomic lattice mismatch in epitaxial growth between substrate and luminescent materials resulting in strain defects that lower performance. Here we demonstrate that van der Waals materials, such as the 2D semiconductor MoSe2, can easily be transferred onto gold plasmonic nanowaveguides using standard dry visco-elastic polymer transfer techniques. We further show that the photoluminescence from MoSe2 can be injected directly into these on-chip waveguides. Our fabrication methods are compatible with large-scale roll-to-roll manufacturing techniques, highlighting a potential cost-effective and scalable hybrid plasmonic and 2D semiconductor platform for integrated nanophotonics.",
+      "paper_title": "2D semiconductors as on-chip light sources for integrated nanophotonics",
+      "reasoning": "The research focuses on integrating 2D semiconductors (MoSe2) as on-chip light sources within nanophotonic waveguides. This technology has potential military applications, especially in areas such as secure communication, high-speed data transfer in advanced radar systems, and potentially in developing advanced sensors. The use of 2D materials and plasmonic waveguides suggests potential for miniaturization and improved performance in these applications. The Danish origin of the research poses a moderate risk, as the technology is not directly developed in the US. However, the focus on scalable manufacturing could make it easier for other countries to adopt the technology. The topics of nanophotonics, advanced materials, and telecommunications are all of significant interest to military research. However, the paper's primary focus is on fundamental research, and the specific applications are not explicitly military.",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "Adrian Villalobos: Electronics & Computer Science Department, Mondragon University, Mondragon, Spain. Research interests include prognostics and condition monitoring.",
+        "Iban Barrutia: Electronics & Computer Science Department, Mondragon University, Mondragon, Spain. Research interests include prognostics and condition monitoring.",
+        "Rafael Peña-Alzola: Electronics & Electrical Engineering Department, University of Strathclyde, Glasgow, UK. Research interests include power electronics and reliability.",
+        "Tomislav Dragicevic: Wind & Energy Systems Department, Technical University of Denmark (DTU), Lyngby, Denmark. Research interests include renewable energy systems and power electronics.",
+        "Jose I. Aizpurua: Computer Science and Artificial Intelligence Department, University of the Basque Country (UPV/EHU), San Sebastian, Spain. Research interests include artificial intelligence and prognostics."
+      ],
+      "authors": [
+        "Adrian Villalobos",
+        "Iban Barrutia",
+        "Rafael Peña-Alzola",
+        "Tomislav Dragicevic",
+        "Jose I. Aizpurua"
+      ],
+      "paper_summary": "This research paper is in the field of semiconductor device reliability, specifically focusing on the aging of MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors). It presents a comparative analysis and evaluation of various forecasting methods for predicting the aging of these devices in online health monitoring systems. The core of the paper lies in the application of machine learning and statistical techniques to forecast the remaining useful life (RUL) of MOSFETs, with a focus on addressing the challenge of predicting long-term aging. The study benchmarks classical methods like ARIMA and Holt models against novel approaches, including Temporal Fusion Transformers (TFTs). The key components involve the creation of a framework that identifies key aging turning points and the use of covariates. Novelty lies in using transformer architectures for MOSFET prognostics and the comparative assessment framework, along with a comparative evaluation of different architectures for different forecasting horizons.",
+      "presumed_publish_country": "Spain",
+      "topics": [
+        "Semiconductors",
+        "Energy",
+        "Data Science",
+        "Autonomous Systems",
+        "AI"
+      ],
+      "topics_relevence": [
+        100,
+        75,
+        90,
+        80,
+        80
+      ],
+      "paper_abstract": "Semiconductor devices, especially MOSFETs (Metal-oxide-semiconductor field-effect transistor), are crucial in power electronics, but their reliability is affected by aging processes influenced by cycling and temperature. The primary aging mechanism in discrete semiconductors and power modules is the bond wire lift-off, caused by crack growth due to thermal fatigue. The process is empirically characterized by exponential growth and an abrupt end of life, making long-term aging forecasts challenging. This research presents a comprehensive comparative assessment of different forecasting methods for MOSFET failure forecasting applications. Classical tracking, statistical forecasting and Neural Network (NN) based forecasting models are implemented along with novel Temporal Fusion Transformers (TFTs). A comprehensive comparison is performed assessing their MOSFET ageing forecasting ability for different forecasting horizons. For short-term predictions, all algorithms result in acceptable results, with the best results produced by classical NN forecasting models, at the expense of higher computations. For long-term forecasting, only the TFT is able to produce valid outcomes owing to the ability to integrate covariates from the expected future conditions. Additionally, TFT attention points identify key ageing turning points, which indicate new failure modes or accelerated ageing phases.",
+      "paper_title": "COMPARATIVE ANALYSIS AND EVALUATION OF AGING FORECASTING METHODS FOR SEMICONDUCTOR DEVICES IN ONLINE HEALTH MONITORING",
+      "reasoning": "The research paper focuses on predicting the aging and remaining useful life (RUL) of MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) using machine learning and statistical techniques. MOSFETs are fundamental components in power electronics, and the paper's findings could be applied to various military applications where the reliability of electronic systems is critical. Specifically, the ability to forecast the lifespan of these components can be valuable in autonomous systems, and predictive maintenance, where long-term forecasting is essential. The paper is published by a Spanish university, which may limit direct access and control from the US perspective. Furthermore, the research involves collaboration with institutions in the UK and Denmark, increasing the risk from foreign collaboration. While the technology itself doesn't appear to have inherently dangerous applications, the focus on semiconductor reliability, potentially applicable to military hardware, raises a moderate level of concern. The paper's potential for military applications is tied to its relevance in energy systems, and predictive maintenance, but the foreign origin and international collaboration create a moderate risk profile.",
+      "risk_score": 55
+    },
+    {
+      "author_info": [
+        "Idan Haritan: The Alexander Kofkin Faculty of Engineering, Bar-Ilan University, Ramat Gan, Israel. Research focus: Efficient MP2 methods for periodic systems.",
+        "Xiao Wang: Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA, United States. Research focus: Development of computational methods for materials science.",
+        "Tamar Goldzak: The Alexander Kofkin Faculty of Engineering, Bar-Ilan University, Ramat Gan, Israel. Research focus: Developing and applying computational methods for materials science."
+      ],
+      "authors": [
+        "Idan Haritan",
+        "Xiao Wang",
+        "Tamar Goldzak"
+      ],
+      "paper_summary": "This research paper introduces a novel and efficient scaled opposite-spin MP2 (SOS-RILT-MP2) algorithm for periodic systems. This algorithm combines the resolution-of-the-identity approximation (RI) with the Laplace transform technique (LT) to reduce the computational cost of MP2 calculations. The study applies the algorithm to both molecular and solid systems, demonstrating its improved efficiency and scalability compared to conventional MP2. Key findings include the algorithm's high accuracy, particularly at the micro-Hartree level, and its reduced scaling with respect to the number of atoms and k-points. The paper highlights the potential of SOS-RILT-MP2 for studying complex materials and systems, such as those with large unit cells or defect structures.",
+      "presumed_publish_country": "Israel, United States",
+      "topics": [
+        "Semiconductors",
+        "Energy",
+        "Nanotechnology",
+        "High-Performance Computing",
+        "Advanced Materials"
+      ],
+      "topics_relevence": [
+        90,
+        65,
+        70,
+        80,
+        95
+      ],
+      "paper_abstract": "We develop SOS-RILT-MP2, an efficient Gaussian-based periodic scaled opposite-spin second-order Møller-Plesset perturbation theory (SOS-MP2) algorithm that utilizes the resolution-of-the-identity approximation (RI) combined with the Laplace transform technique (LT). In our previous work [J. Chem. Phys. 157, 174112 (2022)], we showed that SOS-MP2 yields better predictions of the lattice constant, bulk modulus, and cohesive energy of 12 simple semiconductors and insulators compared to conventional MP2 and some of the leading density functionals. In this work, we present an efficient SOS-MP2 algorithm that has a scaling of O(N4) with the number of atoms N in the unit cell and a reduced scaling with the number of k-points in the Brillouin zone. We implemented and tested our algorithm on both molecular and solid-state systems, confirming the predicted scaling behavior by systematically increasing the number of atoms, the size of the basis set, and the density of k-point sampling. Using the benzene molecular crystal as a case study, we demonstrated that SOS-RILT-MP2 achieves significantly improved efficiency compared to conventional MP2. This efficient algorithm can be used in the future to study complex materials with large unit cells as well as defect structures.",
+      "paper_doi": "Not Available",
+      "paper_journal": "physics.chem-ph",
+      "paper_publish_date": "26 Mar 2025",
+      "paper_title": "An Efficient scaled opposite-spin MP2 method for periodic systems",
+      "reasoning": "The research focuses on developing an efficient computational method (SOS-RILT-MP2) for materials science, particularly for studying complex materials with large unit cells or defect structures. The method's ability to accurately calculate properties of semiconductors, insulators, and other advanced materials is significant. \n\nMilitary applications could arise in several ways:\n\n1.  **Advanced Materials Development:** The research can accelerate the design and development of new materials with specific properties. These materials can be used in various military applications, such as:  \n    *   **Stealth Technology:** Development of materials to absorb radar or reduce infrared signatures.\n    *   **Armor and Protective Gear:** Designing advanced materials for enhanced protection against projectiles or explosions.\n    *   **Aerospace and Defense Systems:** Lightweight, high-strength materials for aircraft, missiles, and other defense systems.\n2.  **Energy Storage and Generation:** The research into materials could aid in designing better batteries, solar cells, and other energy-related technologies.  This is also highly applicable for military applications in terms of portability, performance and reliability.\n3.  **Electronic Components:** The improved computational efficiency could enable faster design and optimization of semiconductor devices and other components used in military electronics, radar systems, and communications equipment.\n\nThe fact that the research is co-authored by Israeli researchers creates moderate risk, as it could potentially be used for military applications in other countries. The collaboration between researchers in Israel and the United States is a mitigating factor, as this indicates it is not a high risk. However, the research is focused on materials science, and materials science has inherent dual-use applications. The topics of semiconductors and advanced materials are highly relevant to military applications. The specific focus of the research makes it less likely to have direct and immediate military applications.\n",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "Jin Beniyama: Université Côte d'Azur, Observatoire de la Côte d'Azur, CNRS, Laboratoire Lagrange, Nice, France. Research focus: Thermal infrared observations of asteroids.",
+        "Thomas G. Müller: Max-Planck-Institut für extraterrestrische Physik, Garching, Germany. Research focus: Asteroid characterization using thermal modeling.",
+        "Marco Delbo: Université Côte d'Azur, Observatoire de la Côte d'Azur, CNRS, Laboratoire Lagrange, Nice, France. Research focus: Asteroid characterization, planetary science.",
+        "Eric Pantin: Université Paris-Saclay, Université Paris Cité, CEA, CNRS, AIM, Gif-sur-Yvette, France. Research focus: Infrared astronomy, data processing.",
+        "Olivier R. Hainaut: European Southern Observatory, Garching-bei-München, Germany. Research focus: Observational astronomy.",
+        "Marco Micheli: ESA NEO Coordination Centre, Frascati (RM), Italy. Research focus: Near-Earth objects, planetary defense.",
+        "Michaël Marsset: European Southern Observatory, Santiago, Chile. Research focus: Asteroid characterization."
+      ],
+      "authors": [
+        "JIN BENIYAMA",
+        "THOMAS G. MÜLLER",
+        "MARCO DELBO",
+        "ERIC PANTIN",
+        "OLIVIER R. HAINAUT",
+        "MARCO MICHELI",
+        "MICHAËL MARSSET"
+      ],
+      "paper_summary": "This research paper focuses on constraining the size of the near-Earth asteroid (NEA) 1998 KY26, a target for the Hayabusa2 extended mission, using thermal infrared observations from the Very Large Telescope/VISIR. The study presents non-detection results, deriving an upper limit for the asteroid's diameter and discussing the implications for the Hayabusa2 mission's operational planning and potential impact experiments. It highlights the importance of size constraints in remote sensing and spacecraft operations.",
+      "presumed_publish_country": "Chile",
+      "topics": [
+        "Space Exploration",
+        "Nanotechnology",
+        "Data Science",
+        "High-Performance Computing",
+        "Defense Technology"
+      ],
+      "topics_relevence": [
+        100,
+        20,
+        30,
+        20,
+        20
+      ],
+      "paper_abstract": "1998 KY26 is a tiny near-Earth asteroid (H = 26.1) discovered in 1998. It has been selected as the target of the Hayabusa2 extended mission, which will rendezvous with 1998 KY26 in 2031. However, one of the most basic physical properties, size, remains poorly constrained, posing potential challenges for spacecraft operations. We aimed at constraining the size of 1998 KY26 by means of thermal infrared observations. We performed thermal infrared observations of 1998 KY26 using the ESO Very Large Telescope/VISIR on three consecutive nights in May 2024. After stacking all frames, we find no apparent detection of 1998 KY26 on the resulting images. The upper-limit flux density of 1998 KY26 is derived as 2 mJy at 10.64 μm. From this upper-limit flux density obtained via non-detection, we conclude that the diameter of 1998 KY26 is smaller than 17 m with thermophysical modeling. This upper limit size is smaller than the radar-derived 30 (±10) m. Our size constraint on 1998 KY26 is essential for the operation of the Hayabusa2 spacecraft during proximity operations using remote sensing instruments as well as a possible impact experiment using the remaining projectile.",
+      "paper_doi": "arXiv:2503.20891v1",
+      "paper_journal": "The Astrophysical Journal",
+      "paper_publish_date": "March 26 2025",
+      "paper_title": "Size Constraint on Hayabusa2 Extended Mission Rendezvous Target 1998 KY26 via VLT/VISIR Non-detection",
+      "reasoning": "The paper focuses on characterizing a near-Earth asteroid (NEA) for a space mission, specifically constraining its size using thermal infrared observations. While the primary focus is space exploration and planetary science, there are potential dual-use applications relevant to defense. The ability to accurately characterize the size, trajectory, and composition of NEAs is important for space situational awareness and planetary defense, which can be useful for identifying and potentially mitigating threats from asteroids that could impact Earth. The non-detection of the asteroid's thermal signature and the derivation of an upper limit for its size could aid in refining models used to predict asteroid trajectories and assess impact probabilities. The authors' affiliations include institutions in France, Germany, and Italy. Given the international nature of the research, the risk from a US perspective is elevated by the fact that multiple authors are from foreign countries. This research is primarily focused on space exploration but could be useful in planetary defense. As a result, I would say it does not have strong military applications, though it does have some relevance in military contexts. The foreign origin of the research is a moderate risk.",
+      "risk_score": 30
+    },
+    {
+      "author_info": [
+        "Hyowon Kim: Member, IEEE, Department of Electronics Engineering, Chungnam National University, Daejeon, South Korea. Relevant Topics: Telecommunications (90), Autonomous Systems (80), Robotics (70).",
+        "Navid Amani: Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden. Relevant Topics: Telecommunications (70), Autonomous Systems (60).",
+        "Musa Furkan Keskin: Member, IEEE, Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden. Relevant Topics: Telecommunications (70), Autonomous Systems (60), Robotics (50).",
+        "Zhongxia Simon He: Senior Member, IEEE, Chalmers Industriteknik, Gothenburg, Sweden. Relevant Topics: Telecommunications (70), Autonomous Systems (60).",
+        "Jorge Gil: Department of Architecture and Civil Engineering, Chalmers University of Technology, Gothenburg, Sweden. Relevant Topics: Robotics (50), Autonomous Systems (40).",
+        "Gonzalo-Seco Granados: Fellow, IEEE, Universitat Autonoma de Barcelona, Barcelona, Spain. Relevant Topics: Telecommunications (70), Autonomous Systems (60).",
+        "Henk Wymeersch: Fellow, IEEE, Department of Electrical Engineering, Chalmers University of Technology, Gothenburg, Sweden. Relevant Topics: Telecommunications (70), Autonomous Systems (60)."
+      ],
+      "authors": [
+        "Hyowon Kim",
+        "Navid Amani",
+        "Musa Furkan Keskin",
+        "Zhongxia Simon He",
+        "Jorge Gil",
+        "Gonzalo-Seco Granados",
+        "Henk Wymeersch"
+      ],
+      "paper_summary": "This paper explores the use of Reconfigurable Intelligent Surfaces (RISs) to enable self-localization for Frequency Modulated Continuous Wave (FMCW) radar systems. The study focuses on creating an experimental setup with a Texas Instruments FMCW radar and a SiversIMA module for the RIS to test the feasibility of RIS-enabled self-localization. The key contributions include the development of a signal processing unit to estimate geometric parameters, construction of an experimental testbed, and validation of the approach with experimental data. The research demonstrates the potential of RISs as artificial landmarks to improve radar-based Simultaneous Localization and Mapping (SLAM) in environments where traditional systems like GPS or LiDAR may be limited, aiming to offer a cost-effective and robust localization solution.",
+      "presumed_publish_country": "Sweden",
+      "topics": [
+        "Telecommunications",
+        "Autonomous Systems",
+        "Robotics"
+      ],
+      "topics_relevence": [
+        90,
+        80,
+        60
+      ],
+      "paper_abstract": "In the upcoming vehicular networks, reconfigurable intelligent surfaces (RISs) are considered as a key enabler of user self-localization without the intervention of the access points (APs). In this paper, we investigate the feasibility of RIS-enabled self-localization with no APs. We first develop a digital signal processing (DSP) unit for estimating the geometric parameters such as the angle, distance, and velocity and for RIS-enabled self-localization. Second, we set up an experimental testbed consisting of a Texas Instrument frequency modulated continuous wave (FMCW) radar for the user and SilversIMA module for the RIS. Our results confirm the validity of the developed DSP unit and demonstrate the feasibility of RIS-enabled self-localization.",
+      "paper_title": "RIS-Enabled Self-Localization with FMCW Radar",
+      "reasoning": "The research paper focuses on using Reconfigurable Intelligent Surfaces (RISs) to enhance self-localization for Frequency Modulated Continuous Wave (FMCW) radar systems. This technology has several potential military applications, particularly in areas where GPS or LiDAR are unreliable or unavailable. The ability to improve radar-based Simultaneous Localization and Mapping (SLAM) could be crucial for autonomous vehicles, drones, and other robotic systems used in military operations. The authors' affiliations and the paper's origin in Sweden, coupled with the focus on telecommunications, autonomous systems, and robotics, indicate potential dual-use technology. The technology could be used for military applications in target tracking, navigation, and surveillance. Because the research originates from Sweden, the risk score is reduced due to possible foreign military applications, but the technology is still considered high risk.",
+      "risk_score": 75
+    },
+    {
+      "author_info": [
+        "Úlfar Erlingsson is a researcher in the field of cybersecurity. He is likely based in the United States and works on topics related to software security and compiler design."
+      ],
+      "authors": [
+        "Úlfar Erlingsson"
+      ],
+      "paper_summary": "This research paper focuses on enhancing the security of existing C and C++ software without relying on memory safety. It explores practical mechanisms like stack integrity, control-flow integrity, heap data integrity, and pointer integrity to mitigate the risks of remote code execution (RCE) attacks. The paper argues that by adopting these existing techniques, significant improvements in software security can be achieved rapidly and at scale, even in the absence of memory safety. The core idea is to limit the ways in which corrupted memory can be exploited by attackers. The paper also discusses the need for collaboration between researchers, toolchain developers, and application developers to facilitate the widespread adoption of these security measures.",
+      "presumed_publish_country": "United States",
+      "topics": [
+        "Cybersecurity",
+        "Defense Technology",
+        "Innovation Policy",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        100,
+        80,
+        60,
+        50
+      ],
+      "paper_abstract": "The most important security benefit of software memory safety is easy to state: for C and C++ software, attackers can exploit most bugs and vulnerabilities to gain full, unfettered control of software behavior, whereas this is not true for most bugs in memory-safe software-just a few [26]. Fortunately, this security benefit-most bugs don't give attackers full control-can be had for unmodified C and C++ software, without per-application effort. This doesn't require trying to establish memory safety; instead, it is sufficient to eliminate most of the combinatorial ways in which software with corrupted memory can execute. There already exist practical compiler and runtime mechanisms to eliminate these avenues for attack; these mechanisms incur little overhead and need no special hardware or platform support. Each of the mechanisms described here is already in production use, at scale, on one or more platforms. By supporting their combined use in development toolchains, the security of all C and C++ software against remote code execution attacks can be rapidly, and dramatically, improved.",
+      "paper_doi": "arXiv:2503.21145v1",
+      "paper_journal": "arXiv",
+      "paper_publish_date": "27 Mar 2025",
+      "paper_title": "How to Secure Existing C and C++ Software without Memory Safety",
+      "reasoning": "The research paper focuses on enhancing the security of C and C++ software, particularly against remote code execution (RCE) attacks, using techniques like stack integrity, control-flow integrity, heap data integrity, and pointer integrity. These techniques aim to limit the ways corrupted memory can be exploited. Given the paper's focus on securing software, especially in C and C++, it has clear military applications. C and C++ are widely used in military software, including critical infrastructure, weapon systems, and communication systems. Improving the security of this software directly enhances the resilience of these systems against cyberattacks. The ability to rapidly improve security without requiring memory safety is particularly valuable, offering a quick and scalable way to mitigate vulnerabilities. The fact that the research is likely based in the United States, with the author being US based, further increases the papers military applicability as the author's research is most likely aligned with US interests.",
+      "risk_score": 85
+    },
+    {
+      "author_info": [
+        "Shaik Jani Babu: University of Michigan Shanghai Jiao Tong University Joint Institute, Shanghai, China. Research Focus: Extending Silicon Lifetime in Integrated Circuits.",
+        "Fan Hu: University of Michigan Shanghai Jiao Tong University Joint Institute, Shanghai, China. Research Focus: Extending Silicon Lifetime in Integrated Circuits.",
+        "Linyu Zhu: University of Michigan Shanghai Jiao Tong University Joint Institute, Shanghai, China. Research Focus: Extending Silicon Lifetime in Integrated Circuits.",
+        "Sonal Singhal: Shiv Nadar University, Greater Noida, India. Research Focus: Advancements in Electrical Engineering.",
+        "Xinfei Guo: University of Michigan Shanghai Jiao Tong University Joint Institute, Shanghai, China. Research Focus: Extending Silicon Lifetime in Integrated Circuits."
+      ],
+      "authors": [
+        "Shaik Jani Babu",
+        "Fan Hu",
+        "Linyu Zhu",
+        "Sonal Singhal",
+        "Xinfei Guo"
+      ],
+      "paper_summary": "This review paper focuses on extending the silicon lifetime of integrated circuits (ICs). It provides a comprehensive overview of the impact of aging mechanisms (BTI, HCI, TDDB, EM) and strategies to counter them, targeting applications in AI, consumer electronics, and autonomous systems. The paper examines the root causes of aging, monitoring techniques at circuit and system levels, circuit-level mitigation strategies for digital, analog, and SRAM circuits, software approaches in design automation, aging characterization, and mitigation. The challenges and future directions for improving aging management and long-term reliability of ICs across diverse applications are also outlined.",
+      "presumed_publish_country": "China",
+      "topics": [
+        "Semiconductors",
+        "AI",
+        "Advanced Materials",
+        "High-Performance Computing",
+        "Autonomous Systems",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        100,
+        80,
+        60,
+        70,
+        90,
+        70
+      ],
+      "paper_abstract": "Reliability has become an increasing concern in modern computing. Integrated circuits (ICs) are the backbone of today's computing devices across industries, including artificial intelligence (AI), consumer electronics, healthcare, automotive, industrial, and aerospace. Moore's Law has driven the semiconductor IC industry toward smaller dimensions, improved performance, and greater energy efficiency. However, as transistors shrink to atomic scales, aging-related degradation mechanisms such as Bias Temperature Instability (BTI), Hot Carrier Injection (HCI), Time-Dependent Dielectric Breakdown (TDDB), Electromigration (EM), and stochastic aging-induced variations have become major reliability threats. From an application perspective, applications like AI training and autonomous driving require continuous and sustainable operation to minimize recovery costs and enhance safety. Additionally, the high cost of chip replacement and reproduction underscores the need for extended lifespans. These factors highlight the urgency of designing more reliable ICs as key computing infrastructure. This survey addresses the critical issue of aging in ICs, focusing on fundamental degradation mechanisms and mitigation strategies. It provides a comprehensive overview of aging's impact and the methods to counter it, starting with the root causes of aging and summarizing key monitoring techniques at both circuit and system levels. A detailed analysis of circuit-level mitigation strategies highlights the distinct aging characteristics of digital, analog, and SRAM circuits, emphasizing the need for tailored solutions. The survey also explores emerging software approaches in design automation, aging characterization, and mitigation, which are transforming traditional reliability optimization. Finally, it outlines the challenges and future directions for improving aging management and ensuring the long-term reliability of ICs across diverse applications.",
+      "paper_doi": "arXiv:2503.21165v1",
+      "paper_journal": "arXiv",
+      "paper_publish_date": "27 Mar 2025",
+      "paper_title": "Extending Silicon Lifetime: A Review of Design Techniques for Reliable Integrated Circuits",
+      "reasoning": "The paper focuses on extending the lifespan of integrated circuits (ICs) and addresses aging mechanisms (BTI, HCI, TDDB, EM) that degrade performance. The paper's applications in AI, autonomous systems, and high-performance computing are highly relevant to military applications, such as autonomous vehicles, advanced weaponry, and secure communications. Considering the research is based in China, the foreign military development is a high risk. The specific focus on extending silicon lifetime has direct applications to ensuring the reliability of critical military hardware, and the authors are affiliated with universities in China which is a major concern. The intersection of the paper's topics with military technologies is very high. Therefore, the paper poses a significant risk from a US perspective.",
+      "risk_score": 90
+    },
+    {
+      "author_info": [
+        "Martijn H. H. Schoot Uiterkamp: Department of Econometrics and Operations Research, Tilburg University, The Netherlands. Research interests likely include infectious disease modeling and data analysis.",
+        "Willian J. van Dijk: Department of Public Health and Primary Care, Health Campus The Hague and Leiden University Medical Center, The Netherlands. Research interests likely include infectious disease modeling and public health.",
+        "Hans Heesterbeek: Department of Population Health Sciences, Utrecht University, The Netherlands. Research interests likely include infectious disease modeling and epidemiology.",
+        "Remco van der Hofstad: Department of Mathematics and Computer Science, Eindhoven University of Technology, The Netherlands. Research interests likely include network science and its applications to public health.",
+        "Jessica C. Kiefte-de Jong: Department of Public Health and Primary Care, Health Campus The Hague and Leiden University Medical Center, The Netherlands. Research interests likely include public health and epidemiology.",
+        "Nelly Litvak: Department of Mathematics and Computer Science, Eindhoven University of Technology, The Netherlands. Research interests likely include network science, infectious disease modeling and data science."
+      ],
+      "authors": [
+        "Martijn H. H. Schoot Uiterkamp",
+        "Willian J. van Dijk",
+        "Hans Heesterbeek",
+        "Remco van der Hofstad",
+        "Jessica C. Kiefte-de Jong",
+        "Nelly Litvak"
+      ],
+      "paper_summary": "This paper is in the field of infectious disease modeling and public health. It presents a novel method for integrating risk-contact data from digital contact monitoring (DCM) apps (like COVID RADAR and CoronaMelder) into standard compartmental transmission models (SEIR). The core innovation involves using the fraction of contacts with infected individuals to initialize the infectious compartment of the model, enabling the estimation of key epidemiological indicators like the effective reproduction number. The authors validate their method using data from the COVID-19 pandemic in the Netherlands, comparing the model's outputs with established results from RIVM (Dutch National Institute for Public Health and the Environment) and discussing the implications for future infectious disease monitoring.",
+      "presumed_publish_country": "Netherlands",
+      "topics": [
+        "Data Science",
+        "Environmental Science",
+        "Climate Technology",
+        "Innovation Policy",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        90,
+        30,
+        30,
+        40,
+        40
+      ],
+      "paper_title": "Value of risk-contact data from digital contact monitoring apps in infectious disease modeling",
+      "reasoning": "The research paper focuses on infectious disease modeling and public health, specifically using data from digital contact tracing apps to improve epidemiological models. While this research has clear applications in public health and understanding disease spread, its direct military applications are limited. The technology developed is primarily for civilian use and its application to military contexts is not obvious. However, the ability to model and predict disease outbreaks could be useful for military deployments or in scenarios involving biological warfare. However, the fact that the research originates from the Netherlands, and that the focus is on civilian applications, significantly lowers the risk score. US military adoption would likely involve further adaptation and integration, and the primary benefits remain in the realm of public health and epidemic control rather than direct military capabilities.",
+      "risk_score": 10
+    },
+    {
+      "author_info": [
+        "Ayush Bheemaiah: Artificial Intelligence Explainability Accountability (AIEA) Lab, University of California, Santa Cruz, USA. Research interests include autonomous systems, knowledge graphs, and explainable AI.",
+        "Seungyong Yang: Artificial Intelligence Explainability Accountability (AIEA) Lab, University of California, Santa Cruz, USA. Research interests include autonomous systems, knowledge graphs, and explainable AI."
+      ],
+      "authors": [
+        "Ayush Bheemaiah",
+        "Seungyong Yang"
+      ],
+      "paper_summary": "This research paper explores the application of knowledge graphs (KGs) to enhance the decision-making capabilities of autonomous vehicles (AVs). It focuses on improving AVs' understanding of material properties of obstacles, such as malleability, density, and elasticity, to make better decisions during obstacle handling. The study integrates a KG-based world model into the CARLA autonomous driving simulator and evaluates the performance of AVs with and without KG integration. The findings demonstrate that KG integration improves obstacle management, leading to better decisions on lane changes and emergency braking, particularly for large, high-impact obstacles. The work highlights the potential of KG-based world models to improve decision-making in embodied AI systems and scale to other domains.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Advanced Materials",
+        "Autonomous Systems",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        90,
+        85,
+        70,
+        100,
+        75
+      ],
+      "paper_abstract": "The inability of autonomous vehicles (AVs) to infer the material properties of obstacles limits their decision-making capacity. While AVs rely on sensor systems such as cameras, LiDAR, and radar to detect obstacles, this study suggests combining sensors with a knowledge graph (KG)-based world model to improve AVs' comprehension of physical material qualities. Beyond sensor data, AVs can infer qualities such as malleability, density, and elasticity using a semantic KG that depicts the relationships between obstacles and their attributes. Using the CARLA autonomous driving simulator, we evaluated AV performance with and without KG integration. The findings demonstrate that the KG-based method improves obstacle management, which allows AVs to use material qualities to make better decisions about when to change lanes or apply emergency braking. For example, the KG-integrated AV changed lanes for hard impediments like traffic cones and successfully avoided collisions with flexible items such as plastic bags by passing over them. Compared to the control system, the KG framework demonstrated improved responsiveness to obstacles by resolving conflicting sensor data, causing emergency stops for 13.3% more cases. In addition, our method exhibits a 6.6% higher success rate in lane-changing maneuvers in experimental scenarios, particularly for larger, high-impact obstacles. While we focus particularly on autonomous driving, our work demonstrates the potential of KG-based world models to improve decision-making in embodied AI systems and scale to other domains, including robotics, healthcare, and environmental simulation.",
+      "paper_title": "KNOWLEDGE GRAPHS AS WORLD MODELS FOR SEMANTIC MATERIAL-AWARE OBSTACLE HANDLING IN AUTONOMOUS VEHICLES",
+      "reasoning": "This research paper, originating from the USA, focuses on integrating knowledge graphs with autonomous vehicles to improve their decision-making capabilities. The core technology involves understanding material properties of objects to enhance obstacle handling.  From a US military perspective, this has several applications. Firstly, it directly impacts autonomous vehicle development, which is crucial for unmanned ground vehicles (UGVs) and potentially unmanned aerial vehicles (UAVs). Improved obstacle handling could lead to more robust and reliable military vehicles. Secondly, the use of knowledge graphs suggests the potential to integrate this with other sensors and data sources, improving situational awareness, a key element in military operations.  Thirdly, the research mentions applicability to robotics, which has clear military applications in areas such as reconnaissance, logistics, and combat operations.  However, since this research is from the US and will likely be published, it will likely be open to the public and not considered high risk. The knowledge graph technology could potentially be used to improve foreign military technology.",
+      "risk_score": 30
+    },
+    {
+      "author_info": [
+        "Ahmed Naeem: Department of Electrical and Electronics Engineering, Istanbul Medipol University, Istanbul, Turkey.",
+        "Liza Afeef: Department of Electrical and Electronics Engineering, Istanbul Medipol University, Istanbul, Turkey.",
+        "Hüseyin Arslan: Department of Electrical and Electronics Engineering, Istanbul Medipol University, Istanbul, Turkey."
+      ],
+      "authors": [
+        "Ahmed Naeem",
+        "Liza Afeef",
+        "Hüseyin Arslan"
+      ],
+      "paper_summary": "This research paper is focused on improving joint radar and communication (JRC) systems, particularly within the context of XL-MIMO (extremely large-scale multiple-input multiple-output) networks. The core innovation lies in a polarization-aware antenna selection scheme designed to mitigate interference and enhance both the spectral efficiency (SE) of communication and the detection probability (Pd) of radar. The study addresses challenges related to polarization leakage and cross-polarization interference, which are amplified in XL-MIMO systems. The proposed method selects antennas based on polarization characteristics, interference conditions, and spatial efficiency. The simulations show that the proposed method significantly outperforms traditional schemes and provides scalable benefits for XL-MIMO JRC systems.",
+      "presumed_publish_country": "Turkey",
+      "topics": [
+        "Telecommunications",
+        "Autonomous Systems",
+        "5G/6G Networks",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        90,
+        75,
+        95,
+        60
+      ],
+      "paper_abstract": "A key challenge in dual-polarized multiplexing for joint radar and communication (JRC) systems is cross-polarization (cross-pol) leakage caused by depolarization. In conventional MIMO systems, depolarization arises solely from the channel; however, in XL-MIMO systems, non-stationary properties of the array cause additional polarization shifts at each antenna element, further degrading JRC performance. This paper introduces a channel model incorporating polarization shifts due to the propagation channel and antenna elements in the near-field. We also propose an antenna selection (AS) scheme that dynamically chooses antennas based on polarization imbalance and cross-pol leakage, enhancing spectral efficiency, symbol error rate, and radar detection probability. Simulations show that the proposed AS significantly outperforms traditional methods, providing scalable benefits for XL-MIMO JRC systems.",
+      "paper_doi": "N/A",
+      "paper_journal": "IEEE",
+      "paper_publish_date": "Mar 27 2025",
+      "paper_title": "Polarization-Aware Antenna Selection for Joint Radar and Communication in XL-MIMO Systems",
+      "reasoning": "The research focuses on improving joint radar and communication (JRC) systems, specifically within XL-MIMO networks. The core technology involves polarization-aware antenna selection to enhance both communication spectral efficiency and radar detection probability. The paper's focus on mitigating interference and improving performance in XL-MIMO systems has potential military applications. Enhanced JRC capabilities can improve situational awareness, communication, and target detection in various military operations. Since the research originates from Turkey and there is no indication of US government involvement or oversight, there is a risk that this technology could benefit a foreign military. This research could have applications in military radar and communication systems, increasing risk.",
+      "risk_score": 75
+    },
+    {
+      "author_info": [
+        "Satvik Verma: Department of Computer Science, San Francisco State University, USA. Focus on cybersecurity, particularly in IoT security.",
+        "Qun Wang: Lawrence Berkeley National Laboratory, Berkeley CA, USA. Research interests include computer science and AI.",
+        "E. Wes Bethel: Lawrence Berkeley National Laboratory, Berkeley CA, USA. Expertise in computer science, especially in areas related to data science and high-performance computing."
+      ],
+      "authors": [
+        "Satvik Verma",
+        "Qun Wang",
+        "E. Wes Bethel"
+      ],
+      "paper_summary": "This research paper introduces a novel framework for intelligent IoT network attack detection. The framework leverages On-Device Large Language Models (ODLLMs) enhanced with feature ranking and knowledge base (KB) integration to improve the detection accuracy of DDoS attacks. The paper addresses the challenges of computational resource constraints and privacy concerns by enabling on-device processing. It introduces a feature ranking-based KB design to optimize detection on resource-constrained edge devices and demonstrates superior accuracy across various attack types. The key components include feature analysis and ranking, knowledge base construction, and integration with ODLLMs for anomaly detection. The work provides a scalable and secure solution for real-time IoT security.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Cybersecurity",
+        "Data Science",
+        "High-Performance Computing",
+        "Autonomous Systems",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        90,
+        100,
+        80,
+        60,
+        70,
+        50
+      ],
+      "paper_abstract": "The widespread adoption of Internet of Things (IoT) devices has introduced significant cybersecurity challenges, particularly with the increasing frequency and sophistication of Distributed Denial of Service (DDoS) attacks. Traditional machine learning (ML) techniques often fall short in detecting such attacks due to the complexity of blended and evolving patterns. To address this, we propose a novel framework leveraging On-Device Large Language Models (ODLLMs) augmented with fine-tuning and knowledge base (KB) integration for intelligent IoT network attack detection. By implementing feature ranking techniques and constructing both long and short KBs tailored to model capacities, the proposed framework ensures efficient and accurate detection of DDoS attacks while overcoming computational and privacy limitations. Simulation results demonstrate that the optimized framework achieves superior accuracy across diverse attack types, especially when using compact models in edge computing environments. This work provides a scalable and secure solution for real-time IoT security, advancing the applicability of edge intelligence in cybersecurity.",
+      "paper_title": "Intelligent IoT Attack Detection Design via ODLLM with Feature Ranking-based Knowledge Base",
+      "reasoning": "The research paper focuses on intelligent IoT attack detection using On-Device Large Language Models (ODLLMs), feature ranking, and knowledge base integration. The primary application is in cybersecurity, specifically for detecting DDoS attacks in IoT networks. From a US military perspective, this has several potential applications:\n\n1.  **Securing Military IoT Devices:** The technology could be used to secure IoT devices deployed in military networks, protecting them from cyberattacks. This includes devices used for communication, surveillance, and other critical functions.\n2.  **Defense of Critical Infrastructure:** Given the focus on DDoS attack detection, the framework could be adapted to protect critical infrastructure systems (e.g., power grids, water systems, communication networks) that are increasingly reliant on IoT devices and are potential targets of cyber warfare.\n3.  **Real-time Threat Detection:** The paper's emphasis on real-time detection is crucial for military applications, where timely responses to threats are essential. The use of ODLLMs allows for on-device processing, which can improve responsiveness and reduce reliance on centralized servers, increasing resilience.\n4.  **Edge Computing:** The architecture of this solution leverages edge computing. This decentralized structure is extremely important in the military and enables faster response times and also reduces the risk profile of being compromised.\n\nHowever, some factors reduce the immediate military risk. The authors are based in the USA, and the research is not explicitly for military applications. The core technology (ODLLMs, feature ranking, and knowledge base) are all widely known technologies, and thus there isn't a significant technology development risk. However, the research is in cybersecurity, which is sensitive, so any vulnerabilities found could be leveraged by adversaries.",
+      "risk_score": 30
+    },
+    {
+      "author_info": [
+        "Tony Lindeberg, KTH Royal Institute of Technology, Sweden, Computational Brain Science Lab, Division of Computational Science and Technology"
+      ],
+      "authors": [
+        "Tony Lindeberg"
+      ],
+      "paper_summary": "This paper explores orientation selectivity in complex cells using affine quasi quadrature measures, which combine simple cell responses through various operations. The study investigates how well these models match biological measurements of orientation selectivity, proposing that models with spatial integration and higher-order derivatives may better capture the behavior of complex cells.",
+      "presumed_publish_country": "Sweden",
+      "topics": [
+        "AI",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        70,
+        80,
+        70
+      ],
+      "paper_abstract": "This paper presents an analysis of the orientation selectivity properties of idealized models of complex cells in terms of affine quasi quadrature measures, which combine the responses of idealized models of simple cells in terms of affine Gaussian derivatives by (i) pointwise squaring, (ii) summation of responses for different orders of spatial derivation and (iii) spatial integration. Specifically, this paper explores the consequences of assuming that the family of spatial receptive fields should be covariant under spatial affine transformations, thereby implying that the receptive fields ought to span a variability over the degree of elongation. We investigate the theoretical properties of three main ways of defining idealized models of complex cells and compare the predictions from these models to neurophysiologically obtained receptive field histograms over the resultant of biological orientation selectivity curves. It is shown that the extended modelling mechanisms lead to more uniform behaviour and a wider span over the values of the resultants that are covered, compared to earlier presented idealized models of complex cells without spatial integration. More generally, we propose that the presented methodology could be used as a new tool to evaluate other computational models of complex cells in relation to biological measurements.",
+      "paper_doi": "arXiv:2503.21611v1",
+      "paper_journal": "arXiv preprint",
+      "paper_publish_date": "27 Mar 2025",
+      "paper_title": "Orientation selectivity analysis for integrated affine quasi quadrature models of complex cells",
+      "reasoning": "The research focuses on modeling complex cells' orientation selectivity using advanced mathematical techniques like affine quasi quadrature measures. This has potential military applications in areas such as: 1.  **Target Recognition**: Improved models for orientation selectivity could enhance algorithms for recognizing objects in images or video, critical for surveillance and autonomous systems. 2.  **Image Processing**: The techniques could be used to improve image processing algorithms for military applications, such as object detection, tracking, and scene understanding. 3.  **Autonomous Systems**: The research could contribute to the development of more robust and adaptable autonomous systems, such as drones or robots, which can operate in complex and dynamic environments. However, the research is being conducted in Sweden, which presents a risk to US national security. Given the foreign location and research focus, any potential military applications would likely benefit Sweden first. Additionally, the technology could contribute to dual use applications. The combination of the specific research focus, location, and potential for autonomous systems development leads to a moderate risk profile.",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "Cesare Maria Dalbagno: Department of Cognitive Science and Artificial Intelligence, Tilburg University, Netherlands. Research interests include cognitive science, artificial intelligence, and neuroimaging.",
+        "Manuel de Castro Ribeiro Jardim: Department of Cognitive Science and Artificial Intelligence, Tilburg University, Netherlands. Research interests include cognitive science, artificial intelligence, and neuroimaging.",
+        "Mihnea Angheluță: Department of Cognitive Science and Artificial Intelligence, Tilburg University, Netherlands. Research interests include cognitive science, artificial intelligence, and neuroimaging."
+      ],
+      "authors": [
+        "Cesare Maria Dalbagno",
+        "Manuel de Castro Ribeiro Jardim",
+        "Mihnea Angheluță"
+      ],
+      "paper_summary": "This paper explores the use of artificial neural networks to analyze and potentially reconstruct visual stimuli from fMRI data. The core idea involves comparing latent space representations of visual stimuli and fMRI data using autoencoders and vision transformers. The study found no significant correlation between the latent spaces, indicating that the models may not be effectively capturing shared information. The research falls under the fields of AI and neuroscience, particularly in the domain of brain decoding and understanding neural representations.",
+      "presumed_publish_country": "Netherlands",
+      "topics": [
+        "AI",
+        "Data Science"
+      ],
+      "topics_relevence": [
+        90,
+        80
+      ],
+      "paper_abstract": "The goal of this study is to investigate whether latent space representations of visual stimuli and fMRI data share common information. Decoding and reconstructing stimuli from fMRI data remains a challenge in AI and neuroscience, with significant implications for understanding neural representations and improving the interpretability of Artificial Neural Networks (ANNs). In this preliminary study, we investigate the feasibility of such reconstruction by examining the similarity between the latent spaces of one autoencoder (AE) and one vision transformer (ViT) trained on fMRI and image data, respectively. Using representational similarity analysis (RSA), we found that the latent spaces of the two domains appear different. However, these initial findings are inconclusive, and further research is needed to explore this relationship more thoroughly.",
+      "paper_title": "Mapping fMRI Signal and Image Stimuli in an Artificial Neural Network Latent Space: Bringing Artificial and Natural Minds Together",
+      "reasoning": "The research focuses on using artificial neural networks to analyze fMRI data and potentially reconstruct visual stimuli. This has potential military applications in several areas. The ability to decode visual information from brain activity could be used for: 1. Enhanced surveillance: Analyzing the brain activity of a person viewing an image could reveal the content of what they are seeing, aiding in intelligence gathering. 2. Brain-computer interfaces: Developing interfaces for controlling devices with thoughts, particularly for disabled soldiers, and also for controlling autonomous systems. 3. Deception detection: It might be possible to detect deceptive visual information by analyzing the discrepancy between what a person sees and what their brain activity indicates. Since the research is being conducted in the Netherlands, any advancements could be exploited by foreign powers, thus presenting a risk.",
+      "risk_score": 65
+    },
+    {
+      "author_info": [
+        "Saqib Hussain: Current job and research institution are not explicitly mentioned in the text, but the affiliation is the Gran Sasso Science Institute. Research focus is on astrophysics and cosmic rays.",
+        "Rafael Alves Batista: Current job and research institution are not explicitly mentioned in the text, but the affiliation is Sorbonne University. Research focus is on astrophysics and cosmic rays.",
+        "Elisabete Maria de Gouveia Dal Pino: Current job and research institution are not explicitly mentioned in the text, but the affiliation is the Institute of Astronomy, Geophysics and Atmospheric Sciences (IAG), University of São Paulo. Research focus is on astrophysics and cosmic rays."
+      ],
+      "authors": [
+        "Saqib Hussain",
+        "Rafael Alves Batista",
+        "Elisabete Maria de Gouveia Dal Pino"
+      ],
+      "paper_summary": "This research paper explores the propagation of cosmic rays and their secondary particles within the intracluster medium (ICM) of galaxy clusters. The study uses 3D-MHD simulations to model the behavior of cosmic rays, considering their interaction with the ICM's magnetic fields and thermal photon fields. The research aims to understand the confinement of cosmic rays, their energy losses, and the production of neutrinos and gamma rays within the ICM. The paper also discusses the potential for detecting these secondary particles and using them to study galaxy clusters.",
+      "presumed_publish_country": "Brazil",
+      "topics": [
+        "Space Exploration",
+        "High-Performance Computing",
+        "Environmental Science"
+      ],
+      "topics_relevence": [
+        75,
+        60,
+        50
+      ],
+      "paper_title": "Propagation of Cosmic Rays and their Secondaries in the Intracluster Medium CR Propagation in the ICM",
+      "reasoning": "The research focuses on the propagation of cosmic rays and their secondary particles within galaxy clusters. While the study's core is in astrophysics and cosmology, the underlying principles of particle physics and high-performance computing could potentially be relevant to military applications. However, the specific focus on the intracluster medium, and the generation of gamma rays and neutrinos, does not have any obvious direct military application from a US perspective, as no military applications can be foreseen with the given information. Furthermore, the research originates from Brazil, which introduces a moderate risk regarding potential dual-use applications. Given the subject matter, and the country of origin, the risk is limited.",
+      "risk_score": 15
+    },
+    {
+      "author_info": [
+        "K. Bhuwalka: Precourt Institute for Energy, Stanford University, USA; Relevant Topics: Energy (90), Advanced Materials (80), Climate Technology (60), Innovation Policy (50)",
+        "H. Ramachandran: Department of Materials Science and Engineering, Stanford University, USA; Relevant Topics: Advanced Materials (95), Energy (85)",
+        "S. Narasimhan: Applied Energy Division, SLAC National Accelerator Laboratory, USA & Department of Materials Science and Engineering, Stanford University, USA; Relevant Topics: Energy (90), Advanced Materials (85), Innovation Policy (50)",
+        "A. Yao: Applied Energy Division, SLAC National Accelerator Laboratory, USA & Department of Materials Science and Engineering, Stanford University, USA; Relevant Topics: Energy (90), Advanced Materials (85), Innovation Policy (50)",
+        "J. Frohmann: Energy and Technology Policy Group, ETH Zurich, Switzerland; Relevant Topics: Energy (85), Climate Technology (75), Geopolitical Tech Strategy (60), Innovation Policy (60)",
+        "L. Peiseler: Energy and Technology Policy Group, ETH Zurich, Switzerland; Relevant Topics: Energy (85), Climate Technology (75), Geopolitical Tech Strategy (60), Innovation Policy (60)",
+        "W. Chueh: Applied Energy Division, SLAC National Accelerator Laboratory, USA & Department of Energy Science and Engineering, Stanford University, USA; Relevant Topics: Energy (90), Advanced Materials (85)",
+        "A. Boies: Department of Mechanical Engineering, Stanford University, USA; Relevant Topics: Advanced Materials (70), Energy (70)",
+        "S.J. Davis: Department of Earth System Science, Stanford University, USA & Department of Energy Science and Engineering, Stanford University, USA; Relevant Topics: Environmental Science (80), Climate Technology (90), Energy (80), Geopolitical Tech Strategy (60)",
+        "S. Benson: Department of Energy Science and Engineering, Stanford University, USA; Relevant Topics: Energy (85), Climate Technology (75), Innovation Policy (50)"
+      ],
+      "authors": [
+        "K. Bhuwalka",
+        "H. Ramachandran",
+        "S. Narasimhan",
+        "A. Yao",
+        "J. Frohmann",
+        "L. Peiseler",
+        "W. Chueh",
+        "A. Boies",
+        "S.J. Davis",
+        "S. Benson"
+      ],
+      "paper_summary": "This research paper focuses on securing the supply of graphite for batteries, addressing the growing concerns around supply chain security, particularly with China's dominance in graphite production. The study employs process-based cost models to compare the economics of producing battery-grade graphite (natural and synthetic) in the US and China. It identifies key cost drivers, including capital costs, economies of scale, and input material prices. The paper explores pathways to enhance the competitiveness of US graphite production, such as supportive financing and process innovations like methane pyrolysis and catalytic graphitization. The research highlights the challenges and trade-offs in building a diversified graphite supply chain, aiming to inform policy and investment decisions in the face of rising demand for batteries and geopolitical risks.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "Energy",
+        "Advanced Materials",
+        "Climate Technology",
+        "Geopolitical Tech Strategy",
+        "Innovation Policy"
+      ],
+      "topics_relevence": [
+        90,
+        85,
+        70,
+        60,
+        55
+      ],
+      "paper_abstract": "The increasing demand for graphite in batteries, particularly for electric vehicles, has led to concerns around supply chain security. Currently, over 92% of global anode material is produced in China, posing a geopolitical risk for other countries reliant on graphite supply for domestic industries. This paper assesses the costs of producing battery-grade graphite (natural and synthetic) in the US and China using process-based cost models. We find that production costs in the US significantly exceed those in China due to higher capital intensity and input costs. Our analysis reveals that a majority of modeled projects in the US are not competitive at current market prices. We identify key cost drivers, including capital costs, economies of scale, and input material prices, and explore pathways to improve the competitiveness of US graphite production, such as supportive financing and process innovation directions. The analysis of conventional graphite production costs at scale also informs ceiling costs for alternative, promising pathways such as methane pyrolysis and catalytic graphitization. This study highlights the challenges and trade-offs in building a diversified graphite supply chain and informs policy and investment decisions.",
+      "paper_title": "Securing the supply of graphite for batteries",
+      "reasoning": "The research focuses on securing the graphite supply chain for batteries, particularly in the context of US-China competition. While not directly military-focused, the research's emphasis on supply chain security and reducing reliance on China has significant implications for US national security. Graphite is a critical material for batteries, which are essential for electric vehicles and, by extension, military applications such as electric vehicles, drones, and other equipment. The paper explores methods to improve US graphite production, making it less reliant on potentially adversarial nations. The fact that key researchers are based in the USA is also a positive factor, as it keeps the tech from foreign military interests. The research does not deal with direct weapons development or offensive capabilities. However, its findings have implications for a US military's access to crucial technologies.",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "Yann LeCun: Currently a Professor at New York University, and Chief AI Scientist at Meta.",
+        "Léon Bottou: Worked at AT&T Bell Laboratories, and Neuristique S.A. and now works for Microsoft Research.",
+        "Yoshua Bengio: Currently a Professor at the Université de Montréal and Scientific Director at Mila.",
+        "Patrick Haffner: Currently works at AT&T Labs-Research."
+      ],
+      "authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "paper_summary": "This research paper is focused on the field of document recognition, particularly handwritten character recognition, and introduces novel applications of machine learning, specifically gradient-based learning, convolutional neural networks, and graph transformer networks (GTNs). It proposes using convolutional neural networks, which are designed to handle the variability of 2D shapes and has showed improved performance. The paper also describes GTNs, a novel approach for training multi-module systems, including for on-line handwriting recognition and check reading systems, achieving superior performance compared to traditional methods.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Data Science",
+        "Telecommunications",
+        "Autonomous Systems",
+        "Digital Infrastructure"
+      ],
+      "topics_relevence": [
+        90,
+        60,
+        95,
+        40,
+        75,
+        35
+      ],
+      "paper_abstract": "Multilayer Neural Networks trained with the backpropagation algorithm constitute the best example of a successful Gradient-Based Learning technique. Given an appropriate network architecture, Gradient-Based Learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional Neural Networks, that are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation, recognition, and language modeling. A new learning paradigm, called Graph Transformer Networks (GTN), allows such multi-module systems to be trained globally using Gradient-Based methods so as to minimize an overall performance measure. Two systems for on-line handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of Graph Transformer Networks. A Graph Transformer Network for reading bank check is also described. It uses Convolutional Neural Network character recognizers combined with global training techniques to provides record accuracy on business and personal checks. It is deployed commercially and reads several million checks per day.",
+      "paper_title": "Gradient-Based Learning Applied to Document Recognition",
+      "reasoning": "The research paper focuses on document recognition, particularly handwritten character recognition, utilizing advanced machine learning techniques like convolutional neural networks and Graph Transformer Networks (GTNs). These technologies have several potential military applications. Firstly, the ability to accurately recognize handwritten text could be used for processing intelligence reports, analyzing intercepted communications, and automating the extraction of information from documents. Secondly, GTNs, which enable multi-module systems, could be adapted for various tasks, such as automated target recognition from imagery, handwriting analysis for forensic purposes, and improving the performance of autonomous systems. The application of these technologies within the US context is likely to be very important for intelligence and defense applications. However, the paper is open-source, which means the techniques are available to other countries. Given the potential dual-use nature of the research and the openness of the publication, the risk is moderate, since this is more about algorithms and their applicability than a specific hardware or highly specialized area.",
+      "risk_score": 45
+    },
+    {
+      "author_info": [
+        "FORREST E. MORGAN, BENJAMIN BOUDREAUX, ANDREW J. LOHN, MARK ASHBY, CHRISTIAN CURRIDEN, KELLY KLIMA, DEREK GROSSMAN: The authors are researchers at RAND Corporation, a non-profit research organization."
+      ],
+      "authors": [
+        "FORREST E. MORGAN",
+        "BENJAMIN BOUDREAUX",
+        "ANDREW J. LOHN",
+        "MARK ASHBY",
+        "CHRISTIAN CURRIDEN",
+        "KELLY KLIMA",
+        "DEREK GROSSMAN"
+      ],
+      "paper_summary": "This research paper, 'Military Applications of Artificial Intelligence' (AI), examines the use of AI in military applications and delves into the ethical, operational, and strategic implications of AI in warfare. The paper surveys various AI technologies and their potential benefits, such as in decision-making and intelligence gathering, while also highlighting the associated risks like the potential for making errors, causing escalation, and issues related to accountability. The authors analyze the current developments in the United States, China, and Russia, including each country's approaches, policies, and concerns. The paper explores options for mitigating risks, such as maintaining human control and international regulations. The paper concludes by emphasizing the need for careful consideration and public engagement in the development and implementation of military AI to maximize benefits and avoid potential dangers.",
+      "presumed_publish_country": "United States",
+      "topics": [
+        "AI",
+        "Defense Technology",
+        "Autonomous Systems",
+        "Cybersecurity",
+        "Geopolitical Tech Strategy",
+        "Innovation Policy"
+      ],
+      "topics_relevence": [
+        100,
+        100,
+        100,
+        70,
+        80,
+        70
+      ],
+      "paper_abstract": "The research in this report was conducted over the course of one year, from October 2017 to September 2018. The completed report was originally delivered to the sponsor in October 2018. It was approved for public distribution in March 2020. Since the research was completed and delivered, new organizations have been created and important steps have been taken to address many of the topics the report describes. As a result, this report does not capture the current state of the topic at the time of publication. Although expert and public opinions may have shifted, we believe the report documents a useful view of perspectives. Furthermore, several chapters present historical perspectives of American, Chinese, and Russian willingness or reticence to develop and/or field artificial intelligence (AI) for the battlefield. This report examines military applications of AI and considers the ethical implications of employing them in war and peace. Al encompasses a wide range of technologies, many of which offer great promise in military applications. Consequently, the United States, China, and Russia are all developing military applications of AI. Given the rapid progress seen in this field during the last two decades, this could change the character of war in the coming years. But thoughtful people have expressed serious reservations about the legal and ethical implications of military forces using AI. The most strident objections have revolved around prospects of machines killing people, without direct approval of human operators. But concerns have been raised about other applications of AI as well, such as decision support systems that might select questionable targets without commanders being able to examine the complex calculations behind such choices, and citizens being detained or even killed as a result of a facial recognition system or some other complex AI calculation misidentifying them as terrorists or criminals. These concerns raise serious questions about the ethical implications of military applications of AI and the extent to which U.S. leaders should regulate their development or restrain their employment. But equally serious questions revolve around whether potential U.S. adversaries would be willing to impose comparable guidelines and restraints and, if not, whether the United States' self-restraint might put it at a disadvantage in future conflicts. With these concerns in mind, this report seeks to answer the following questions for the U.S. Air Force (USAF): (1) What significant military applications of AI are currently available or expected to emerge in next 10–15 years? (2) What legal, moral, or ethical issues would developing or employing such systems raise? (3) What significant military applications of AI are China and Russia currently pursuing? (4) Does China, Russia, or the United States have exploitable vulnerabilities due to ethical or cultural limits on the development or employment of military applications of AI? (5) How can USAF maximize the benefits potentially available from military applications of AI, while mitigating the risks they entail?",
+      "paper_doi": "Not available",
+      "paper_journal": "RAND Project Air Force",
+      "paper_publish_date": "2020",
+      "reasoning": "This paper directly addresses military applications of AI, a field with significant implications for defense and warfare. It examines AI's use in decision-making, intelligence gathering, and autonomous systems, all critical areas for military advantage. The paper also analyzes the development of military AI in the US, China, and Russia, highlighting the strategic importance of this technology and the potential for geopolitical competition. The topics covered include AI, Defense Technology, Autonomous Systems, Cybersecurity, Geopolitical Tech Strategy, and Innovation Policy, indicating a high relevance to military applications. Given the focus on US, Chinese, and Russian military AI development, the content is highly relevant to US national security interests, including the potential for adversarial AI systems. The study also highlights the ethical considerations and risks associated with military AI, underscoring its significance for defense policy and strategy. The mention of potentially 'questionable targets' and 'misidentifying' citizens via AI, and the question of if the US should restrain its AI development versus its adversaries clearly implies high military applications.",
+      "risk_score": 95
+    },
+    {
+      "author_info": [
+        "Liuyue Xie: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "George Z. Wei: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Avik Kuthiala: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Ce Zheng: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Ananya Bal: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Mosam Dabhi: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Liting Wen: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Taru Rustagi: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Ethan Lai: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Sushil Khyalia: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Rohan Choudhury: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding.",
+        "Morteza Ziyadi: Amazon, USA. Research interests include multimodal AI and video understanding.",
+        "Xu Zhang: Amazon, USA. Research interests include multimodal AI and video understanding.",
+        "Hao Yang: Amazon, USA. Research interests include multimodal AI and video understanding.",
+        "László A. Jeni: Carnegie Mellon University, USA. Research interests include multimodal AI and video understanding."
+      ],
+      "authors": [
+        "Liuyue Xie",
+        "George Z. Wei",
+        "Avik Kuthiala",
+        "Ce Zheng",
+        "Ananya Bal",
+        "Mosam Dabhi",
+        "Liting Wen",
+        "Taru Rustagi",
+        "Ethan Lai",
+        "Sushil Khyalia",
+        "Rohan Choudhury",
+        "Morteza Ziyadi",
+        "Xu Zhang",
+        "Hao Yang",
+        "László A. Jeni"
+      ],
+      "paper_summary": "This research paper introduces MAVERIX, a novel benchmark designed for evaluating multimodal video-audio understanding in AI systems. The benchmark, consisting of over 2,500 questions across 700 videos, assesses models' abilities in tasks that require close integration of video and audio information, mimicking human perceptual experiences. MAVERIX aims to advance research in this area by providing a unified evaluation framework and a publicly available toolkit.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Robotics",
+        "Data Science",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        100,
+        60,
+        80,
+        90
+      ],
+      "paper_abstract": "Frontier models have either been language-only or have primarily focused on vision and language modalities. Although recent advancements in models with vision and audio understanding capabilities have shown substantial progress, the field lacks a standardized evaluation framework for thoroughly assessing their cross-modality perception performance. We introduce MAVERIX (Multimodal Audio-Visual Evaluation Reasoning IndeX), a novel benchmark with 700 videos and 2,556 questions explicitly designed to evaluate multimodal models through tasks that necessitate close integration of video and audio information. MAVERIX uniquely provides models with audiovisual tasks, closely mimicking the multimodal perceptual experiences available to humans during inference and decision-making processes. To our knowledge, MAVERIX is the first benchmark aimed explicitly at assessing comprehensive audiovisual integration. Experiments with state-of-the-art models, including Gemini 1.5 Pro and o1, show performance approaching human levels (around 70% accuracy), while human experts reach near-ceiling performance (95.1%). With standardized evaluation protocols, a rigorously annotated pipeline, and a public toolkit (maverix-benchmark.github.io), MAVERIX establishes a challenging testbed for advancing audio-visual multimodal intelligence.",
+      "paper_title": "MAVERIX: Multimodal Audio-Visual Evaluation Reasoning IndeX",
+      "reasoning": "The paper introduces MAVERIX, a benchmark for evaluating AI systems' multimodal video-audio understanding. The core technology involves advanced AI, particularly in the domain of multimodal understanding, which is highly relevant to autonomous systems and robotics. The ability to integrate video and audio data could be directly applied in military contexts. Specific applications include improved situational awareness through enhanced sensor fusion (e.g., integrating drone video with audio from battlefield), autonomous navigation of robots and vehicles in complex environments, and enhanced surveillance capabilities. Given the focus on the US-based authors, US military application is highly probable. The technology could also be used for training AI models for specific military scenarios and threat detection, enhancing existing military systems, and developing new ones. Given the focus on the US, and the fact that it is at CMU, a US university, and the technology is not inherently dual-use, I have given it a low risk score.",
+      "risk_score": 20
+    },
+    {
+      "author_info": [
+        "Brett Levac: University of Texas at Austin, USA. Research interests: Computational imaging and generative modeling.",
+        "Kannan Ramchandran: University of California Berkeley, USA. Research interests: Signal processing and machine learning.",
+        "Ajil Jalal: University of California Berkeley, USA. Research interests: Deep learning and inverse problems.",
+        "Jonathan I. Tamir: University of Texas at Austin, USA. Research interests: Computational imaging and image reconstruction."
+      ],
+      "authors": [
+        "Brett Levac",
+        "Kannan Ramchandran",
+        "Ajil Jalal",
+        "Jonathan I. Tamir"
+      ],
+      "paper_summary": "This paper introduces a generative modeling technique for solving blind inverse problems in imaging, where the imaging system's characteristics are unknown. The method uses unpaired clean images and corrupted measurements to learn a prior distribution over the imaging system's parameters. This learned distribution can then be used in model-based recovery algorithms, such as blind deconvolution. The technique is demonstrated on blind deconvolution problems, including Gaussian and motion blur, showing its effectiveness in reconstructing images from noisy measurements. The approach provides a versatile tool for enabling blind inverse imaging problem solvers and addresses limitations of previous models.",
+      "presumed_publish_country": "USA",
+      "topics": [
+        "AI",
+        "Data Science",
+        "High-Performance Computing",
+        "Autonomous Systems"
+      ],
+      "topics_relevence": [
+        90,
+        95,
+        60,
+        75
+      ],
+      "paper_abstract": "Blind inverse problems in imaging arise from uncertainties in the system used to collect noisy measurements of images. Recovering clean images from these measurements typically requires identifying the imaging system, either implicitly or explicitly. A common solution leverages generative models as priors for both the images and the imaging system parameters (e.g., a class of point spread functions). To learn these priors in a straightforward manner requires access to a dataset of clean images as well as samples of the imaging system. We propose an AmbientGAN-based generative technique to identify the distribution of parameters in unknown imaging systems, using only unpaired clean images and corrupted measurements. This learned distribution can then be used in model-based recovery algorithms to solve blind inverse problems such as blind deconvolution. We successfully demonstrate our technique for learning Gaussian blur and motion blur priors from noisy measurements and show their utility in solving blind deconvolution with diffusion posterior sampling.",
+      "paper_title": "Double Blind Imaging with Generative Modeling",
+      "reasoning": "The research paper's focus on blind inverse problems in imaging, particularly its application to deconvolution, has strong potential military applications. The ability to reconstruct images from noisy or corrupted measurements is crucial for various military operations. Specifically, the technology could enhance surveillance capabilities by improving image clarity from potentially obscured or degraded sources. It could also be applied to enhance the performance of sensor systems, such as those used in targeting, reconnaissance, and autonomous systems. The involvement of researchers from US institutions and the focus on improving image reconstruction techniques further amplify the potential for military utilization. Because it could enhance the ability to see, this would be a huge advantage to the US military.",
+      "risk_score": 85
+    }
+  ]

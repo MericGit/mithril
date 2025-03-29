@@ -1,5 +1,5 @@
 
-from client.agiClient import agiClient
+from clients.agiClient import agiClient
 from anotherfolder.test2 import test2
 
 #app = create_app()
