@@ -56,7 +56,7 @@ def load_data_from_json() -> List[ResearchPaper]:
                 topics_relevence=data.get("topics_relevence", []),
                 risk_score=data.get("risk_score", 0),
                 author_info=data.get("author_info", []),
-                publishedDate=datetime.now().strftime("%Y-%m-%d"),  # Default to current date
+                publishedDate=None,
                 citations=0,  # Default value
                 doi="",  # Default value
                 journal="",  # Default value

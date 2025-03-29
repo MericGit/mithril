@@ -22,6 +22,7 @@ export const usePublicationsData = () => {
       try {
         setLoading(true);
         const response = await getPublicationsData();
+        
         setData(response);
         setError(null);
       } catch (err) {

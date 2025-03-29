@@ -22,7 +22,9 @@ const PaperDetails: React.FC<PaperDetailsProps> = ({ paper }) => {
         <div className="paper-meta">
           {paper.journal && <span className="journal">{paper.journal}</span>}
           {paper.doi && <span className="doi">DOI: {paper.doi}</span>}
-          <span className="date">Published: {new Date(paper.publishedDate).toLocaleDateString()}</span>
+          {paper.publishedDate && (
+            <span className="date">Published: {new Date(paper.publishedDate).toLocaleDateString()}</span>
+          )}
           {paper.presumed_publish_country && (
             <span className="country">Country: {paper.presumed_publish_country}</span>
           )}

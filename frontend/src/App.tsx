@@ -427,7 +427,7 @@ const App: React.FC = () => {
                 </div>
               </section>
 
-              <section id="adversarial" className="content-section">
+              {/* <section id="adversarial" className="content-section">
                 <h2>Potential Adversarial Activities</h2>
                 <div className="alert-grid">
                   <div className="alert-item high">
@@ -446,7 +446,7 @@ const App: React.FC = () => {
                     <span className="source">Source: Satellite imagery Region C</span>
                   </div>
                 </div>
-              </section>
+              </section> */}
 
             </main>
           } />
