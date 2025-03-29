@@ -2,8 +2,35 @@ import { ResearchPaper } from '../types/Paper';
 
 const API_BASE_URL = 'http://localhost:8000/api';
 
-export const getPapers = async (): Promise<ResearchPaper[]> => {
-  const response = await fetch(`${API_BASE_URL}/papers`);
+interface FilterParams {
+  keywords?: string[];
+  topics?: string[];
+  authors?: string[];
+  countries?: string[];
+  journal?: string;
+  dateFrom?: string;
+  dateTo?: string;
+  minCitations?: number;
+}
+
+export const getPapers = async (filters?: FilterParams): Promise<ResearchPaper[]> => {
+  const params = new URLSearchParams();
+  
+  if (filters) {
+    if (filters.keywords?.length) params.append('keywords', filters.keywords.join(','));
+    if (filters.topics?.length) params.append('topics', filters.topics.join(','));
+    if (filters.authors?.length) params.append('authors', filters.authors.join(','));
+    if (filters.countries?.length) params.append('countries', filters.countries.join(','));
+    if (filters.journal) params.append('journal', filters.journal);
+    if (filters.dateFrom) params.append('date_from', filters.dateFrom);
+    if (filters.dateTo) params.append('date_to', filters.dateTo);
+    if (filters.minCitations !== undefined) params.append('min_citations', filters.minCitations.toString());
+  }
+
+  const queryString = params.toString();
+  const url = `${API_BASE_URL}/papers${queryString ? `?${queryString}` : ''}`;
+  
+  const response = await fetch(url);
   if (!response.ok) {
     throw new Error('Failed to fetch papers');
   }
