@@ -530,6 +530,7 @@ body {
   transition: all 0.2s;
   background: #f1f5f9;
   color: #64748b;
+  text-decoration: none;
 }
 
 .nav-button:hover {

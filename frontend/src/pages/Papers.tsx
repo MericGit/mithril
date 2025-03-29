@@ -153,13 +153,6 @@ const Papers: React.FC = () => {
               accept=".pdf"
               style={{ display: 'none' }}
             />
-            <button 
-              onClick={handleFileSelect}
-              disabled={isUploading}
-              className="upload-button"
-            >
-              {isUploading ? `Uploading... ${uploadProgress}%` : 'Upload PDF'}
-            </button>
             {error && <div className="error-message">{error}</div>}
           </div>
         </div>
