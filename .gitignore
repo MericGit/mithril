@@ -22,4 +22,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-backend/src/backend/client/__init__.py
+
+#ignore all pycaches regardless of location
+**/__pycache__
+
+*/config
