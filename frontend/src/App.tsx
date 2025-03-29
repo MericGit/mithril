@@ -1,4 +1,4 @@
-import React, { useState, memo } from 'react';
+import React, { useState, memo, useCallback } from 'react';
 import './App.css';
 
 import { publicationsData } from './data/publications';
@@ -12,9 +12,8 @@ import {
   ZoomableGroup 
 } from 'react-simple-maps';
 
-// Use a local copy of the geoJSON to avoid loading issues
-const geoUrl = "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
-
+// Use reliable TopoJSON from world-atlas
+const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
 
 const App: React.FC = () => {
   const [hoveredPoint, setHoveredPoint] = useState<{country: string, year: number, value: number} | null>(null);
@@ -22,6 +21,29 @@ const App: React.FC = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [hoveredMapPoint, setHoveredMapPoint] = useState<any>(null);
   const [tooltipPosition, setTooltipPosition] = useState<{x: number, y: number} | null>(null);
+  
+  // Function to get color for a country based on its data
+  const getCountryColor = useCallback((countryName: string) => {
+    const countryData = publicationsData.countries.find(c => c.name === countryName);
+    const matchingPoints = worldMapData.filter(point => {
+      if (point.country === countryName) return true;
+      if (countryName === "United States of America" && point.country === "United States") return true;
+      if (countryName === "Russian Federation" && point.country === "Russia") return true;
+      return false;
+    });
+    
+    const hasData = matchingPoints.length > 0;
+    const isAdversarial = hasData && matchingPoints.some(p => p.adversarial);
+    
+    if (hasData) {
+      const avgIntensity = matchingPoints.reduce((sum, p) => sum + p.intensity, 0) / matchingPoints.length;
+      return isAdversarial 
+        ? `rgba(239, 68, 68, ${0.3 + (avgIntensity * 0.5)})` 
+        : `rgba(59, 130, 246, ${0.3 + (avgIntensity * 0.5)})`;
+    }
+    
+    return countryData?.color || '#e5e7eb';
+  }, []);
   return (
     <div className="app-container">
       <header className="app-header">
@@ -64,12 +86,12 @@ const App: React.FC = () => {
               <ComposableMap
                 projection="geoMercator"
                 projectionConfig={{
-                  scale: 130,
-                  center: [10, 25]
+                  scale: 140,
+                  center: [0, 25]
                 }}
                 style={{
                   width: "100%",
-                  height: "auto",
+                  height: "500px",
                   border: "1px solid #e5e7eb",
                   borderRadius: "8px",
                   background: "#f9fafb"
@@ -117,12 +139,12 @@ const App: React.FC = () => {
                               }
                             }}
                             onMouseEnter={(evt: React.MouseEvent) => {
+                              setHighlightedCountry(countryName);
                               if (hasData) {
-                                setHighlightedCountry(countryName);
                                 setHoveredMapPoint(matchingPoints[0]);
                                 setTooltipPosition({
                                   x: evt.clientX,
-                                  y: evt.clientY
+                                  y: evt.clientY - 10
                                 });
                               }
                             }}
@@ -140,17 +162,19 @@ const App: React.FC = () => {
                                   : '#e5e7eb',
                                 stroke: '#d1d5db',
                                 strokeWidth: 0.5,
-                                outline: 'none'
+                                outline: 'none',
+                                cursor: 'pointer'
                               },
                               hover: {
                                 fill: hasData 
                                   ? isAdversarial 
-                                    ? `rgba(239, 68, 68, ${0.6 + (avgIntensity * 0.4)})` 
-                                    : `rgba(59, 130, 246, ${0.6 + (avgIntensity * 0.4)})` 
+                                    ? `rgba(239, 68, 68, ${0.7 + (avgIntensity * 0.3)})` 
+                                    : `rgba(59, 130, 246, ${0.7 + (avgIntensity * 0.3)})` 
                                   : '#d1d5db',
                                 stroke: '#000',
-                                strokeWidth: 1,
-                                outline: 'none'
+                                strokeWidth: 1.5,
+                                outline: 'none',
+                                cursor: 'pointer'
                               },
                               pressed: {
                                 fill: hasData ? '#3182CE' : '#E5E7EB',
