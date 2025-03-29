@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "recharts-scale": "^0.4.5"
+  }
+}
