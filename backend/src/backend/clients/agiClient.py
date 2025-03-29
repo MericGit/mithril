@@ -106,7 +106,7 @@ Digital Infrastructure
             response_mime_type="application/json",
             response_schema=genai.types.Schema(
                 type = genai.types.Type.OBJECT,
-                required = ["authors", "topics", "paper_summary", "topics_relevence", "author_info"],
+                required = ["authors", "topics", "paper_summary", "topics_relevence", "author_info", "presumed_publish_country"],
                 properties = {
                     "authors": genai.types.Schema(
                         type = genai.types.Type.ARRAY,
@@ -134,6 +134,9 @@ Digital Infrastructure
                         items = genai.types.Schema(
                             type = genai.types.Type.STRING,
                         ),
+                    ),
+                    "presumed_publish_country": genai.types.Schema(
+                        type = genai.types.Type.STRING,
                     ),
                 },
             ),
@@ -186,9 +189,13 @@ Digital Infrastructure
             output += chunk.text
         return json.loads(output)
 
+    def nlp_pipeline(self, file):
+        summary = self.generate_summary(file)
+        risk_score = self.generate_risk_score(summary)
+        #Combine the two jsons into one super json with each field
+        combined = {**summary, **risk_score}
+        return combined
+
 
 client = AGIClient()
-summary = client.generate_summary("2503.01293v1.pdf")
-print(summary)
-risk_score = client.generate_risk_score(summary)
-print(risk_score)
+print(client.nlp_pipeline("2503.01293v1.pdf"))
